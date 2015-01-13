@@ -1,0 +1,13 @@
+﻿ArtworkCreated=ArtworkCreated
+ArtworkCreated1=Artwork Created
+ArtworkHasBeenCreated=Your Artwork has been created
+ArtworkHasNotBeenCreated=Your Artwork has not been created .Error message
+ArtworkNotCreated=ArtworkNotCreated
+ArtworkUpload=Artwork Upload
+ContinueToNoGoBack=By clicking on continue, you will not be able to go back and edit your artwork. Do you want to continue?
+FileUpload=File upload
+InvalidFile=invalid file
+UploadArtworkFile=Please upload your artwork file
+UploadImageArtworkFailed=Upload image artwork failed, please try again.
+UploadPdfArtworkFailed=Upload pdf artwork failed, please try again.
+UploadPdfFile=Please upload a pdf file
