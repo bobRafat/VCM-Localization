@@ -3,6 +3,7 @@ ArtworkCreated1=アートワーク作成された
 ArtworkHasBeenCreated=あなたのアートワークが作成されました
 ArtworkHasNotBeenCreated=アートワークは.ERRORメッセージを作成されていない
 ArtworkNotCreated=ArtworkNotCreated
+ArtworkProcessing=Please wait while your finalised artwork is loading. Press retry if your artwork does not load after a few seconds.
 ArtworkUpload=アートワークアップロード
 ContinueToNoGoBack=続ける上でクリックすると、戻ってあなたのアートワークを編集することはできません。続行しますか？
 FileUpload=ファイルアップロード

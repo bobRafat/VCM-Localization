@@ -51,3 +51,5 @@ ViewAndRespond=表示し、反応する
 ViewOrderConfirmationOnline=オンラインご注文確認を表示
 ViewTheRequest=リクエストを表示
 YouHaveResponsedWithPrice=あなたは既に価格でにresponsedいる
+SendQuoteRequest=Send Quote Request
+EnterEmailForOtherSupplier=Please enter Email address when you choose other supplier
