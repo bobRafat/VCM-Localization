@@ -71,3 +71,5 @@ Sendlite=Sendlite：第三者のメディアサプライヤー
 Step1=ステップ1：サプライヤーとの接触の詳細を入力してください
 Step2=ステップ2：サプライヤーの役割を設定
 Step3=ステップ3：該当する場合は、FTPを設定する
+DaysBefore=Day(s) Before
+MaterialDate=Material Date

@@ -56,3 +56,7 @@ Impersonating=身分を偽った投稿
 ListOfSubsites=サブサイトのリスト
 ListOfUsers=ユーザーの一覧
 UserNameContains=ユーザー名が含まれています
+ChooseSubsite=Please choose a subsite
+Impersonate=Impersonate
+InputUserName=Please input user name
+StopImpersonating=Stop Impersonating
