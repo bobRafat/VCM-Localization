@@ -1,9 +1,8 @@
-﻿AssetCategoryMap=この資産をマッピングし、少なくとも一つのカテゴリを選択してください。資産は保存されていません。
-AssetPackage=資産パッケージ
-CreatePackage=パッケージの作成
+AssetCategoryMap=アセットがまだ保存されていません。アセットをマッピングして、カテゴリを一つ選択してください。AssetPackage=パッケージ
+CreatePackage=パッケージを作成
 Description=説明
 EditPackage=パッケージを編集
 ExpiryDate=有効期限
-PackageName=パッケージ名称
+PackageName=パッケージ名
 Packages=パッケージ
 Thumbnail=サムネイル

@@ -1,7 +1,7 @@
-﻿EnquiryHasBeenSubmitted=問い合わせが送信されました。我々はできるだけ早くご連絡いたします。
-FormHasBeenSubmitted=フォーム'{0}'に提出されました
-InvalidFormId=無効なフォームのId
-MandatoryField=必須フィールド
-NumberOnly=番号のみ
-SuccessfullySubmitted=正常に送信
+EnquiryHasBeenSubmitted=お問い合わせメールをお送りいただきありがとうございます。後ほど担当者よりご連絡をさせていただきます。 
+FormHasBeenSubmitted='{0}'フォームが送信されました。
+InvalidFormId=無効なフォームID
+MandatoryField=必須項目
+NumberOnly=数字のみ
+SuccessfullySubmitted=正常に送信されました。
 VCMForm=VCMフォーム

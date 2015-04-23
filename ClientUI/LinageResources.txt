@@ -1,8 +1,8 @@
-﻿AvailableDates=可能な日時
-Border=ボーダー
-CheckItemsToSubmit=提出する項目（複数可）をご確認ください
-EnterEmailSubject=「電子メールの件名」と入力してください
-EnterEmailSubject1=電子メールの件名を入力してください
+AvailableDates=利用可能日時
+Border=罫線
+CheckItemsToSubmit=送信する内容をご確認ください。
+EnterEmailSubject=メールの件名を入力してください。
+EnterEmailSubject1=メールの件名を入力
 ForReviewAndApproval=あなたのレビューと承認のための系統広告を提出した。
 FullColour=フルカラー
 GoToHistory=歴史に行く
