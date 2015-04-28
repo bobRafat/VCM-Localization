@@ -1,4 +1,4 @@
-AssetCategoryMap=アセットがまだ保存されていません。アセットをマッピングして、カテゴリを一つ選択してください。AssetPackage=パッケージ
+AssetCategoryMap=アセットがまだ保存されていません。カテゴリを一つ選択してください。AssetPackage=パッケージ
 CreatePackage=パッケージを作成
 Description=説明
 EditPackage=パッケージを編集

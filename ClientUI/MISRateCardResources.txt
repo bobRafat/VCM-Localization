@@ -8,6 +8,6 @@ ProcessingRequest=処理中です。もうしばらくお待ちください...
 ProductCode=製品コード
 ProductCost=製品原価
 ProductOptions=製品オプション
-RatecardName=料金表の名前
+RatecardName=価格表の名前
 SelectProductOptions=製品のオプションを選択
 TotalPriceInclGST=総額(税込)
