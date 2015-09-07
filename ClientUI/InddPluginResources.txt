@@ -20,3 +20,6 @@ Skip=スキップ
 SkipImagePrepopulated=スキップをクリックすると、画像が自動入力されません。スキップしてもよろしいですか？
 UnProcessed=未処理の
 WarningForImagePrepopulate=画像のサイズにより、１点処理するには最大30秒までかかることがあります。続行しますか？
+ViewEmailHtml=View Email Html
+ViewPrintPDF=View Print PDF
+ViewSiteHtml=View Site Html

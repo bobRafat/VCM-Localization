@@ -129,3 +129,4 @@ DoYouWantToSaveTheForm=物件の詳細情報を保存するには、OKをクリ�
 MediaScheduleReview=レビューのスケジュール
 ViewCampaignSchedule=キャンペーンのスケジュールを表示
 ViewOrderConfirmationOnline=注文確認をオンラインで表示
+TemplateMapping=Template Mapping

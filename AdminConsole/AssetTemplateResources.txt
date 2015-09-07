@@ -209,3 +209,7 @@ SelectColourPalette=カラーパレットを選択
 TemplateColourPalette=カラーパレットのテンプレート
 ThirdAttribute=属性３
 HeadlineCharacterLimit=見出しの文字数制限
+TemplatePreset=Template Preset
+SelectPreset=Select Preset
+PrintUITemplateSetting=PrintUI Template Setting
+TaxRate=Tax Rate

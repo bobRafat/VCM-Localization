@@ -182,3 +182,5 @@ GrandTotal=合計
 Price=価格
 Surname=姓
 Address=住所
+False=False
+True=True
