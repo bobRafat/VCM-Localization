@@ -1,0 +1,7 @@
+﻿EnquiryHasBeenSubmitted=Enquiry has been submitted. We will contact you as soon as possible.
+FormHasBeenSubmitted=Form '{0}' has been submitted
+InvalidFormId=Invalid Form Id
+MandatoryField=Mandatory Field
+NumberOnly=Number Only
+SuccessfullySubmitted=Successfully Submitted
+VCMForm=VCM Form

@@ -1,0 +1,9 @@
+﻿AssetCategoryMap=Please map this asset and select at least one Category. Your asset is not saved.
+AssetPackage=Asset Package
+CreatePackage=Create Package
+Description=Description
+EditPackage=Edit Package
+ExpiryDate=Expiry Date
+PackageName=Package Name
+Packages=Packages
+Thumbnail=Thumbnail

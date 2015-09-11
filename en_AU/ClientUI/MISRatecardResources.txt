@@ -1,0 +1,13 @@
+﻿CannotConnectBuzServer=Cannot connect Buz server
+CanNotCopyIndesignPluginJob=Can not copy Indesign Plugin Job
+ConstructBuzControlsTest=Construct Buz Controls Test
+JobInfo=Job Info
+OptionCost=Option Cost
+OptionDetails=Option Details
+ProcessingRequest=Processing request, please be patient...
+ProductCode=Product Code
+ProductCost=Product Cost
+ProductOptions=Product Options
+RatecardName=Ratecard Name
+SelectProductOptions=Select Product Options
+TotalPriceInclGST=Total Price incl. GST

@@ -1,0 +1,39 @@
+﻿CategoryCreatePage=CategoryCreatePage
+CategoryEditPage=CategoryEditPage
+CategoryList=Category List
+CategoryListPage=CategoryListPage
+CategoryName=Category Name
+CategorySelectSiteErrorPage=CategorySelectSiteErrorPage
+CategoryType=Category Type
+CreateCategory=Create Category
+CreateUnderThisCategory=Create Under This Category
+Description=Description
+DisplayImage=Display Image
+EditCategory=Edit Category
+FillInCategoryName=Please fill in Category Name.
+Flyers=Flyers
+ForExample=For example
+HOWTOAddCategories=HOW TO: Add Categories
+HowToSetUPMainCategories=How to Set Up Main Categories
+HowToSetUpSubCategories=How to Set Up Sub Categories
+MainCategoryCampaigns=Main Category 2 => Campaigns
+MainCategoryPrint=Main Category 1 => Print
+MediaBooking=Media Booking
+OrderNumber=OrderNumber
+ParentCategory=Parent Category
+SelectCategoryType=Please select Category Type.
+SelectParentCategory=Please select parent category.
+SettingUpLeftHandMenu=This is setting up the left hand menu items for your site.
+SetUpCategory=Set Up Category
+ShowInClientSite=Show in Client Site
+Stationary=Stationary
+Step11=Step 1:  Click on Create Category
+Step12=Step 2:  Add Category Name + Select Category Type
+Step21=Step 1: Click on Create Category from your Main Category
+Step22=Step 2: Add Sub Category Name + Select Category Type
+SubCategoryBrochures=Sub Category = Brochures
+SubCategorySummerSale=Sub Category =Summer Sale
+UploadImage=Upload Image (45 X 45)
+WinterSale=Winter Sale
+SureDeleteCategory=Are you sure to delete this category?
+CategoryThumbnail=Category thumbnail
