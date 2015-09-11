@@ -1,7 +1,7 @@
 ﻿BANKINGDETAILS=BANKING DETAILS
 CartDashboard=CartDashboard
 ChangeQuantity=Change Quantity
-ChequeCanBeMadeTo=Cheque can be made to
+ChequeCanBeMadeTo=Check can be made to
 CommentsInstructions=Comments / Instructions
 ConfirmCart=Confirm Cart
 DeliveryAttention=Delivery Attention
