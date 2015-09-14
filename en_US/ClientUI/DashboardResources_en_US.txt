@@ -20,4 +20,4 @@ ReminderDates=Reminder Dates
 ReminderDueDates=Reminder Due Dates
 SentToSupplier=Sent to Supplier
 WaitForApproval=Waiting for Approval
-WaitForHeadline=Waiting for Headlin Copy
+WaitForHeadline=Waiting for Headline Copy
