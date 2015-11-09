@@ -60,6 +60,6 @@ SelectLanguage=Select Language
 UserSettings=User Settings
 InviteUser=Invite User
 SaveInvite=Save & Invite
-InviteUserEmailLink= go to your account.
+InviteUserEmailLink=go to your account.
 InviteUserEmailMessage=You are invited to VCM.\r\nThese are your credentials.
 InviteUserEmailSubject=Invite to VCM

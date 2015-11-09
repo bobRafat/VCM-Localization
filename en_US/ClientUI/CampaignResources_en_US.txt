@@ -2,10 +2,17 @@ AddTask=Add Task
 Campaign=Campaign
 CampaignDashboard=CampaignDashboard
 CampaignDashboard1=Campaign Dashboard
+<<<<<<< HEAD
 CampaignModified=Campaign has been modified. Do you want to save it?
 CanNotCopyIndesignPluginJob=Can not copy InDesign Plugin Job
 CompleteCampaign=Complete Campaign
 CompleteUnfinishedPackageItems=You have chosen package in your campaign. Please complete unfinished package items before completing the campaign.
+=======
+CampaignModified=Campaign has been modified. Do you want to save?
+CanNotCopyIndesignPluginJob=Can not copy Indesign Plugin Job
+CompleteCampaign=Finish Campaign
+CompleteUnfinishedPackageItems=You have chosen package in your campaign. Please complete unfinished package items before complete the campaign.
+>>>>>>> origin/master
 FillInInformation=Please ensure you have filled in all the information in your property details tab and have uploaded your images in property images tab prior to creating your artwork.
 MediaDetails=Media Details
 NoJobsCompleted=No job has been completed.
@@ -14,7 +21,7 @@ PrintOptions=Print Options
 PropertyDetails=Property Details
 PropertyImages=Property Images
 SaveChanges=Save Changes
-SelfCreate=Self Create
+SelfCreate=My Campaign
 TotalExclGST=Total:
 Attention=Attention
 CampaignImagesProcessing=CampaignImagesProcessing
@@ -56,7 +63,11 @@ PaymentDetails=Payment Details
 PositionalDiagram=Positional Diagram
 ProductionDetails=Production Details
 PropertyAddress=Property Address
+<<<<<<< HEAD
 QualityAndSatisfaction=Responsibility for the quality and satisfaction of print items lies with you, the printer, and your customer. BrandingUI or Chameleon will not be responsible for any errors appearing in artwork. It is imperative that you provide a printed or online proof of the artwork prior to full print production to ensure customer satisfaction.
+=======
+QualityAndSatisfaction=Quality and satisfaction of print is between you the printer and your customer. PrintUI will not be responsible for any errors appearing in artwork. It is imperative that you provide a printed or online proof of the artwork prior to full print production to ensure customer satisfaction.
+>>>>>>> origin/master
 ReloadFromCRM=Reload from CRM
 AddAgent=Add Agent
 AddInspection=Add Inspection
@@ -115,3 +126,6 @@ OrderMicrosite=Order Microsite
 OrderPrint=Order Print
 Print=Print
 DownloadedOn=Downloaded on
+VendorStatus=Vendor Status
+AddNote=Add Note
+ErrorDueDateBeforeStartDate=Campaign finish date can't be set before the start date.
