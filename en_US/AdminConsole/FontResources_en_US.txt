@@ -1,4 +1,4 @@
-﻿CreateNewFamily=Create New Family
+CreateNewFamily=Create New Family
 Ebook=Ebook
 EDM=EDM
 EnterFontName=Please Enter Font Name
@@ -6,7 +6,7 @@ EnterSytleName=Please Enter Style Name
 FontCouldNotUploaded=Font could not be uploaded
 FontFamily=Font Family
 FontName=Font Name
-FontNameExist=Font Name input already exists
+FontNameExist=Font Name already exists
 FontStyle=Font Style
 FontUploadedSuccess=Font ({0}) uploaded successfully.
 Index=Index

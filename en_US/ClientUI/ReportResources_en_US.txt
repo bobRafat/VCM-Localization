@@ -1,4 +1,4 @@
-﻿BudgetReport=Budget Report
+BudgetReport=Budget Report
 CampaignReport=Campaign Report
 CartId=CartId
 CompletedDate=Completed Date

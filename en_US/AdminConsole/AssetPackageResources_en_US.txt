@@ -1,4 +1,4 @@
-﻿AssetCategoryMap=Please map this asset and select at least one Category. Your asset is not saved.
+AssetCategoryMap=Please map this asset and select at least one Category. Your asset has not been saved.
 AssetPackage=Asset Package
 CreatePackage=Create Package
 Description=Description

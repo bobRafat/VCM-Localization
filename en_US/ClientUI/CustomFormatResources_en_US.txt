@@ -1,4 +1,4 @@
-﻿BootstrapShortDate=mm-dd-yyyy
+BootstrapShortDate=mm-dd-yyyy
 DashedShortDate=MM-dd-yyyy
 ddMMMyyyy=dd MMM yyyy
 ShortYear=MM/dd/yy

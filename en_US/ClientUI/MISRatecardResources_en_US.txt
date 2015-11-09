@@ -1,5 +1,5 @@
-﻿CannotConnectBuzServer=Cannot connect Buz server
-CanNotCopyIndesignPluginJob=Can not copy Indesign Plugin Job
+CannotConnectBuzServer=Cannot connect Buz server
+CanNotCopyIndesignPluginJob=Can not copy InDesign Plugin Job
 ConstructBuzControlsTest=Construct Buz Controls Test
 JobInfo=Job Info
 OptionCost=Option Cost

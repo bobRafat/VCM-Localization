@@ -1,9 +1,9 @@
-﻿CategoryCreatePage=CategoryCreatePage
-CategoryEditPage=CategoryEditPage
+CategoryCreatePage=Category Create Page
+CategoryEditPage=Category Edit Page
 CategoryList=Category List
-CategoryListPage=CategoryListPage
+CategoryListPage=Category List Page
 CategoryName=Category Name
-CategorySelectSiteErrorPage=CategorySelectSiteErrorPage
+CategorySelectSiteErrorPage=Category SelectSite Error Page
 CategoryType=Category Type
 CreateCategory=Create Category
 CreateUnderThisCategory=Create Under This Category
@@ -22,8 +22,8 @@ MediaBooking=Media Booking
 OrderNumber=OrderNumber
 ParentCategory=Parent Category
 SelectCategoryType=Please select Category Type.
-SelectParentCategory=Please select parent category.
-SettingUpLeftHandMenu=This is setting up the left hand menu items for your site.
+SelectParentCategory=Please select Parent category.
+SettingUpLeftHandMenu=This will set up the left hand menu items for your site.
 SetUpCategory=Set Up Category
 ShowInClientSite=Show in Client Site
 Stationary=Stationary
@@ -35,5 +35,5 @@ SubCategoryBrochures=Sub Category = Brochures
 SubCategorySummerSale=Sub Category =Summer Sale
 UploadImage=Upload Image (45 X 45)
 WinterSale=Winter Sale
-SureDeleteCategory=Are you sure to delete this category?
+SureDeleteCategory=Are you sure you want to delete this category?
 CategoryThumbnail=Category thumbnail

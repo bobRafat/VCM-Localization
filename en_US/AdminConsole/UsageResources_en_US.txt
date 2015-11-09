@@ -1,4 +1,4 @@
-﻿AdditionalPlan=Additional Plan
+AdditionalPlan=Additional Plan
 BasePlan=Base Plan
 CreateNewPlan=Create New Plan
 IsBasePlan=BasePlan
@@ -8,7 +8,7 @@ NumberOfUsers=Number of Users
 PlanId=Plan Id
 PlanManagement=Plan Management
 PlanName=Plan Name
-SiteLimitReach=Site limit has been reached 
+SiteLimitReach=Site limit has been reached.
 SiteUsageManagement=Site Usage Management
-SubsiteLimitReach=Subsite limit has been reached
-UserLimitReach=User limit has been reached
+SubsiteLimitReach=Subsite limit has been reached.
+UserLimitReach=User limit has been reached.

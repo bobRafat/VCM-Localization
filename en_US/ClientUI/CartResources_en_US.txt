@@ -1,4 +1,4 @@
-﻿BANKINGDETAILS=BANKING DETAILS
+BANKINGDETAILS=BANKING DETAILS
 CartDashboard=CartDashboard
 ChangeQuantity=Change Quantity
 ChequeCanBeMadeTo=Check can be made to

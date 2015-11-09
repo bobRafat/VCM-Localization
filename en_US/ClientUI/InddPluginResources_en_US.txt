@@ -1,9 +1,9 @@
-﻿CampaignImages=Campaign Image(s)
-CanNotInitIndesignPluginJobID=Can not init Indesign Plugin Job ID
+CampaignImages=Campaign Image(s)
+CanNotInitIndesignPluginJobID=Can not init InDesign Plugin Job ID
 CartImages=Cart Image(s)
 Editor=Editor
 images=image(s)
-ImagesFailedInPrepopulation=There are image(s) failed in prepopulation process. Do you want to ignore the failed image(s) and continue to Editor?
+ImagesFailedInPrepopulation=There are image(s) that failed in the prepopulation process. Do you want to ignore the failed image(s) and continue to Editor?
 ImageTransfer=ImageTransfer
 ImageTransferWaiting=ImageTransferWaiting
 NoJobIDFound=No Job ID Found
