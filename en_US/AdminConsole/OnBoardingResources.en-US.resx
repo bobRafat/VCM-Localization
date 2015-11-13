@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCompany" xml:space="preserve">
+    <value>Add a Company</value>
+  </data>
+  <data name="AddCompanyInfo" xml:space="preserve">
+    <value>Add Company Info</value>
+  </data>
+  <data name="AddEditRateCard" xml:space="preserve">
+    <value>Add/Edit RateCard</value>
+  </data>
+  <data name="AddRateCard" xml:space="preserve">
+    <value>Add RateCard</value>
+  </data>
+  <data name="ChooseArtworkSupplier" xml:space="preserve">
+    <value>Please choose Artwork Supplier or upload Original PDF File.</value>
+  </data>
+  <data name="ClientCompanyName" xml:space="preserve">
+    <value>Client Company Name</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="CompletionDate" xml:space="preserve">
+    <value>Completion Date</value>
+  </data>
+  <data name="CustomerOnBoarding" xml:space="preserve">
+    <value>Customer On Boarding</value>
+  </data>
+  <data name="DonotSelect" xml:space="preserve">
+    <value>Do Not Select</value>
+  </data>
+  <data name="EmailRegistered" xml:space="preserve">
+    <value>This email is already registered; please choose another one.</value>
+  </data>
+  <data name="EnterCustomerName" xml:space="preserve">
+    <value>Please enter customer name and sales notes.</value>
+  </data>
+  <data name="EnterRequiredFields" xml:space="preserve">
+    <value>Please enter all required fields.</value>
+  </data>
+  <data name="FillInClientCompanyName" xml:space="preserve">
+    <value>Please fill in client company name.</value>
+  </data>
+  <data name="FillInConfirmPassword" xml:space="preserve">
+    <value>Please fill in confirm password</value>
+  </data>
+  <data name="FillInPassword" xml:space="preserve">
+    <value>Please fill in the password.</value>
+  </data>
+  <data name="FillInRejectionReason" xml:space="preserve">
+    <value>Please fill in Rejection Reason.</value>
+  </data>
+  <data name="FontNameMustFilled" xml:space="preserve">
+    <value>Font Name must be filled</value>
+  </data>
+  <data name="FontStyleMustFilled" xml:space="preserve">
+    <value>Font Style must be filled</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>Invalid email. The email has been used already in the system.</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="NoOnBoardingInformation" xml:space="preserve">
+    <value>No On Boarding information is available for this subsite.</value>
+  </data>
+  <data name="NoPermissionToAccess" xml:space="preserve">
+    <value>You do not have permission to access this client.</value>
+  </data>
+  <data name="NoSubsiteFound" xml:space="preserve">
+    <value>No Subsite found for the user.</value>
+  </data>
+  <data name="OnBoardingRequestSent" xml:space="preserve">
+    <value>On Boarding request has been sent to you for company {0}</value>
+  </data>
+  <data name="OnBoardingSalesStartPage" xml:space="preserve">
+    <value>OnBoardingSalesStartPage</value>
+  </data>
+  <data name="ParameterCannotNull" xml:space="preserve">
+    <value>Parameter can not be null.</value>
+  </data>
+  <data name="PasswordMinimumCharacters" xml:space="preserve">
+    <value>Password must be at least 6 characters.</value>
+  </data>
+  <data name="PasswordSameWithConfirmPassword" xml:space="preserve">
+    <value>Please make sure Password and Confirm password are the same.</value>
+  </data>
+  <data name="PleaseSelectTemplateSubType" xml:space="preserve">
+    <value>Please select Template Sub Type.</value>
+  </data>
+  <data name="RequireAssitance" xml:space="preserve">
+    <value>Should you require any assistance or have any questions on setting up your site, &lt;br /&gt;Please contact your site administrator.&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="SalesNotes" xml:space="preserve">
+    <value>Sales Notes</value>
+  </data>
+  <data name="SaveStartSiteSetup" xml:space="preserve">
+    <value>Save &amp; Start Site Setup</value>
+  </data>
+  <data name="SelectCompanyToProceed" xml:space="preserve">
+    <value>Please select company to proceed.</value>
+  </data>
+  <data name="SelectOneSubsite" xml:space="preserve">
+    <value>Please select at least 1 subsite.</value>
+  </data>
+  <data name="SelectTemplateItemSize" xml:space="preserve">
+    <value>Select Template Item Size</value>
+  </data>
+  <data name="SelectTemplateItemType" xml:space="preserve">
+    <value>Select Template Item Type</value>
+  </data>
+  <data name="SelectTemplateSubType" xml:space="preserve">
+    <value>Select Template Sub Type</value>
+  </data>
+  <data name="SelectTemplateType" xml:space="preserve">
+    <value>Please select Template Type.</value>
+  </data>
+  <data name="SiteRegistration" xml:space="preserve">
+    <value>Site Registration</value>
+  </data>
+  <data name="SiteRegistrationCompleted" xml:space="preserve">
+    <value>Your site registration is complete. Please proceed to set up your site.</value>
+  </data>
+  <data name="SiteRegistrationSent" xml:space="preserve">
+    <value>A site registration has been sent to you [ {0} ]</value>
+  </data>
+  <data name="SubsiteIdIncorrect" xml:space="preserve">
+    <value>Subsite id is not correct</value>
+  </data>
+  <data name="TemporaryUserNamePassword" xml:space="preserve">
+    <value>The below username &amp; password is temporarily created to allow you login to your account, please change your password at next login.&lt;br /&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>Total Price</value>
+  </data>
+  <data name="UpdateRateCard" xml:space="preserve">
+    <value>Update RateCard</value>
+  </data>
+  <data name="UploadFontFile" xml:space="preserve">
+    <value>Please upload Font File.</value>
+  </data>
+  <data name="UploadOriginalAsset" xml:space="preserve">
+    <value>Please upload Original Asset.</value>
+  </data>
+  <data name="UploadProposal" xml:space="preserve">
+    <value>Upload a Proposal</value>
+  </data>
+  <data name="UserCreated" xml:space="preserve">
+    <value>User Created.</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="UserNameTaken" xml:space="preserve">
+    <value>This Username is taken; please choose another one.</value>
+  </data>
+  <data name="ViewRegistration" xml:space="preserve">
+    <value>Please click here to view the registration.</value>
+  </data>
+  <data name="ABN" xml:space="preserve">
+    <value>ABN</value>
+  </data>
+  <data name="AddFile" xml:space="preserve">
+    <value>Add file</value>
+  </data>
+  <data name="AddToStructure" xml:space="preserve">
+    <value>Add to structure</value>
+  </data>
+  <data name="ApprovalProcess" xml:space="preserve">
+    <value>Approval Process</value>
+  </data>
+  <data name="ApprovalProcessRequired" xml:space="preserve">
+    <value>Is an approval process required?</value>
+  </data>
+  <data name="BankMerchantOtherPaymentFacility" xml:space="preserve">
+    <value>Bank Merchant/ Other Payment Facility</value>
+  </data>
+  <data name="BillingEmail" xml:space="preserve">
+    <value>Billing Email</value>
+  </data>
+  <data name="BillingMobile" xml:space="preserve">
+    <value>Billing Mobile</value>
+  </data>
+  <data name="BillingName" xml:space="preserve">
+    <value>Billing Name</value>
+  </data>
+  <data name="BillingPhone" xml:space="preserve">
+    <value>Billing Phone</value>
+  </data>
+  <data name="ChangeHierarchy" xml:space="preserve">
+    <value>Click + hold and drag and drop to change the hierarchy.</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>Contact Email</value>
+  </data>
+  <data name="ContactMobile" xml:space="preserve">
+    <value>Contact Mobile</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Contact Name</value>
+  </data>
+  <data name="ContactPhone" xml:space="preserve">
+    <value>Contact Phone</value>
+  </data>
+  <data name="CreateSubsite" xml:space="preserve">
+    <value>Create Subsite</value>
+  </data>
+  <data name="CreateSubsites" xml:space="preserve">
+    <value>Create Subsites</value>
+  </data>
+  <data name="CreateYourSites" xml:space="preserve">
+    <value>Create your Sites</value>
+  </data>
+  <data name="CustomerWebsiteURL" xml:space="preserve">
+    <value>The customer website URL is</value>
+  </data>
+  <data name="DescForApprovalAll" xml:space="preserve">
+    <value>All approvers set up must approve artwork to enable user to get to the next stage</value>
+  </data>
+  <data name="DescForApprovalAny" xml:space="preserve">
+    <value>Should you have more than one user set up as an approver as long as one of the approvers approve an artwork/campaign/cart, the artwork will be marked as approved.</value>
+  </data>
+  <data name="DescForApprovalHierarchy" xml:space="preserve">
+    <value>Should your subsites be set up in a hierarchy level the approval process will start at the lower level of the hierarchy and then make its way up the chain. Example, you may have a head office level and state levels. An approver will be set up in each state, and in head office. For instance, should a user in NSW create an artwork, the NSW approver will receive an approval request notification. Once the NSW approver has approved the artwork, the head office approver will receive an approval request notification.  Should the state approver reject artwork for any reason, head office will not receive any notification of this.</value>
+  </data>
+  <data name="DescOfApprovalProcess" xml:space="preserve">
+    <value>Please select the approval process for all artwork, orders and campaigns best suited for your business. This can be changed later.</value>
+  </data>
+  <data name="DescOfDetails" xml:space="preserve">
+    <value>Please enter the details of which bank or other payment gateway you would like to set up.&lt;br /&gt;
+                        Site administrator will contact you to discuss requirements and integration.&lt;br /&gt;
+                        Please note: development costs may be involved, upon approval.</value>
+  </data>
+  <data name="DetailsForSiteSetup" xml:space="preserve">
+    <value>Please review and adjust the customer details for site setup. Once completed, click on SAVE and an email notification will be sent to the Customer/Client to enable them to set up their site. Alternatively you can set up the site on behalf of the customer.</value>
+  </data>
+  <data name="DoNotHaveCredentials" xml:space="preserve">
+    <value>If you do not have your PrintUI credentials, please contact your Site Administrator.</value>
+  </data>
+  <data name="EmailForSiteSetup" xml:space="preserve">
+    <value>Contact email will receive an email request allowing them to set up their site. Please ensure you contact the client and let them know they will receive an email for site setup.</value>
+  </data>
+  <data name="EnterPrintUISettings" xml:space="preserve">
+    <value>Please enter your PrintUI settings.</value>
+  </data>
+  <data name="LeftMenuUnlocked" xml:space="preserve">
+    <value>The left menu is now unlocked and you may administer, edit, update, add templates to any section where required.</value>
+  </data>
+  <data name="NeedHelp" xml:space="preserve">
+    <value>Need Help? Instructional windows are available on each page should you require any help. You can also refer to Quick Help button on the left menu.</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="OfficeAddress" xml:space="preserve">
+    <value>Office Address</value>
+  </data>
+  <data name="OnBoardingCompleted" xml:space="preserve">
+    <value>OnBoarding Completed</value>
+  </data>
+  <data name="OnBoardingEntryEdit" xml:space="preserve">
+    <value>On Boarding Entry Edit</value>
+  </data>
+  <data name="PasswordIs" xml:space="preserve">
+    <value>The password is</value>
+  </data>
+  <data name="PaymentGateway" xml:space="preserve">
+    <value>Payment Gateway</value>
+  </data>
+  <data name="PaymentGatewayRequired" xml:space="preserve">
+    <value>Is a payment gateway required?</value>
+  </data>
+  <data name="PayPalMerchantAccountId" xml:space="preserve">
+    <value>PayPal Merchant Account Id</value>
+  </data>
+  <data name="PayPalMerchantEmail" xml:space="preserve">
+    <value>PayPal Merchant Email</value>
+  </data>
+  <data name="PleaseUploadProposal" xml:space="preserve">
+    <value>Please upload a copy of the approved sales proposal if available.</value>
+  </data>
+  <data name="PleaseUploadProposal1" xml:space="preserve">
+    <value>Please upload a proposal.</value>
+  </data>
+  <data name="PostalAddress" xml:space="preserve">
+    <value>Postal Address</value>
+  </data>
+  <data name="PrintUIAuthorizationCode" xml:space="preserve">
+    <value>PrintUI Authorization Code</value>
+  </data>
+  <data name="PrintUIClientId" xml:space="preserve">
+    <value>PrintUI Client Id</value>
+  </data>
+  <data name="PrintUiSettings" xml:space="preserve">
+    <value>PrintUI Settings</value>
+  </data>
+  <data name="ProposalURL" xml:space="preserve">
+    <value>Proposal URL</value>
+  </data>
+  <data name="SaveContinue" xml:space="preserve">
+    <value>Save &amp; Continue</value>
+  </data>
+  <data name="SaveSendToCustomer" xml:space="preserve">
+    <value>Save &amp; Send to Customer</value>
+  </data>
+  <data name="SaveStartSiteSetup1" xml:space="preserve">
+    <value>Save &amp; Start Site Setup</value>
+  </data>
+  <data name="SelectingAll" xml:space="preserve">
+    <value>Selecting All</value>
+  </data>
+  <data name="SelectingHierarchy" xml:space="preserve">
+    <value>Selecting Hierarchy</value>
+  </data>
+  <data name="SetupPaymentGateway" xml:space="preserve">
+    <value>Setup Payment Gateway</value>
+  </data>
+  <data name="SetupWizard" xml:space="preserve">
+    <value>Setup Wizard</value>
+  </data>
+  <data name="StartSearching" xml:space="preserve">
+    <value>Start Searching...</value>
+  </data>
+  <data name="ThankYouForSettingUpSite" xml:space="preserve">
+    <value>Thank you for setting up your site.</value>
+  </data>
+  <data name="TradingName" xml:space="preserve">
+    <value>Trading Name</value>
+  </data>
+  <data name="UserNameIs" xml:space="preserve">
+    <value>The user name is</value>
+  </data>
+</root>
