@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AgentId" xml:space="preserve">
+    <value>Agent Id</value>
+  </data>
+  <data name="BackToSubsiteList" xml:space="preserve">
+    <value>Back to Subsite List</value>
+  </data>
+  <data name="ChangeSubsiteName" xml:space="preserve">
+    <value>Change subsite name, site logos and themes</value>
+  </data>
+  <data name="ChooseCRMType" xml:space="preserve">
+    <value>Please choose CRM Type</value>
+  </data>
+  <data name="CompanyInvoice" xml:space="preserve">
+    <value>CompanyInvoice</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="CreateSubsite" xml:space="preserve">
+    <value>Create Subsite</value>
+  </data>
+  <data name="CreateSubsiteDesc" xml:space="preserve">
+    <value>Click and create sub-site under this site</value>
+  </data>
+  <data name="CRMType" xml:space="preserve">
+    <value>CRM Type</value>
+  </data>
+  <data name="CurrentBrandLogo" xml:space="preserve">
+    <value>Current Brand Logo</value>
+  </data>
+  <data name="CurrentCoBrandingImage" xml:space="preserve">
+    <value>Current Co-Branding Image</value>
+  </data>
+  <data name="CurrentEmailHeaderImage" xml:space="preserve">
+    <value>Current Email Header Image</value>
+  </data>
+  <data name="CurrentHomeImage" xml:space="preserve">
+    <value>Current Home Image</value>
+  </data>
+  <data name="FillInAgentId" xml:space="preserve">
+    <value>Please fill in Agent Id</value>
+  </data>
+  <data name="FillInCompanyName" xml:space="preserve">
+    <value>Please fill in the company name.</value>
+  </data>
+  <data name="FillInEmail" xml:space="preserve">
+    <value>Please fill in the email.</value>
+  </data>
+  <data name="HeaderEmailHeaderImage" xml:space="preserve">
+    <value>Header Email Header Image</value>
+  </data>
+  <data name="HeaderEmailHeaderImageTitle" xml:space="preserve">
+    <value>This will appear on all emails generated from the system</value>
+  </data>
+  <data name="HeaderHomeImage" xml:space="preserve">
+    <value>Header Home Image</value>
+  </data>
+  <data name="HeaderHomeImageTitle" xml:space="preserve">
+    <value>This will appear on home page middle of the site</value>
+  </data>
+  <data name="IllegalAccess" xml:space="preserve">
+    <value>Illegal Access</value>
+  </data>
+  <data name="IntroImages" xml:space="preserve">
+    <value>Intro Images</value>
+  </data>
+  <data name="IntroText" xml:space="preserve">
+    <value>Intro Text</value>
+  </data>
+  <data name="InvaidEmail" xml:space="preserve">
+    <value>Invalid email address.</value>
+  </data>
+  <data name="InvalidName" xml:space="preserve">
+    <value>Invalid Name</value>
+  </data>
+  <data name="ManageSubsiteSettings" xml:space="preserve">
+    <value>Manage all subsite settings for this subsite and all children subsite beneath. Any changes made to this subsite will not effect the parent site</value>
+  </data>
+  <data name="NoSubsite" xml:space="preserve">
+    <value>You don't have any subsite.</value>
+  </data>
+  <data name="OutroImages" xml:space="preserve">
+    <value>Outro Images</value>
+  </data>
+  <data name="OutroText" xml:space="preserve">
+    <value>Outro Text</value>
+  </data>
+  <data name="ParentSubsite" xml:space="preserve">
+    <value>Parent Subsite</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="SelectClientSite" xml:space="preserve">
+    <value>Please select a client site</value>
+  </data>
+  <data name="SelectCRMType" xml:space="preserve">
+    <value>Select CRM Type</value>
+  </data>
+  <data name="SelectSettingCategory" xml:space="preserve">
+    <value>Select Setting Category</value>
+  </data>
+  <data name="SettingCategories" xml:space="preserve">
+    <value>Setting Categories</value>
+  </data>
+  <data name="SettingCompanyInvoice" xml:space="preserve">
+    <value>Setting Company Invoice</value>
+  </data>
+  <data name="SettingCRM" xml:space="preserve">
+    <value>Setting CRM</value>
+  </data>
+  <data name="SettingIntroOutroVideo" xml:space="preserve">
+    <value>Setting Intro Outro Video</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SettingSubsiteCRM" xml:space="preserve">
+    <value>Setting Subsite CRM</value>
+  </data>
+  <data name="SubsiteList" xml:space="preserve">
+    <value>Subsite List</value>
+  </data>
+  <data name="SubsiteName" xml:space="preserve">
+    <value>Subsite Name</value>
+  </data>
+  <data name="SubsiteSetting" xml:space="preserve">
+    <value>Subsite Setting</value>
+  </data>
+  <data name="SubsiteThemes" xml:space="preserve">
+    <value>Subsite Themes</value>
+  </data>
+  <data name="SureDeleteImage" xml:space="preserve">
+    <value>Are you sure you wish to delete this image?</value>
+  </data>
+  <data name="SureDeleteSubsite" xml:space="preserve">
+    <value>Are you sure you wish to delete this subsite and all child subsites?</value>
+  </data>
+  <data name="ThemeColour" xml:space="preserve">
+    <value>Theme Colour</value>
+  </data>
+  <data name="ThemeColourTitle" xml:space="preserve">
+    <value>Please select the brand colour for you Customer Site buttons and roll overs.</value>
+  </data>
+  <data name="Themes" xml:space="preserve">
+    <value>Themes</value>
+  </data>
+  <data name="UploadBrandLogo" xml:space="preserve">
+    <value>Upload Brand Logo</value>
+  </data>
+  <data name="UploadBrandLogoTitle" xml:space="preserve">
+    <value>This will upload top left of the customer site</value>
+  </data>
+  <data name="UploadCoBrandingImage" xml:space="preserve">
+    <value>Upload Co-Branding Image</value>
+  </data>
+  <data name="UploadCoBrandingImageTitle" xml:space="preserve">
+    <value>This will appear on top right hand side of the customer site</value>
+  </data>
+  <data name="VideoIntroOutro" xml:space="preserve">
+    <value>VideoIntroOutro</value>
+  </data>
+  <data name="FormErrorsCheckBelow" xml:space="preserve">
+    <value>You have some form errors. Please check below.</value>
+  </data>
+  <data name="LoginAgain" xml:space="preserve">
+    <value>please login again</value>
+  </data>
+  <data name="SubsiteSelection" xml:space="preserve">
+    <value>Subsite Selection</value>
+  </data>
+  <data name="HOWTOCreateSubSite" xml:space="preserve">
+    <value>HOW TO: Create Subsite</value>
+  </data>
+  <data name="HowToSetUpSites" xml:space="preserve">
+    <value>How to set up sites</value>
+  </data>
+  <data name="HowToSetUpYourSite" xml:space="preserve">
+    <value>How to Set Up Your Site</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Indicate below your main brand name.</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Indicate if applicable any sub brands.</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Indicate regions applicable for each sub brands.</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Drag and drop applicable regions to suit each brands and create your hierarchy.</value>
+  </data>
+  <data name="Inherited" xml:space="preserve">
+    <value>Inherited</value>
+  </data>
+  <data name="CurrentEmailsHeaderImage" xml:space="preserve">
+    <value>Current Emails header image</value>
+  </data>
+  <data name="CurrentHeroImage" xml:space="preserve">
+    <value>Current hero image</value>
+  </data>
+  <data name="PleaseSelectYourThemeColour" xml:space="preserve">
+    <value>Please select your theme colour</value>
+  </data>
+  <data name="PleaseUploadYourHeroImage" xml:space="preserve">
+    <value>Please upload your hero image(need size)</value>
+  </data>
+  <data name="PleaseUploadYourLogo" xml:space="preserve">
+    <value>Please upload your logo(need size)</value>
+  </data>
+  <data name="SiteEmailsHeaderImaege" xml:space="preserve">
+    <value>Site Emails header image</value>
+  </data>
+</root>

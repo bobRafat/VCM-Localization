@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddTask" xml:space="preserve">
+    <value>Add Task</value>
+  </data>
+  <data name="Campaign" xml:space="preserve">
+    <value>Campaign</value>
+  </data>
+  <data name="CampaignDashboard" xml:space="preserve">
+    <value>CampaignDashboard</value>
+  </data>
+  <data name="CampaignDashboard1" xml:space="preserve">
+    <value>Campaign Dashboard</value>
+  </data>
+  <data name="CampaignModified" xml:space="preserve">
+    <value>Campaign has been modified. Do you want to save?</value>
+  </data>
+  <data name="CanNotCopyIndesignPluginJob" xml:space="preserve">
+    <value>Can not copy Indesign Plugin Job</value>
+  </data>
+  <data name="CompleteCampaign" xml:space="preserve">
+    <value>Finish Campaign</value>
+  </data>
+  <data name="CompleteUnfinishedPackageItems" xml:space="preserve">
+    <value>You have chosen package in your campaign. Please complete unfinished package items before complete the campaign.</value>
+  </data>
+  <data name="FillInInformation" xml:space="preserve">
+    <value>Please ensure you have filled in all the information in your property details tab and have uploaded your images in property images tab prior to creating your artwork.</value>
+  </data>
+  <data name="MediaDetails" xml:space="preserve">
+    <value>Media Details</value>
+  </data>
+  <data name="NoJobsCompleted" xml:space="preserve">
+    <value>No jobs has been completed.</value>
+  </data>
+  <data name="PrintingCost" xml:space="preserve">
+    <value>Printing Cost</value>
+  </data>
+  <data name="PrintOptions" xml:space="preserve">
+    <value>Print Options</value>
+  </data>
+  <data name="PropertyDetails" xml:space="preserve">
+    <value>Property Details</value>
+  </data>
+  <data name="PropertyImages" xml:space="preserve">
+    <value>Property Images</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="SelfCreate" xml:space="preserve">
+    <value>My Campaign</value>
+  </data>
+  <data name="TotalExclGST" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="CampaignImagesProcessing" xml:space="preserve">
+    <value>CampaignImagesProcessing</value>
+  </data>
+  <data name="CampaignImagesQueue" xml:space="preserve">
+    <value>Campaign Images Queue</value>
+  </data>
+  <data name="CompletedWork" xml:space="preserve">
+    <value>CompletedWork</value>
+  </data>
+  <data name="CompletedWork1" xml:space="preserve">
+    <value>Completed Work</value>
+  </data>
+  <data name="CurrentWork" xml:space="preserve">
+    <value>CurrentWork</value>
+  </data>
+  <data name="CurrentWork1" xml:space="preserve">
+    <value>Current Work</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="DeliveryDetails" xml:space="preserve">
+    <value>Delivery or Installation Details</value>
+  </data>
+  <data name="DeliveryNote" xml:space="preserve">
+    <value>Delivery Note</value>
+  </data>
+  <data name="FailedMessage" xml:space="preserve">
+    <value>Failed Message</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="OrderConfirmation" xml:space="preserve">
+    <value>Order Confirmation</value>
+  </data>
+  <data name="Processed" xml:space="preserve">
+    <value>Processed</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="PropertyImageId" xml:space="preserve">
+    <value>Property Image Id</value>
+  </data>
+  <data name="RefreshPage" xml:space="preserve">
+    <value>Refresh Page</value>
+  </data>
+  <data name="SearchOptions" xml:space="preserve">
+    <value>Search Options</value>
+  </data>
+  <data name="SignboardInstallationDate" xml:space="preserve">
+    <value>Signboard Installation Date</value>
+  </data>
+  <data name="SignboardInstallationNote" xml:space="preserve">
+    <value>Signboard Installation Note</value>
+  </data>
+  <data name="SureCopyCampaign" xml:space="preserve">
+    <value>Are you sure you want to copy Campaign</value>
+  </data>
+  <data name="SureDeleteCampaign" xml:space="preserve">
+    <value>Are you sure you want to delete Campaign</value>
+  </data>
+  <data name="UnProcessed" xml:space="preserve">
+    <value>UnProcessed</value>
+  </data>
+  <data name="BANKINGDETAILS" xml:space="preserve">
+    <value>BANKING DETAILS</value>
+  </data>
+  <data name="ChequeCanBeMadeTo" xml:space="preserve">
+    <value>Cheque can be made to</value>
+  </data>
+  <data name="EFTPayments" xml:space="preserve">
+    <value>EFT Payments can be made to</value>
+  </data>
+  <data name="Ref" xml:space="preserve">
+    <value>Ref</value>
+  </data>
+  <data name="RemittanceAdvice" xml:space="preserve">
+    <value>Remittance Advice</value>
+  </data>
+  <data name="TearOffReturnPayment" xml:space="preserve">
+    <value>Please tear off &amp; return with payment</value>
+  </data>
+  <data name="OrderContactDetails" xml:space="preserve">
+    <value>Order Contact Details</value>
+  </data>
+  <data name="PAID" xml:space="preserve">
+    <value>PAID</value>
+  </data>
+  <data name="ClickToViewPositionalDiagram" xml:space="preserve">
+    <value>Click here to view positional diagram</value>
+  </data>
+  <data name="CommentsInstructions" xml:space="preserve">
+    <value>Comments / Instructions</value>
+  </data>
+  <data name="InspectionDate" xml:space="preserve">
+    <value>Inspection Date</value>
+  </data>
+  <data name="InstallationDetails" xml:space="preserve">
+    <value>Installation Details</value>
+  </data>
+  <data name="JobDetails" xml:space="preserve">
+    <value>Job Details</value>
+  </data>
+  <data name="PaymentDetails" xml:space="preserve">
+    <value>Payment Details</value>
+  </data>
+  <data name="PositionalDiagram" xml:space="preserve">
+    <value>Positional Diagram</value>
+  </data>
+  <data name="ProductionDetails" xml:space="preserve">
+    <value>Production Details</value>
+  </data>
+  <data name="PropertyAddress" xml:space="preserve">
+    <value>Property Address</value>
+  </data>
+  <data name="QualityAndSatisfaction" xml:space="preserve">
+    <value>Quality and satisfaction of print is between you the printer and your customer. Chameleon will not be responsible for any errors appearing in artwork. It is imperative that you provide a printed or online proof of the artwork prior to full print production to ensure customer satisfaction.</value>
+  </data>
+  <data name="ReloadFromCRM" xml:space="preserve">
+    <value>Reload from CRM</value>
+  </data>
+  <data name="AddAgent" xml:space="preserve">
+    <value>Add Agent</value>
+  </data>
+  <data name="AddInspection" xml:space="preserve">
+    <value>Add Inspection</value>
+  </data>
+  <data name="AdditionalFields" xml:space="preserve">
+    <value>Additional Fields</value>
+  </data>
+  <data name="AddPoint" xml:space="preserve">
+    <value>Add Point</value>
+  </data>
+  <data name="AuctionDate" xml:space="preserve">
+    <value>Auction Date</value>
+  </data>
+  <data name="AuctionLocation" xml:space="preserve">
+    <value>Auction Location</value>
+  </data>
+  <data name="AuctionTime" xml:space="preserve">
+    <value>Auction Time</value>
+  </data>
+  <data name="BulletPoints" xml:space="preserve">
+    <value>Bullet Points</value>
+  </data>
+  <data name="DisplayImages" xml:space="preserve">
+    <value>Display Image(s)</value>
+  </data>
+  <data name="ExceedMaximumUploadLimit" xml:space="preserve">
+    <value>You have exceeded the maximum upload limit of 50MB per batch upload. Please reduce and try again.</value>
+  </data>
+  <data name="ImageName" xml:space="preserve">
+    <value>Image Name</value>
+  </data>
+  <data name="ImagesBeingProcessed" xml:space="preserve">
+    <value>Your image(s) are being processed, please wait. Please click Reload Campaign to reload the image(s) or click Display Image(s) to view queue.</value>
+  </data>
+  <data name="ListingDetails" xml:space="preserve">
+    <value>Listing Details</value>
+  </data>
+  <data name="ListingType" xml:space="preserve">
+    <value>Listing Type</value>
+  </data>
+  <data name="PriceGuide" xml:space="preserve">
+    <value>Price Guide</value>
+  </data>
+  <data name="PropertyDescription" xml:space="preserve">
+    <value>Property Description</value>
+  </data>
+  <data name="PropertySummary" xml:space="preserve">
+    <value>Property Summary</value>
+  </data>
+  <data name="ReloadCampaign" xml:space="preserve">
+    <value>Reload Campaign</value>
+  </data>
+  <data name="SavePropertyDetailsAndMarketing" xml:space="preserve">
+    <value>Save Property Details and Marketing</value>
+  </data>
+  <data name="SignboardDescription" xml:space="preserve">
+    <value>Signboard Description</value>
+  </data>
+  <data name="SignboardSummary" xml:space="preserve">
+    <value>Signboard Summary</value>
+  </data>
+  <data name="UploadImages" xml:space="preserve">
+    <value>Upload Images</value>
+  </data>
+  <data name="UploadLimit" xml:space="preserve">
+    <value>Please note you can only upload up to 50MB total at a time.</value>
+  </data>
+  <data name="AddMoreItemsToCampaign" xml:space="preserve">
+    <value>Add More Items to Campaign</value>
+  </data>
+  <data name="AddNewNote" xml:space="preserve">
+    <value>Add New Note</value>
+  </data>
+  <data name="AddNotes" xml:space="preserve">
+    <value>Add Notes</value>
+  </data>
+  <data name="CreateYourArtwork" xml:space="preserve">
+    <value>Create Your Artwork</value>
+  </data>
+  <data name="DeliveryInstallation" xml:space="preserve">
+    <value>Delivery / Installation</value>
+  </data>
+  <data name="EditExistingTask" xml:space="preserve">
+    <value>Edit Existing Task</value>
+  </data>
+  <data name="GrandTotalExclGST" xml:space="preserve">
+    <value>Grand Total(Excl GST):</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>Note Name</value>
+  </data>
+  <data name="PrintOptionsAndDelivery" xml:space="preserve">
+    <value>Print Options and Delivery</value>
+  </data>
+  <data name="ProcessingRequest" xml:space="preserve">
+    <value>Processing request, please be patient...</value>
+  </data>
+  <data name="ReadyToDownload" xml:space="preserve">
+    <value>Ready to Download</value>
+  </data>
+  <data name="ReadyToSendToPublication" xml:space="preserve">
+    <value>Ready to Send to Publication</value>
+  </data>
+  <data name="SendForApproval" xml:space="preserve">
+    <value>Send it for approval to</value>
+  </data>
+  <data name="SendToVendorForApproval" xml:space="preserve">
+    <value>Send to Vendor for Approval</value>
+  </data>
+  <data name="SentToPrintOn" xml:space="preserve">
+    <value>Sent to Print on</value>
+  </data>
+  <data name="SentToPublicationOn" xml:space="preserve">
+    <value>Sent to Publication on</value>
+  </data>
+  <data name="TaskName" xml:space="preserve">
+    <value>Task Name</value>
+  </data>
+  <data name="TotalInclGST" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="ViewCancelApproval" xml:space="preserve">
+    <value>View/Cancel Approval</value>
+  </data>
+  <data name="RejectedWork" xml:space="preserve">
+    <value>Rejected Work</value>
+  </data>
+  <data name="CompleteArtworkFor" xml:space="preserve">
+    <value>Complete Artwork For </value>
+  </data>
+  <data name="ReminderFor" xml:space="preserve">
+    <value>Reminder For</value>
+  </data>
+  <data name="CreateAs" xml:space="preserve">
+    <value>Create As</value>
+  </data>
+  <data name="SelectUser" xml:space="preserve">
+    <value>Select User</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value>Send Email</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Verify</value>
+  </data>
+  <data name="OrderEmail" xml:space="preserve">
+    <value>Order Email</value>
+  </data>
+  <data name="OrderMicrosite" xml:space="preserve">
+    <value>Order Microsite</value>
+  </data>
+  <data name="OrderPrint" xml:space="preserve">
+    <value>Order Print</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="DownloadedOn" xml:space="preserve">
+    <value>Downloaded on</value>
+  </data>
+  <data name="VendorStatus" xml:space="preserve">
+    <value>Vendor Status</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>Add Note</value>
+  </data>
+  <data name="ErrorDueDateBeforeStartDate" xml:space="preserve">
+    <value>Campaign finish date can't be set before the start date.</value>
+  </data>
+</root>

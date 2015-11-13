@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddUsers" xml:space="preserve">
+    <value>Add Users</value>
+  </data>
+  <data name="AgentId" xml:space="preserve">
+    <value>Agent Id</value>
+  </data>
+  <data name="BackToUserList" xml:space="preserve">
+    <value>Back to User List</value>
+  </data>
+  <data name="BulkUpload" xml:space="preserve">
+    <value>Bulk Upload</value>
+  </data>
+  <data name="CheckCSVFormat" xml:space="preserve">
+    <value>The file should be a CSV file,please download a sample CSV file to check the format.</value>
+  </data>
+  <data name="CheckFormatAndUpload" xml:space="preserve">
+    <value>Please download a sample CSV file to check the format and upload CSV File</value>
+  </data>
+  <data name="ChooseCRMType" xml:space="preserve">
+    <value>Please choose CRM Type</value>
+  </data>
+  <data name="CRMType" xml:space="preserve">
+    <value>CRM Type</value>
+  </data>
+  <data name="CSVFile" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="DeleteSelectedUsers" xml:space="preserve">
+    <value>Delete Selected User(s)</value>
+  </data>
+  <data name="DownloadSampleCSVFile" xml:space="preserve">
+    <value>Download Sample CSV File</value>
+  </data>
+  <data name="DownloadUsersToCSVFile" xml:space="preserve">
+    <value>Download users to CSV file</value>
+  </data>
+  <data name="EditUserAddress" xml:space="preserve">
+    <value>Edit User Address</value>
+  </data>
+  <data name="EditUserDetails" xml:space="preserve">
+    <value>Edit User Details</value>
+  </data>
+  <data name="EmailLogin" xml:space="preserve">
+    <value>Email (Login)</value>
+  </data>
+  <data name="FillInAgentId" xml:space="preserve">
+    <value>Please fill in Agent Id</value>
+  </data>
+  <data name="FillInConfirmPassword" xml:space="preserve">
+    <value>Please fill in confirm password</value>
+  </data>
+  <data name="FillInPassword" xml:space="preserve">
+    <value>Please fill in password</value>
+  </data>
+  <data name="FirstnameIsMandatory" xml:space="preserve">
+    <value>Firstname is mandatory field</value>
+  </data>
+  <data name="KeywordContains" xml:space="preserve">
+    <value>User Name/ID/Name/Email Contains</value>
+  </data>
+  <data name="ListOfSubsites" xml:space="preserve">
+    <value>List of Subsites</value>
+  </data>
+  <data name="NoRightToDeleteUser" xml:space="preserve">
+    <value>Sorry, you don't have the right to delete user</value>
+  </data>
+  <data name="PasswordConfirmPasswordSame" xml:space="preserve">
+    <value>Password and confirm password should be the same</value>
+  </data>
+  <data name="PhoneIsMandatory" xml:space="preserve">
+    <value>Phone is mandatory field</value>
+  </data>
+  <data name="SelectCRMType" xml:space="preserve">
+    <value>Select CRM Type</value>
+  </data>
+  <data name="SelectedSubsites" xml:space="preserve">
+    <value>Selected Subsites</value>
+  </data>
+  <data name="SelectSubsite" xml:space="preserve">
+    <value>Please select subsite.</value>
+  </data>
+  <data name="SettingCRM" xml:space="preserve">
+    <value>Setting CRM</value>
+  </data>
+  <data name="SettingUserCRM" xml:space="preserve">
+    <value>Setting User CRM</value>
+  </data>
+  <data name="StreetNameIsMandatory" xml:space="preserve">
+    <value>Street Name is mandatory field</value>
+  </data>
+  <data name="StreetNumberIsMandatory" xml:space="preserve">
+    <value>Street Number is mandatory field</value>
+  </data>
+  <data name="SureDeleleUsers" xml:space="preserve">
+    <value>Are you sure to delete these checked user(s)?</value>
+  </data>
+  <data name="UserAddress" xml:space="preserve">
+    <value>User Address</value>
+  </data>
+  <data name="UserDetails" xml:space="preserve">
+    <value>User Details</value>
+  </data>
+  <data name="UserID" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="UsersBulkUpload" xml:space="preserve">
+    <value>Users Bulk Upload</value>
+  </data>
+  <data name="UserUpdated" xml:space="preserve">
+    <value>User Updated</value>
+  </data>
+  <data name="HOWTOCreateUsers" xml:space="preserve">
+    <value>HOW TO: Create Users</value>
+  </data>
+  <data name="ClickOnAddUsersButton" xml:space="preserve">
+    <value>Click on the 'Add Users' Button to register your users and indicate site access and user type.</value>
+  </data>
+  <data name="EnableCreateAndRegister" xml:space="preserve">
+    <value>Enables you to Create and Register Your users</value>
+  </data>
+  <data name="HowToSetUpUsers" xml:space="preserve">
+    <value>How to Set Up Users</value>
+  </data>
+  <data name="NoteOfBulkUpload" xml:space="preserve">
+    <value>Please Note: You have the option to 'Bulk Upload' users using a CSV File.</value>
+  </data>
+  <data name="SureDeleteUser" xml:space="preserve">
+    <value>Are you sure you want to delete this user?</value>
+  </data>
+  <data name="UserCreated" xml:space="preserve">
+    <value>User Created</value>
+  </data>
+  <data name="CountryIsMandatory" xml:space="preserve">
+    <value>Country is mandatory field.</value>
+  </data>
+  <data name="IsMandatory" xml:space="preserve">
+    <value>is mandatory field.</value>
+  </data>
+  <data name="LastNameIsMandatory" xml:space="preserve">
+    <value>Last name is mandatory field.</value>
+  </data>
+  <data name="MobileIsMandatory" xml:space="preserve">
+    <value>Mobile is mandatory field.</value>
+  </data>
+  <data name="PostcodeIsMandatory" xml:space="preserve">
+    <value>Post code is mandatory field.</value>
+  </data>
+  <data name="StateIsMandatory" xml:space="preserve">
+    <value>State is mandatory field.</value>
+  </data>
+  <data name="SuburbIsMandatory" xml:space="preserve">
+    <value>Suburb is mandatory field.</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="Assistant" xml:space="preserve">
+    <value>Assistant</value>
+  </data>
+  <data name="MappedUser" xml:space="preserve">
+    <value>Mapped User</value>
+  </data>
+  <data name="SelectUser" xml:space="preserve">
+    <value>Select User</value>
+  </data>
+  <data name="SelectedUser" xml:space="preserve">
+    <value>Selected User:</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Select Language</value>
+  </data>
+  <data name="UserSettings" xml:space="preserve">
+    <value>User Settings</value>
+  </data>
+  <data name="InviteUser" xml:space="preserve">
+    <value>Invite User</value>
+  </data>
+  <data name="SaveInvite" xml:space="preserve">
+    <value>Save &amp; Invite</value>
+  </data>
+  <data name="InviteUserEmailLink" xml:space="preserve">
+    <value>go to your account.</value>
+  </data>
+  <data name="InviteUserEmailMessage" xml:space="preserve">
+    <value>You are invited to VCM.
+These are your credentials.</value>
+  </data>
+  <data name="InviteUserEmailSubject" xml:space="preserve">
+    <value>Invite to VCM</value>
+  </data>
+</root>

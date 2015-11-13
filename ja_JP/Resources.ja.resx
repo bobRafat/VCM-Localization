@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddSupplier" xml:space="preserve">
+    <value>サプライヤーを追加</value>
+  </data>
+  <data name="AddUsers" xml:space="preserve">
+    <value>ユーザを追加</value>
+  </data>
+  <data name="AdminConsole" xml:space="preserve">
+    <value>管理者画面</value>
+  </data>
+  <data name="Assets" xml:space="preserve">
+    <value>アセット</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>カテゴリ</value>
+  </data>
+  <data name="ChameleonGroup" xml:space="preserve">
+    <value>Chameleonグループ</value>
+  </data>
+  <data name="ChangeSubsite" xml:space="preserve">
+    <value>サブサイトを変更</value>
+  </data>
+  <data name="CompleteDetails" xml:space="preserve">
+    <value>画面の内容にある項目を記入してから次のステップへ進んでください。</value>
+  </data>
+  <data name="CreateCategory" xml:space="preserve">
+    <value>カテゴリを作成</value>
+  </data>
+  <data name="CreateEBook" xml:space="preserve">
+    <value>電子書籍を作成</value>
+  </data>
+  <data name="CreateEmailArtwork" xml:space="preserve">
+    <value>メールのアートワークを作成</value>
+  </data>
+  <data name="CreateMicroSite" xml:space="preserve">
+    <value>マイクロサイトを作成</value>
+  </data>
+  <data name="CustomForm" xml:space="preserve">
+    <value>カスタムフォーム</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>ダッシュボード</value>
+  </data>
+  <data name="Element" xml:space="preserve">
+    <value>エレメント</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>メール</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>ファクス</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="Fonts" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="GotLost" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>ログアウト</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>モバイル</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>ニュース</value>
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>パッケージ</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="PrintUITemplates" xml:space="preserve">
+    <value>PrintUI テンプレート</value>
+  </data>
+  <data name="QuickHelp" xml:space="preserve">
+    <value>クイックヘルプ</value>
+  </data>
+  <data name="SetupSubsites" xml:space="preserve">
+    <value>サブサイトを登録</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>サイト</value>
+  </data>
+  <data name="SiteCreation" xml:space="preserve">
+    <value>サイトを作成</value>
+  </data>
+  <data name="Sites" xml:space="preserve">
+    <value>サイト</value>
+  </data>
+  <data name="SiteSetupStage1" xml:space="preserve">
+    <value>サイト作成の第1ステップ -</value>
+  </data>
+  <data name="Subsite" xml:space="preserve">
+    <value>サブサイト</value>
+  </data>
+  <data name="SubSites" xml:space="preserve">
+    <value>サブサイト</value>
+  </data>
+  <data name="Suppliers" xml:space="preserve">
+    <value>サプライヤー</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>サポート</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>ユーザ</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>バーチャルキャンペーンマネージャー(VCM)へようこそ。</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>管理者</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>変更</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>作成</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>エラー：</value>
+  </data>
+  <data name="ExpiryDate" xml:space="preserve">
+    <value>有効期限</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="Keyword" xml:space="preserve">
+    <value>キーワード</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>一覧</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>番号</value>
+  </data>
+  <data name="NOTE" xml:space="preserve">
+    <value>注意：</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="SelectCategory" xml:space="preserve">
+    <value>カテゴリを選択</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>ファイルを選択</value>
+  </data>
+  <data name="SelectSite" xml:space="preserve">
+    <value>サイトを選択</value>
+  </data>
+  <data name="SelectSiteFirst" xml:space="preserve">
+    <value>続行する前に、サイトを選択してください。</value>
+  </data>
+  <data name="SelectSubsite" xml:space="preserve">
+    <value>サブサイトを選択</value>
+  </data>
+  <data name="SubsiteName" xml:space="preserve">
+    <value>サブサイト名</value>
+  </data>
+  <data name="Templates" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="TextField" xml:space="preserve">
+    <value>テキストフ​​ィールド</value>
+  </data>
+  <data name="Thumbnail" xml:space="preserve">
+    <value>サムネイル</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>アップロード</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="ABN" xml:space="preserve">
+    <value>ABN</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>国</value>
+  </data>
+  <data name="DonotSelect" xml:space="preserve">
+    <value>選択しないでください</value>
+  </data>
+  <data name="PleaseEnterName" xml:space="preserve">
+    <value>名前を入力してください</value>
+  </data>
+  <data name="Postcode" xml:space="preserve">
+    <value>郵便番号</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="SelectSupplier" xml:space="preserve">
+    <value>サプライヤーを選択</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>州</value>
+  </data>
+  <data name="StreetName" xml:space="preserve">
+    <value>都道府県市区町村</value>
+  </data>
+  <data name="StreetNo" xml:space="preserve">
+    <value>番地</value>
+  </data>
+  <data name="Suburb" xml:space="preserve">
+    <value>郊外</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>サプライヤー</value>
+  </data>
+  <data name="UnitNo" xml:space="preserve">
+    <value>部屋番号</value>
+  </data>
+  <data name="CreatedDate" xml:space="preserve">
+    <value>作成日</value>
+  </data>
+  <data name="LastUpdatedDate" xml:space="preserve">
+    <value>最終更新日</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="SiteName" xml:space="preserve">
+    <value>サイト名</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
+  <data name="Thumbnails" xml:space="preserve">
+    <value>サムネイル</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>承認</value>
+  </data>
+  <data name="IllegalAccess" xml:space="preserve">
+    <value>不正アクセス</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>却下</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>１人の承認が必要</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>次へ</value>
+  </data>
+  <data name="Paypal" xml:space="preserve">
+    <value>ペイパル</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="GlobalDefault" xml:space="preserve">
+    <value>デフォルト設定</value>
+  </data>
+  <data name="Inheritedfrom" xml:space="preserve">
+    <value>サイトから設定を継承</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>ユーザ</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>インデックス</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>アクション</value>
+  </data>
+  <data name="SelectOneSubsite" xml:space="preserve">
+    <value>少なくとも1つのサブサイトを選択してください</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="FALSE" xml:space="preserve">
+    <value>偽</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>金曜日</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>月曜日</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>ペンディング</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>土曜日</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>日曜日</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>木曜日</value>
+  </data>
+  <data name="TRUE" xml:space="preserve">
+    <value>真</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>火曜日</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>水曜日</value>
+  </data>
+  <data name="AllSubsites" xml:space="preserve">
+    <value>すべてのサブサイト</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>パスワードを確認</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>無効な電子メール</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>役割</value>
+  </data>
+  <data name="SaveContinue" xml:space="preserve">
+    <value>保存して続行</value>
+  </data>
+  <data name="SelectTitle" xml:space="preserve">
+    <value>タイトルを選択</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>ウェブサイト</value>
+  </data>
+  <data name="BackToCampaignDashboard" xml:space="preserve">
+    <value>キャンペーンのダッシュボードに戻る</value>
+  </data>
+  <data name="BackToCart" xml:space="preserve">
+    <value>カートに戻る</value>
+  </data>
+  <data name="CampaignName" xml:space="preserve">
+    <value>キャンペーン名</value>
+  </data>
+  <data name="Cart" xml:space="preserve">
+    <value>カート</value>
+  </data>
+  <data name="CartId" xml:space="preserve">
+    <value>カートID</value>
+  </data>
+  <data name="GoToCart" xml:space="preserve">
+    <value>カートを開く</value>
+  </data>
+  <data name="JobName" xml:space="preserve">
+    <value>ジョブ名</value>
+  </data>
+  <data name="SaveArtwork" xml:space="preserve">
+    <value>アートワークを保存</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>提出</value>
+  </data>
+  <data name="ViewArtwork" xml:space="preserve">
+    <value>アートワークを表示</value>
+  </data>
+  <data name="Artwork" xml:space="preserve">
+    <value>アートワーク</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>所有者</value>
+  </data>
+  <data name="WorkInProgress" xml:space="preserve">
+    <value>進行中の作業</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>承認</value>
+  </data>
+  <data name="GoToCampaignDashboard" xml:space="preserve">
+    <value>キャンペーンのダッシュボードに移動</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>項目名</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>却下</value>
+  </data>
+  <data name="CampaignId" xml:space="preserve">
+    <value>キャンペーンID</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>価格</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>曜日</value>
+  </data>
+  <data name="EditArtwork" xml:space="preserve">
+    <value>アートワークを編集</value>
+  </data>
+  <data name="FinishDate" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="GST" xml:space="preserve">
+    <value>売上税</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>理由</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>セクション</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>合計価格</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="ClientPO" xml:space="preserve">
+    <value>顧客の注文書</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="DeliveryDate" xml:space="preserve">
+    <value>配送日</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>失敗しました</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>請求書</value>
+  </data>
+  <data name="JobId" xml:space="preserve">
+    <value>ジョブID</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="OwnerName" xml:space="preserve">
+    <value>所有者の名前</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>前のページ</value>
+  </data>
+  <data name="ReOrder" xml:space="preserve">
+    <value>再度注文</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>スタート</value>
+  </data>
+  <data name="TaxInvoice" xml:space="preserve">
+    <value>税金請求書</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>金額</value>
+  </data>
+  <data name="Qty" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="SubTotal" xml:space="preserve">
+    <value>小計</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="OrderDate" xml:space="preserve">
+    <value>注文日</value>
+  </data>
+  <data name="PurchaseOrder" xml:space="preserve">
+    <value>注文書</value>
+  </data>
+  <data name="GrandTotal" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>価格</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>住所</value>
+  </data>
+</root>

@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnythingElse" xml:space="preserve">
+    <value>Anything else?</value>
+  </data>
+  <data name="ArnsboResponseVideoReady" xml:space="preserve">
+    <value>Arnsbo Response Video Ready</value>
+  </data>
+  <data name="ArnsboResponseVideoReject" xml:space="preserve">
+    <value>Arnsbo Response Video Reject</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Attachment</value>
+  </data>
+  <data name="CampaignHelp" xml:space="preserve">
+    <value>Campaign Help?</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="ChooseIntroImage" xml:space="preserve">
+    <value>Choose Intro Image</value>
+  </data>
+  <data name="ChooseOutroImage" xml:space="preserve">
+    <value>Choose Outro Image</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ConstructBuzControlsTest" xml:space="preserve">
+    <value>Construct Buz Controls Test</value>
+  </data>
+  <data name="ContactAdmin" xml:space="preserve">
+    <value>Error (2) - support email is not set. Please contact system administrator.</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Contact Name</value>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Contact number</value>
+  </data>
+  <data name="CreateArtwork" xml:space="preserve">
+    <value>Create Artwork</value>
+  </data>
+  <data name="CustomerCode" xml:space="preserve">
+    <value>Customer Code</value>
+  </data>
+  <data name="DeclinedReason" xml:space="preserve">
+    <value>Declined Reason</value>
+  </data>
+  <data name="DescriptionCount" xml:space="preserve">
+    <value>Description (minimum 200 characters required) - Count</value>
+  </data>
+  <data name="DownloadVideo" xml:space="preserve">
+    <value>Download Video</value>
+  </data>
+  <data name="EnsureIncludeDescription" xml:space="preserve">
+    <value>Please ensure you include in your description</value>
+  </data>
+  <data name="EnsureRelevantToImages" xml:space="preserve">
+    <value>Please ensure that this description is relevant to the images selected</value>
+  </data>
+  <data name="EnterCopyHere" xml:space="preserve">
+    <value>Enter Copy Here</value>
+  </data>
+  <data name="EnterHeadlineHere" xml:space="preserve">
+    <value>Enter Headline Here</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Forgot Password?</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="HeadlineAndCopy" xml:space="preserve">
+    <value>Headline and Copy</value>
+  </data>
+  <data name="ImageName" xml:space="preserve">
+    <value>Image Name</value>
+  </data>
+  <data name="ImageUploads" xml:space="preserve">
+    <value>Image Uploads?</value>
+  </data>
+  <data name="IntroImage" xml:space="preserve">
+    <value>Intro Image</value>
+  </data>
+  <data name="InvalidFileExtension" xml:space="preserve">
+    <value>Invalid file extension</value>
+  </data>
+  <data name="MinimumCharactersRequired" xml:space="preserve">
+    <value>Minimum 200 characters required for Description.</value>
+  </data>
+  <data name="MoreTraining" xml:space="preserve">
+    <value>More Training?</value>
+  </data>
+  <data name="NotSelected" xml:space="preserve">
+    <value>Not Selected</value>
+  </data>
+  <data name="OptionCost" xml:space="preserve">
+    <value>Option Cost</value>
+  </data>
+  <data name="OptionDetails" xml:space="preserve">
+    <value>Option Details</value>
+  </data>
+  <data name="OrderByPayPal" xml:space="preserve">
+    <value>Order By PayPal</value>
+  </data>
+  <data name="OrderStatus" xml:space="preserve">
+    <value>Order Status?</value>
+  </data>
+  <data name="OutroImage" xml:space="preserve">
+    <value>Outro Image</value>
+  </data>
+  <data name="ProductCode" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="ProductCost" xml:space="preserve">
+    <value>Product Cost</value>
+  </data>
+  <data name="QRCode" xml:space="preserve">
+    <value>QR Code</value>
+  </data>
+  <data name="QRCodeHelp" xml:space="preserve">
+    <value>QR code Help?</value>
+  </data>
+  <data name="RatecardName" xml:space="preserve">
+    <value>Ratecard Name</value>
+  </data>
+  <data name="ReceiveEmailNotification" xml:space="preserve">
+    <value>You will receive an email notification when your video is ready.</value>
+  </data>
+  <data name="ReorderNow" xml:space="preserve">
+    <value>Reorder Now</value>
+  </data>
+  <data name="RequestSubmitted" xml:space="preserve">
+    <value>Your request has been submitted</value>
+  </data>
+  <data name="ResubmitVideo" xml:space="preserve">
+    <value>Resubmit Video</value>
+  </data>
+  <data name="SalesAuctionDate" xml:space="preserve">
+    <value>Sales/Auction Date</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="SelectIntroImage" xml:space="preserve">
+    <value>Please select intro image.</value>
+  </data>
+  <data name="SelectOutroImage" xml:space="preserve">
+    <value>Please select outro image.</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="SubmitComplaint1" xml:space="preserve">
+    <value>Submit Complaint</value>
+  </data>
+  <data name="SubmitCompllaint" xml:space="preserve">
+    <value>If you believe a mistake has been made on your video, please submit a complaint.</value>
+  </data>
+  <data name="SummaryDescription" xml:space="preserve">
+    <value>SummaryDescription</value>
+  </data>
+  <data name="SupportRequest" xml:space="preserve">
+    <value>Support Request</value>
+  </data>
+  <data name="SureToProceed" xml:space="preserve">
+    <value>Are you sure to proceed?</value>
+  </data>
+  <data name="TargetMarketCustomer" xml:space="preserve">
+    <value>Target market / Customer</value>
+  </data>
+  <data name="TEST" xml:space="preserve">
+    <value>TEST</value>
+  </data>
+  <data name="ToneThemeProperty" xml:space="preserve">
+    <value>Tone / Theme of the property</value>
+  </data>
+  <data name="TotalPriceInclGST" xml:space="preserve">
+    <value>Total Price incl. GST</value>
+  </data>
+  <data name="UniqueSellingPoints" xml:space="preserve">
+    <value>Unique selling points / Wow factor</value>
+  </data>
+  <data name="UploadIntroImage" xml:space="preserve">
+    <value>Upload Intro Image</value>
+  </data>
+  <data name="UploadNewIntroImage" xml:space="preserve">
+    <value>Upload New Intro Image</value>
+  </data>
+  <data name="UploadNewOutroImage" xml:space="preserve">
+    <value>Upload New Outro Image</value>
+  </data>
+  <data name="UploadOutroImage" xml:space="preserve">
+    <value>Upload Outro Image</value>
+  </data>
+  <data name="VCMSupport" xml:space="preserve">
+    <value>VCM Support</value>
+  </data>
+  <data name="VideoFinish" xml:space="preserve">
+    <value>Video Finish</value>
+  </data>
+  <data name="VideoForm" xml:space="preserve">
+    <value>Video Form</value>
+  </data>
+  <data name="VideoImages" xml:space="preserve">
+    <value>Video Images</value>
+  </data>
+  <data name="VideoIsReady" xml:space="preserve">
+    <value>Video is ready</value>
+  </data>
+  <data name="VideoIsReady1" xml:space="preserve">
+    <value>Your Video is ready.</value>
+  </data>
+  <data name="VideoOrder" xml:space="preserve">
+    <value>Video Order?</value>
+  </data>
+  <data name="VideoOrder1" xml:space="preserve">
+    <value>Video Order</value>
+  </data>
+  <data name="VideoOrderDeclined" xml:space="preserve">
+    <value>Video Order has been declined</value>
+  </data>
+  <data name="VideoOrderDeclined1" xml:space="preserve">
+    <value>Your Video Order has been declined.</value>
+  </data>
+  <data name="VideoOrderSent" xml:space="preserve">
+    <value>Video Order has been sent</value>
+  </data>
+  <data name="VideoStatus" xml:space="preserve">
+    <value>Video Status</value>
+  </data>
+  <data name="VideoURL" xml:space="preserve">
+    <value>Video URL</value>
+  </data>
+  <data name="VideoVoiceOver" xml:space="preserve">
+    <value>The video voice over will be based off the description provided</value>
+  </data>
+  <data name="ViewVideo" xml:space="preserve">
+    <value>View Video</value>
+  </data>
+  <data name="WrongPrice" xml:space="preserve">
+    <value>Wrong Price</value>
+  </data>
+  <data name="Budget" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Create New</value>
+  </data>
+  <data name="Impersonate" xml:space="preserve">
+    <value>Impersonate</value>
+  </data>
+  <data name="SelectASubsite" xml:space="preserve">
+    <value>Welcome to BrandingUI. Please select a Subsite to begin.</value>
+  </data>
+  <data name="SelectClientSite" xml:space="preserve">
+    <value>Select Client Site</value>
+  </data>
+  <data name="SendOnBoardingRequest" xml:space="preserve">
+    <value>Send On Boarding Request</value>
+  </data>
+  <data name="UpdateSubsiteOrdering" xml:space="preserve">
+    <value>Update Subsite Ordering</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="AddEditRateCard" xml:space="preserve">
+    <value>Add/Edit RateCard</value>
+  </data>
+  <data name="BackLogin" xml:space="preserve">
+    <value>BackLogin</value>
+  </data>
+  <data name="CancelledByRequestor" xml:space="preserve">
+    <value>Cancelled by requestor</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="NoItemsSelected" xml:space="preserve">
+    <value>No items selected</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>ResetPassword</value>
+  </data>
+  <data name="Uploaded" xml:space="preserve">
+    <value>Uploaded</value>
+  </data>
+  <data name="ViewAndRespond" xml:space="preserve">
+    <value>view and respond</value>
+  </data>
+  <data name="ViewApprovalList" xml:space="preserve">
+    <value>view approval list</value>
+  </data>
+  <data name="RejectedReason" xml:space="preserve">
+    <value>Rejected Reason</value>
+  </data>
+  <data name="NumberOnly" xml:space="preserve">
+    <value>Number Only</value>
+  </data>
+  <data name="OtherSupplier" xml:space="preserve">
+    <value>Other Supplier</value>
+  </data>
+  <data name="YourComment" xml:space="preserve">
+    <value>Your Comment</value>
+  </data>
+  <data name="SureCancelApprovalProcess" xml:space="preserve">
+    <value>Are you sure you want to cancel the approval process?</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>review</value>
+  </data>
+  <data name="JpgGifOnly" xml:space="preserve">
+    <value>cannot be uploaded. Please upload .jpg, .jpeg, .gif only</value>
+  </data>
+  <data name="EditArtwork" xml:space="preserve">
+    <value>Edit Artwork</value>
+  </data>
+  <data name="Finalise" xml:space="preserve">
+    <value>Finalise</value>
+  </data>
+  <data name="GetQuote" xml:space="preserve">
+    <value>Get Quote</value>
+  </data>
+  <data name="SelectArtwork" xml:space="preserve">
+    <value>Select Artwork</value>
+  </data>
+  <data name="SubmitForApproval" xml:space="preserve">
+    <value>Submit for approval</value>
+  </data>
+  <data name="AddExpiryDate" xml:space="preserve">
+    <value>Enter Expiry Date</value>
+  </data>
+  <data name="ExpiryDate" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>Expiry Date has an invalid format</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>Added</value>
+  </data>
+  <data name="ArtworkUpdates" xml:space="preserve">
+    <value>Artwork updates</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="MOTD" xml:space="preserve">
+    <value>Message of the day</value>
+  </data>
+  <data name="SysNotification" xml:space="preserve">
+    <value>System notifications</value>
+  </data>
+</root>

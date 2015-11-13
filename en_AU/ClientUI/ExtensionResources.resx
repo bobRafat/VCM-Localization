@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddGuest" xml:space="preserve">
+    <value>Add Guest</value>
+  </data>
+  <data name="AddGuestNames" xml:space="preserve">
+    <value>Add and enter your guest names.</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="Birthday" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="BranchCode" xml:space="preserve">
+    <value>Branch Code</value>
+  </data>
+  <data name="BriefIsBeingReviewed" xml:space="preserve">
+    <value>Your brief is being reviewed.</value>
+  </data>
+  <data name="Circle" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="ClearGlossVinyl" xml:space="preserve">
+    <value>Clear Gloss Vinyl</value>
+  </data>
+  <data name="ClearSynthetic" xml:space="preserve">
+    <value>Clear Synthetic</value>
+  </data>
+  <data name="ClearSyntheticElectrostatic" xml:space="preserve">
+    <value>Clear Synthetic Electrostatic</value>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="CustomQuoteRequest" xml:space="preserve">
+    <value>Custom Quote Request</value>
+  </data>
+  <data name="CustomSize" xml:space="preserve">
+    <value>Custom size</value>
+  </data>
+  <data name="DeclinedReason" xml:space="preserve">
+    <value>Declined Reason</value>
+  </data>
+  <data name="DescriptionAtLeast200Characters" xml:space="preserve">
+    <value>Description must be at least 200 characters.</value>
+  </data>
+  <data name="DieShape" xml:space="preserve">
+    <value>Die Shape</value>
+  </data>
+  <data name="DownloadQRCode" xml:space="preserve">
+    <value>Download QR Code</value>
+  </data>
+  <data name="DownloadVideo" xml:space="preserve">
+    <value>Download Video</value>
+  </data>
+  <data name="EnsureRelevantToImages" xml:space="preserve">
+    <value>Please ensure that this description is relevant to the images selected</value>
+  </data>
+  <data name="EnterBranchCode" xml:space="preserve">
+    <value>Please enter your branch code</value>
+  </data>
+  <data name="EnterBranchCodeToRegister" xml:space="preserve">
+    <value>Please enter your branch code to register.</value>
+  </data>
+  <data name="EnterDetailsForRegistration" xml:space="preserve">
+    <value>Please enter your details for registration</value>
+  </data>
+  <data name="FillInConfirmPassword" xml:space="preserve">
+    <value>Please fill in confirm password.</value>
+  </data>
+  <data name="FillInDescription" xml:space="preserve">
+    <value>Please fill in description.</value>
+  </data>
+  <data name="FillInFirstName" xml:space="preserve">
+    <value>Please fill in the first name.</value>
+  </data>
+  <data name="FillInLastName" xml:space="preserve">
+    <value>Please fill in the last name.</value>
+  </data>
+  <data name="FillInNameAgePhoto" xml:space="preserve">
+    <value>Please fill in name, age and upload photo.</value>
+  </data>
+  <data name="FillInPassword" xml:space="preserve">
+    <value>Please fill in password.</value>
+  </data>
+  <data name="FillInPropertyAddress" xml:space="preserve">
+    <value>Please fill in property address.</value>
+  </data>
+  <data name="FillInPropertyCityOrSuburb" xml:space="preserve">
+    <value>Please fill in property city or suburb.</value>
+  </data>
+  <data name="FillInPropertyPostcode" xml:space="preserve">
+    <value>Please fill in property postcode.</value>
+  </data>
+  <data name="FillInValidEmail" xml:space="preserve">
+    <value>Please fill in a valid email.</value>
+  </data>
+  <data name="GlossPaper" xml:space="preserve">
+    <value>Gloss Paper</value>
+  </data>
+  <data name="Guest" xml:space="preserve">
+    <value>Guest</value>
+  </data>
+  <data name="InfoSetting" xml:space="preserve">
+    <value>InfoSetting</value>
+  </data>
+  <data name="IntroImage" xml:space="preserve">
+    <value>Intro Image</value>
+  </data>
+  <data name="IntroVoiceOver" xml:space="preserve">
+    <value>Intro Voice Over</value>
+  </data>
+  <data name="InvalidEmailAndPassword" xml:space="preserve">
+    <value>Invalid Email and Password for login.</value>
+  </data>
+  <data name="IsPrinted" xml:space="preserve">
+    <value>Is Printed?</value>
+  </data>
+  <data name="LabelQuoteRequest" xml:space="preserve">
+    <value>Label Quote Request</value>
+  </data>
+  <data name="LastNameIsMandatory" xml:space="preserve">
+    <value>Last Name is mandatory field.</value>
+  </data>
+  <data name="MandatoryFields" xml:space="preserve">
+    <value>Mandatory Fields</value>
+  </data>
+  <data name="NarrowEdge" xml:space="preserve">
+    <value>Narrow edge</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>{0} is not available</value>
+  </data>
+  <data name="NotReady" xml:space="preserve">
+    <value>'{0}' is not ready. Please contact administrator.</value>
+  </data>
+  <data name="OutroImage" xml:space="preserve">
+    <value>Outro Image</value>
+  </data>
+  <data name="OutroVoiceOver" xml:space="preserve">
+    <value>Outro Voice Over</value>
+  </data>
+  <data name="Oval" xml:space="preserve">
+    <value>Oval</value>
+  </data>
+  <data name="PaperWithBlockOutDarkLayer" xml:space="preserve">
+    <value>Paper with Block-out (dark layer)</value>
+  </data>
+  <data name="PaperWithBlockOutSilverLayer" xml:space="preserve">
+    <value>Paper with Block-out (Silver layer)</value>
+  </data>
+  <data name="PiggybackPaperOnPaper" xml:space="preserve">
+    <value>Piggyback Paper on paper</value>
+  </data>
+  <data name="PrintedOneSide" xml:space="preserve">
+    <value>Printed one side</value>
+  </data>
+  <data name="PrintedTwoSides" xml:space="preserve">
+    <value>Printed two sides</value>
+  </data>
+  <data name="QRCode" xml:space="preserve">
+    <value>QR Code</value>
+  </data>
+  <data name="QuoteQTY" xml:space="preserve">
+    <value>Quote QTY</value>
+  </data>
+  <data name="Rectangle" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="RegisteredSuccessfully" xml:space="preserve">
+    <value>You have registered successfully.</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="RemovableClearSynthetic" xml:space="preserve">
+    <value>Removable Clear Synthetic</value>
+  </data>
+  <data name="RemovableGlossPaper" xml:space="preserve">
+    <value>Removable Gloss Paper</value>
+  </data>
+  <data name="RepositionableGlossPaper" xml:space="preserve">
+    <value>Repositionable Gloss Paper</value>
+  </data>
+  <data name="ResubmitVideo" xml:space="preserve">
+    <value>Resubmit Video</value>
+  </data>
+  <data name="SettingInfo" xml:space="preserve">
+    <value>Setting Info</value>
+  </data>
+  <data name="SomethingWrongWithVideoOrder" xml:space="preserve">
+    <value>There is something wrong with the Video Order</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Step 1 Register into our system</value>
+  </data>
+  <data name="Step5YourBriefReviewed" xml:space="preserve">
+    <value>Step 5 Your brief is being reviewed</value>
+  </data>
+  <data name="Step5YourVideoProduced" xml:space="preserve">
+    <value>Step 5 Your video is being produced</value>
+  </data>
+  <data name="Step6VideoIsReady" xml:space="preserve">
+    <value>Step 6 Your video is ready</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="SubmitAComplaint" xml:space="preserve">
+    <value>If you believe a mistake has been made on your video, please submit a complaint.</value>
+  </data>
+  <data name="SubmitComplaint" xml:space="preserve">
+    <value>Submit Complaint</value>
+  </data>
+  <data name="SubsiteNotConfigured" xml:space="preserve">
+    <value>Subsite for Video Ordering has not been configured, please contact Top Snap.</value>
+  </data>
+  <data name="TargetMarketCustomer" xml:space="preserve">
+    <value>Target market / Customer</value>
+  </data>
+  <data name="UncoatedPaper" xml:space="preserve">
+    <value>Uncoated Paper</value>
+  </data>
+  <data name="Unique" xml:space="preserve">
+    <value>Unique</value>
+  </data>
+  <data name="UniqueSellingPointsWowFactor" xml:space="preserve">
+    <value>Unique selling points / Wow factor</value>
+  </data>
+  <data name="UnPrinted" xml:space="preserve">
+    <value>Un Printed</value>
+  </data>
+  <data name="Upload8Images" xml:space="preserve">
+    <value>Please upload at least 8 images</value>
+  </data>
+  <data name="UploadAndSave" xml:space="preserve">
+    <value>Upload and Save</value>
+  </data>
+  <data name="UploadCompanyLogoForIntro" xml:space="preserve">
+    <value>Please upload company logo for your intro</value>
+  </data>
+  <data name="UploadCompanyLogoForOutro" xml:space="preserve">
+    <value>Please upload company logo for your outro</value>
+  </data>
+  <data name="UploadedImages" xml:space="preserve">
+    <value>Uploaded Images</value>
+  </data>
+  <data name="UploadFile" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="UserDetails" xml:space="preserve">
+    <value>User Details</value>
+  </data>
+  <data name="VideoFinish" xml:space="preserve">
+    <value>VideoFinish</value>
+  </data>
+  <data name="VideoIsBeingProduced" xml:space="preserve">
+    <value>Your Video is being produced. We will email it to you as soon as it is ready.</value>
+  </data>
+  <data name="VideoIsReady" xml:space="preserve">
+    <value>Your Video is ready.</value>
+  </data>
+  <data name="VideoIsReady1" xml:space="preserve">
+    <value>Your video is ready. Here is your video.</value>
+  </data>
+  <data name="VideoOrderDeclined" xml:space="preserve">
+    <value>Your Video Order has been declined.</value>
+  </data>
+  <data name="VideoRequestDeclined" xml:space="preserve">
+    <value>Your video request has been declined.</value>
+  </data>
+  <data name="VideoTemplateNotFound" xml:space="preserve">
+    <value>Video Template not found, please contact Top Snap.</value>
+  </data>
+  <data name="VideoURL" xml:space="preserve">
+    <value>Video URL</value>
+  </data>
+  <data name="VideoWaitingToBeReviewed" xml:space="preserve">
+    <value>There is video waiting to be reviewed.</value>
+  </data>
+  <data name="WeWillContactYou" xml:space="preserve">
+    <value>We are reviewing your brief. We will contact you if there are any issues, otherwise your video will be produced in 48 hours.</value>
+  </data>
+  <data name="WeWillEmaiIt" xml:space="preserve">
+    <value>Your video is being produced in 48 hours. We will email it to you as soon as it is ready.</value>
+  </data>
+  <data name="WideEdge" xml:space="preserve">
+    <value>Wide edge</value>
+  </data>
+  <data name="DescriptionCount" xml:space="preserve">
+    <value>Description (minimum 200 characters required) - Count</value>
+  </data>
+  <data name="EnsureIncludeInDescription" xml:space="preserve">
+    <value>Please ensure you include in your description</value>
+  </data>
+  <data name="ToneThemeOfTheProperty" xml:space="preserve">
+    <value>Tone / Theme of the property</value>
+  </data>
+  <data name="VideoVoiceOver" xml:space="preserve">
+    <value>The video voice over will be based off the description provided</value>
+  </data>
+  <data name="Minimum200" xml:space="preserve">
+    <value>Minimum 200 characters required for Description.</value>
+  </data>
+  <data name="PropertyDetails" xml:space="preserve">
+    <value>Property Details</value>
+  </data>
+  <data name="SalesAuctionDate" xml:space="preserve">
+    <value>Sales/Auction Date</value>
+  </data>
+  <data name="Step3LogIntoSystem" xml:space="preserve">
+    <value>Step 3 Log into our system</value>
+  </data>
+  <data name="UploadCompanyLogo" xml:space="preserve">
+    <value>Upload your company logo, and property images. Then supply the details on the property, in the form provided</value>
+  </data>
+  <data name="VideoForm" xml:space="preserve">
+    <value>VideoForm</value>
+  </data>
+</root>

@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddSupplier" xml:space="preserve">
+    <value>Add Supplier</value>
+  </data>
+  <data name="AddUsers" xml:space="preserve">
+    <value>Add Users</value>
+  </data>
+  <data name="AdminConsole" xml:space="preserve">
+    <value>Admin Console</value>
+  </data>
+  <data name="Assets" xml:space="preserve">
+    <value>Assets</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="ChameleonGroup" xml:space="preserve">
+    <value>Chameleon Group.</value>
+  </data>
+  <data name="ChangeSubsite" xml:space="preserve">
+    <value>Change Subsite</value>
+  </data>
+  <data name="CompleteDetails" xml:space="preserve">
+    <value>Complete the details on each screen and save and continue to the next screen and step.</value>
+  </data>
+  <data name="CreateCategory" xml:space="preserve">
+    <value>Create Category</value>
+  </data>
+  <data name="CreateEBook" xml:space="preserve">
+    <value>Create eBook</value>
+  </data>
+  <data name="CreateEmailArtwork" xml:space="preserve">
+    <value>Create Email Artwork</value>
+  </data>
+  <data name="CreateMicroSite" xml:space="preserve">
+    <value>Create MicroSite</value>
+  </data>
+  <data name="CustomForm" xml:space="preserve">
+    <value>Custom Form</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Element" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Fonts" xml:space="preserve">
+    <value>Fonts</value>
+  </data>
+  <data name="GotLost" xml:space="preserve">
+    <value>Got lost?</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>Package</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="PrintUITemplates" xml:space="preserve">
+    <value>PRINT UI Templates</value>
+  </data>
+  <data name="QuickHelp" xml:space="preserve">
+    <value>Quick Help</value>
+  </data>
+  <data name="SetupSubsites" xml:space="preserve">
+    <value>Setup Subsites</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="SiteCreation" xml:space="preserve">
+    <value>Site Creation</value>
+  </data>
+  <data name="Sites" xml:space="preserve">
+    <value>Sites</value>
+  </data>
+  <data name="SiteSetupStage1" xml:space="preserve">
+    <value>Site Set Up Stage 1 -</value>
+  </data>
+  <data name="Subsite" xml:space="preserve">
+    <value>Subsite</value>
+  </data>
+  <data name="SubSites" xml:space="preserve">
+    <value>Subsites</value>
+  </data>
+  <data name="Suppliers" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Welcome to your Virtual Campaign Manager (VCM).</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error:</value>
+  </data>
+  <data name="ExpiryDate" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="Keyword" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NOTE" xml:space="preserve">
+    <value>NOTE:</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SelectCategory" xml:space="preserve">
+    <value>Select Category</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Select file</value>
+  </data>
+  <data name="SelectSite" xml:space="preserve">
+    <value>Select Site</value>
+  </data>
+  <data name="SelectSiteFirst" xml:space="preserve">
+    <value>Please select site first before proceed.</value>
+  </data>
+  <data name="SelectSubsite" xml:space="preserve">
+    <value>Select Subsite</value>
+  </data>
+  <data name="SubsiteName" xml:space="preserve">
+    <value>Subsite Name</value>
+  </data>
+  <data name="Templates" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="TextField" xml:space="preserve">
+    <value>Text Field</value>
+  </data>
+  <data name="Thumbnail" xml:space="preserve">
+    <value>Thumbnail</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ABN" xml:space="preserve">
+    <value>ABN</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="DonotSelect" xml:space="preserve">
+    <value>Don't Select</value>
+  </data>
+  <data name="PleaseEnterName" xml:space="preserve">
+    <value>Please enter name</value>
+  </data>
+  <data name="Postcode" xml:space="preserve">
+    <value>Postcode</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="SelectSupplier" xml:space="preserve">
+    <value>Select Supplier</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="StreetName" xml:space="preserve">
+    <value>Street Name</value>
+  </data>
+  <data name="StreetNo" xml:space="preserve">
+    <value>Street No</value>
+  </data>
+  <data name="Suburb" xml:space="preserve">
+    <value>Suburb</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="UnitNo" xml:space="preserve">
+    <value>Unit No</value>
+  </data>
+  <data name="CreatedDate" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="LastUpdatedDate" xml:space="preserve">
+    <value>Last Updated Date</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="SiteName" xml:space="preserve">
+    <value>Site Name</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Thumbnails" xml:space="preserve">
+    <value>Thumbnails</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="IllegalAccess" xml:space="preserve">
+    <value>Illegal Access</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Paypal" xml:space="preserve">
+    <value>Paypal</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="GlobalDefault" xml:space="preserve">
+    <value>Global Default</value>
+  </data>
+  <data name="Inheritedfrom" xml:space="preserve">
+    <value>Inherited from</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="SelectOneSubsite" xml:space="preserve">
+    <value>Please select at least 1 subsite</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="AllSubsites" xml:space="preserve">
+    <value>All Subsites</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>Invalid email</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="SaveContinue" xml:space="preserve">
+    <value>Save &amp; Continue</value>
+  </data>
+  <data name="SelectTitle" xml:space="preserve">
+    <value>Select Title</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="BackToCampaignDashboard" xml:space="preserve">
+    <value>Back to Campaign Dashboard</value>
+  </data>
+  <data name="BackToCart" xml:space="preserve">
+    <value>Back to Cart</value>
+  </data>
+  <data name="CampaignName" xml:space="preserve">
+    <value>Campaign Name</value>
+  </data>
+  <data name="Cart" xml:space="preserve">
+    <value>Cart</value>
+  </data>
+  <data name="CartId" xml:space="preserve">
+    <value>Cart Id</value>
+  </data>
+  <data name="GoToCart" xml:space="preserve">
+    <value>Go to Cart</value>
+  </data>
+  <data name="JobName" xml:space="preserve">
+    <value>Job Name</value>
+  </data>
+  <data name="SaveArtwork" xml:space="preserve">
+    <value>Save Artwork</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="ViewArtwork" xml:space="preserve">
+    <value>View Artwork</value>
+  </data>
+  <data name="Artwork" xml:space="preserve">
+    <value>Artwork</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="WorkInProgress" xml:space="preserve">
+    <value>Work In Progress</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="GoToCampaignDashboard" xml:space="preserve">
+    <value>Go to Campaign Dashboard</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="CampaignId" xml:space="preserve">
+    <value>Campaign Id</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Cost  $</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="EditArtwork" xml:space="preserve">
+    <value>Edit Artwork</value>
+  </data>
+  <data name="FinishDate" xml:space="preserve">
+    <value>Finish Date</value>
+  </data>
+  <data name="GST" xml:space="preserve">
+    <value>GST</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>Total Cost</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ClientPO" xml:space="preserve">
+    <value>Client PO</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DeliveryDate" xml:space="preserve">
+    <value>Delivery Date</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="JobId" xml:space="preserve">
+    <value>Job Id</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="OwnerName" xml:space="preserve">
+    <value>Owner Name</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="ReOrder" xml:space="preserve">
+    <value>Re-order</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="TaxInvoice" xml:space="preserve">
+    <value>Tax Invoice</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Qty" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="SubTotal" xml:space="preserve">
+    <value>Sub Total</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="OrderDate" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="PurchaseOrder" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="GrandTotal" xml:space="preserve">
+    <value>Grand Total</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+</root>

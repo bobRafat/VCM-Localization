@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddBudget" xml:space="preserve">
+    <value>Add Budget</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="AfterHours" xml:space="preserve">
+    <value>After Hours</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>Announcements</value>
+  </data>
+  <data name="BoardingRequest" xml:space="preserve">
+    <value>You have {0} On Boarding request(s)</value>
+  </data>
+  <data name="BoardingSites" xml:space="preserve">
+    <value>You have {0} On Boarding Site(s)</value>
+  </data>
+  <data name="BudgetMustBeNumeric" xml:space="preserve">
+    <value>Budget must be numeric.</value>
+  </data>
+  <data name="BudgetReport" xml:space="preserve">
+    <value>Budget Report</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>by</value>
+  </data>
+  <data name="CartsApprovedOrRejected" xml:space="preserve">
+    <value>You have {0} cart(s) approved or rejected</value>
+  </data>
+  <data name="CartsWaitingForApproval" xml:space="preserve">
+    <value>You have {0} cart(s) waiting for your approval</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="ContinueWithoutSelectProperty" xml:space="preserve">
+    <value>Continue without select any property</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="HomePage" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="InfoForStep1" xml:space="preserve">
+    <value>Select customer site from
+Subsite Admin top right hand menu</value>
+  </data>
+  <data name="InfoForStep2" xml:space="preserve">
+    <value>Manage your site by selecting from your left menu options. Instructions/Help are available on each page.</value>
+  </data>
+  <data name="InformationForStep1" xml:space="preserve">
+    <value>Create your head office site, firstly by registering the company details and creating your site.</value>
+  </data>
+  <data name="InformationForStep2" xml:space="preserve">
+    <value>Create your subsites for branches or franchises.</value>
+  </data>
+  <data name="InformationForStep3" xml:space="preserve">
+    <value>Set up your categories that will appear on the customer site left menu.</value>
+  </data>
+  <data name="InformationForStep4" xml:space="preserve">
+    <value>Continue the site set up process by following the prompts in the information window and completing all the steps.</value>
+  </data>
+  <data name="JobsApprovedOrRejected" xml:space="preserve">
+    <value>You have {0} job(s) approved or rejected</value>
+  </data>
+  <data name="JobsWaitingForApproval" xml:space="preserve">
+    <value>You have {0} job(s) waiting for your approval</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ManageSite" xml:space="preserve">
+    <value>How to administer and manage an existing site.</value>
+  </data>
+  <data name="ModifyTemplateToJumpStart" xml:space="preserve">
+    <value>Modify this template to jump-start your ASP.NET MVC application.</value>
+  </data>
+  <data name="NewsList" xml:space="preserve">
+    <value>News List</value>
+  </data>
+  <data name="NewsListPage" xml:space="preserve">
+    <value>NewsListPage</value>
+  </data>
+  <data name="NotSelected" xml:space="preserve">
+    <value>Not Selected</value>
+  </data>
+  <data name="PropertyDetails" xml:space="preserve">
+    <value>Property Details</value>
+  </data>
+  <data name="QuickHelp" xml:space="preserve">
+    <value>Need assistance or unsure what to do? Click on Quick Help.</value>
+  </data>
+  <data name="RejectedOriginalAsset" xml:space="preserve">
+    <value>Rejected Original Asset</value>
+  </data>
+  <data name="RequestForOriginalAsset" xml:space="preserve">
+    <value>Request for upload Original Asset</value>
+  </data>
+  <data name="RequestWaitingForApproval" xml:space="preserve">
+    <value>Request Waiting for your approval of Original Asset</value>
+  </data>
+  <data name="SelectAnotherProperty" xml:space="preserve">
+    <value>Select another property</value>
+  </data>
+  <data name="SelectedSitename" xml:space="preserve">
+    <value>selected Sitename:</value>
+  </data>
+  <data name="SelectProperty" xml:space="preserve">
+    <value>Select property</value>
+  </data>
+  <data name="SetUpSite" xml:space="preserve">
+    <value>How to set up a new site</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Step 1:</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Step 2:</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Step 3:</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Step 4:</value>
+  </data>
+  <data name="TitleOfAdmin" xml:space="preserve">
+    <value>Admin Console Dash Board</value>
+  </data>
+  <data name="Updates" xml:space="preserve">
+    <value>Updates</value>
+  </data>
+  <data name="UserHasNotAssigned" xml:space="preserve">
+    <value>User hasn't been assigned to a specified site yet, pls contact Chameleon administrtor for help.</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>View More</value>
+  </data>
+  <data name="WelcomeToAdmin" xml:space="preserve">
+    <value>Welcome to the Admin Console</value>
+  </data>
+  <data name="CampaignReport" xml:space="preserve">
+    <value>Campaign Report</value>
+  </data>
+  <data name="LoginToSalesForce" xml:space="preserve">
+    <value>Login to Salesforce to Download Images</value>
+  </data>
+  <data name="NoImagesFound" xml:space="preserve">
+    <value>No images found</value>
+  </data>
+  <data name="OrderReport" xml:space="preserve">
+    <value>Order Report</value>
+  </data>
+  <data name="PleaseSelectProperty" xml:space="preserve">
+    <value>Please select a property</value>
+  </data>
+  <data name="ResultOf" xml:space="preserve">
+    <value>Result of</value>
+  </data>
+  <data name="ResultsFor" xml:space="preserve">
+    <value>Results for</value>
+  </data>
+  <data name="SearchForPropertyAddress" xml:space="preserve">
+    <value>Search for Property Address</value>
+  </data>
+  <data name="SearchImages" xml:space="preserve">
+    <value>Search Images</value>
+  </data>
+  <data name="SearchResultImage" xml:space="preserve">
+    <value>Search Result Image</value>
+  </data>
+  <data name="TemplateReport" xml:space="preserve">
+    <value>Template Report</value>
+  </data>
+</root>
