@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnythingElse" xml:space="preserve">
+    <value>ブラウズを続けますか？</value>
+  </data>
+  <data name="ArnsboResponseVideoReady" xml:space="preserve">
+    <value>Arnsboレスポンスビデオ準備完了</value>
+  </data>
+  <data name="ArnsboResponseVideoReject" xml:space="preserve">
+    <value>Arnsboレスポンスビデオが却下されました</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>添付ファイル</value>
+  </data>
+  <data name="CampaignHelp" xml:space="preserve">
+    <value>キャンペーンのヘルプ</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>カテゴリ</value>
+  </data>
+  <data name="ChooseIntroImage" xml:space="preserve">
+    <value>オープニングクレジットの画像を選択</value>
+  </data>
+  <data name="ChooseOutroImage" xml:space="preserve">
+    <value>エンディングクレジットの画像を選択</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>町</value>
+  </data>
+  <data name="ConstructBuzControlsTest" xml:space="preserve">
+    <value>Buz Controls Testを構築</value>
+  </data>
+  <data name="ContactAdmin" xml:space="preserve">
+    <value>エラー(2) サポートのメールが設定されていません。システム管理者にご連絡ください。</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>連絡先名</value>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>連絡先番号</value>
+  </data>
+  <data name="CreateArtwork" xml:space="preserve">
+    <value>アートワークを作成</value>
+  </data>
+  <data name="CustomerCode" xml:space="preserve">
+    <value>顧客コード</value>
+  </data>
+  <data name="DeclinedReason" xml:space="preserve">
+    <value>却下理由</value>
+  </data>
+  <data name="DescriptionCount" xml:space="preserve">
+    <value>説明（200文字以上） - カウント</value>
+  </data>
+  <data name="DownloadVideo" xml:space="preserve">
+    <value>ビデオをダウンロード</value>
+  </data>
+  <data name="EnsureIncludeDescription" xml:space="preserve">
+    <value>必ず説明に含めてください。</value>
+  </data>
+  <data name="EnsureRelevantToImages" xml:space="preserve">
+    <value>説明は選択した画像に関連することを確認してください。</value>
+  </data>
+  <data name="EnterCopyHere" xml:space="preserve">
+    <value>本文を入力</value>
+  </data>
+  <data name="EnterHeadlineHere" xml:space="preserve">
+    <value>見出しを入力</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>パスワードをお忘れですか？</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>送信者</value>
+  </data>
+  <data name="HeadlineAndCopy" xml:space="preserve">
+    <value>見出しおよび本文</value>
+  </data>
+  <data name="ImageName" xml:space="preserve">
+    <value>画像名</value>
+  </data>
+  <data name="ImageUploads" xml:space="preserve">
+    <value>画像のアップロード</value>
+  </data>
+  <data name="IntroImage" xml:space="preserve">
+    <value>オープニング画像</value>
+  </data>
+  <data name="InvalidFileExtension" xml:space="preserve">
+    <value>無効なファイル拡張子</value>
+  </data>
+  <data name="MinimumCharactersRequired" xml:space="preserve">
+    <value>説明には少なくとも200文字が必要です。</value>
+  </data>
+  <data name="MoreTraining" xml:space="preserve">
+    <value>More Training?</value>
+  </data>
+  <data name="NotSelected" xml:space="preserve">
+    <value>未選択</value>
+  </data>
+  <data name="OptionCost" xml:space="preserve">
+    <value>オプション費用</value>
+  </data>
+  <data name="OptionDetails" xml:space="preserve">
+    <value>オプション詳細</value>
+  </data>
+  <data name="OrderByPayPal" xml:space="preserve">
+    <value>PayPalによる注文</value>
+  </data>
+  <data name="OrderStatus" xml:space="preserve">
+    <value>注文状況</value>
+  </data>
+  <data name="OutroImage" xml:space="preserve">
+    <value>エンディング画像</value>
+  </data>
+  <data name="ProductCode" xml:space="preserve">
+    <value>製品コード</value>
+  </data>
+  <data name="ProductCost" xml:space="preserve">
+    <value>コスト</value>
+  </data>
+  <data name="QRCode" xml:space="preserve">
+    <value>QRコード</value>
+  </data>
+  <data name="QRCodeHelp" xml:space="preserve">
+    <value>QRコードのヘルプ</value>
+  </data>
+  <data name="RatecardName" xml:space="preserve">
+    <value>価格表の名前</value>
+  </data>
+  <data name="ReceiveEmailNotification" xml:space="preserve">
+    <value>ビデオの準備ができましたら、メールを通知します。</value>
+  </data>
+  <data name="ReorderNow" xml:space="preserve">
+    <value>今すぐ再発注</value>
+  </data>
+  <data name="RequestSubmitted" xml:space="preserve">
+    <value>リクエストが送信されました</value>
+  </data>
+  <data name="ResubmitVideo" xml:space="preserve">
+    <value>ビデオを再送信</value>
+  </data>
+  <data name="SalesAuctionDate" xml:space="preserve">
+    <value>販売およびオークション日</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>選択済み</value>
+  </data>
+  <data name="SelectIntroImage" xml:space="preserve">
+    <value>オープニング画像を選択してください。</value>
+  </data>
+  <data name="SelectOutroImage" xml:space="preserve">
+    <value>エンディング画像を選択してください。</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>件名</value>
+  </data>
+  <data name="SubmitComplaint1" xml:space="preserve">
+    <value>訴状を提出</value>
+  </data>
+  <data name="SubmitCompllaint" xml:space="preserve">
+    <value>完成したビデオが注文内容と異なる場合、訴状を提出してください。</value>
+  </data>
+  <data name="SummaryDescription" xml:space="preserve">
+    <value>サマリーの説明</value>
+  </data>
+  <data name="SupportRequest" xml:space="preserve">
+    <value>サポート依頼</value>
+  </data>
+  <data name="SureToProceed" xml:space="preserve">
+    <value>次に進めてもよろしいですか？</value>
+  </data>
+  <data name="TargetMarketCustomer" xml:space="preserve">
+    <value>ターゲット市場および顧客</value>
+  </data>
+  <data name="TEST" xml:space="preserve">
+    <value>TEST</value>
+  </data>
+  <data name="ToneThemeProperty" xml:space="preserve">
+    <value>物件のテーマ</value>
+  </data>
+  <data name="TotalPriceInclGST" xml:space="preserve">
+    <value>合計価格(税込)</value>
+  </data>
+  <data name="UniqueSellingPoints" xml:space="preserve">
+    <value>ユニークなセールスポイント</value>
+  </data>
+  <data name="UploadIntroImage" xml:space="preserve">
+    <value>オープニング画像をアップロード</value>
+  </data>
+  <data name="UploadNewIntroImage" xml:space="preserve">
+    <value>新しいオープニング画像をアップロード</value>
+  </data>
+  <data name="UploadNewOutroImage" xml:space="preserve">
+    <value>新しいエンディング画像をアップロード</value>
+  </data>
+  <data name="UploadOutroImage" xml:space="preserve">
+    <value>エンディング画像をアップロード</value>
+  </data>
+  <data name="VCMSupport" xml:space="preserve">
+    <value>VCMサポート</value>
+  </data>
+  <data name="VideoFinish" xml:space="preserve">
+    <value>ビデオ完了</value>
+  </data>
+  <data name="VideoForm" xml:space="preserve">
+    <value>ビデオのフォーム</value>
+  </data>
+  <data name="VideoImages" xml:space="preserve">
+    <value>ビデオ映像</value>
+  </data>
+  <data name="VideoIsReady" xml:space="preserve">
+    <value>ビデオが完了しました</value>
+  </data>
+  <data name="VideoIsReady1" xml:space="preserve">
+    <value>ビデオが完了しました</value>
+  </data>
+  <data name="VideoOrder" xml:space="preserve">
+    <value>ビデオの注文</value>
+  </data>
+  <data name="VideoOrder1" xml:space="preserve">
+    <value>ビデオの注文</value>
+  </data>
+  <data name="VideoOrderDeclined" xml:space="preserve">
+    <value>ビデオの注文が却下されました</value>
+  </data>
+  <data name="VideoOrderDeclined1" xml:space="preserve">
+    <value>ビデオの注文が却下されました。</value>
+  </data>
+  <data name="VideoOrderSent" xml:space="preserve">
+    <value>ビデオ注文が送信されました</value>
+  </data>
+  <data name="VideoStatus" xml:space="preserve">
+    <value>ビデオのステータス</value>
+  </data>
+  <data name="VideoURL" xml:space="preserve">
+    <value>ビデオのURL</value>
+  </data>
+  <data name="VideoVoiceOver" xml:space="preserve">
+    <value>ビデオの吹き替えは提供した説明を基に作成されます。</value>
+  </data>
+  <data name="ViewVideo" xml:space="preserve">
+    <value>ビデオを閲覧</value>
+  </data>
+  <data name="WrongPrice" xml:space="preserve">
+    <value>価格は正しくない</value>
+  </data>
+  <data name="Budget" xml:space="preserve">
+    <value>予算</value>
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>新規作成</value>
+  </data>
+  <data name="Impersonate" xml:space="preserve">
+    <value>別のユーザとして操作</value>
+  </data>
+  <data name="SelectASubsite" xml:space="preserve">
+    <value>サブサイトを選択してください</value>
+  </data>
+  <data name="SelectClientSite" xml:space="preserve">
+    <value>クライアントサイトを選択</value>
+  </data>
+  <data name="SendOnBoardingRequest" xml:space="preserve">
+    <value>Send On Boarding Request</value>
+  </data>
+  <data name="UpdateSubsiteOrdering" xml:space="preserve">
+    <value>サブサイトの注文を更新</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>有効にする</value>
+  </data>
+  <data name="AddEditRateCard" xml:space="preserve">
+    <value>価格表を追加・編集</value>
+  </data>
+  <data name="BackLogin" xml:space="preserve">
+    <value>サイレントログイン</value>
+  </data>
+  <data name="CancelledByRequestor" xml:space="preserve">
+    <value>申請者によりキャンセル</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="NoItemsSelected" xml:space="preserve">
+    <value>選択した商品がありません。</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>パスワードをリセット</value>
+  </data>
+  <data name="Uploaded" xml:space="preserve">
+    <value>アップロード済み</value>
+  </data>
+  <data name="ViewAndRespond" xml:space="preserve">
+    <value>閲覧して応答</value>
+  </data>
+  <data name="ViewApprovalList" xml:space="preserve">
+    <value>承認一覧を表示</value>
+  </data>
+  <data name="RejectedReason" xml:space="preserve">
+    <value>却下理由</value>
+  </data>
+  <data name="NumberOnly" xml:space="preserve">
+    <value>数字のみ</value>
+  </data>
+  <data name="OtherSupplier" xml:space="preserve">
+    <value>その他のサプライヤー</value>
+  </data>
+  <data name="YourComment" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="SureCancelApprovalProcess" xml:space="preserve">
+    <value>承認を中止してもよろしいですか？</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>レビュー</value>
+  </data>
+  <data name="JpgGifOnly" xml:space="preserve">
+    <value>アップロードが失敗しました。ファイルは.jpgまたは.jpeg、.gifであることを確認してください。</value>
+  </data>
+</root>

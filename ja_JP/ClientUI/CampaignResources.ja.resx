@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddTask" xml:space="preserve">
+    <value>タスクを追加</value>
+  </data>
+  <data name="Campaign" xml:space="preserve">
+    <value>キャンペーン</value>
+  </data>
+  <data name="CampaignDashboard" xml:space="preserve">
+    <value>キャンペーンのダッシュボード</value>
+  </data>
+  <data name="CampaignDashboard1" xml:space="preserve">
+    <value>キャンペーンのダッシュボード</value>
+  </data>
+  <data name="CampaignModified" xml:space="preserve">
+    <value>キャンペーンが変更されました。変更内容を保存しますか？</value>
+  </data>
+  <data name="CanNotCopyIndesignPluginJob" xml:space="preserve">
+    <value>Indesignプラグインのジョブコピーすることができません。</value>
+  </data>
+  <data name="CompleteCampaign" xml:space="preserve">
+    <value>完成したキャンペーン</value>
+  </data>
+  <data name="CompleteUnfinishedPackageItems" xml:space="preserve">
+    <value>キャンペーンに未完成なパッケージがあります。全てのパッケージを完成してからキャンペーンを終了にしてください。</value>
+  </data>
+  <data name="FillInInformation" xml:space="preserve">
+    <value>アートワークを作成する前に、詳細タブの項目を全て入力し、画像をアップロードしてください。</value>
+  </data>
+  <data name="MediaDetails" xml:space="preserve">
+    <value>メディア詳細</value>
+  </data>
+  <data name="NoJobsCompleted" xml:space="preserve">
+    <value>完了したジョブがありません。</value>
+  </data>
+  <data name="PrintingCost" xml:space="preserve">
+    <value>印刷費</value>
+  </data>
+  <data name="PrintOptions" xml:space="preserve">
+    <value>印刷オプション</value>
+  </data>
+  <data name="PropertyDetails" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="PropertyImages" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>変更内容を保存</value>
+  </data>
+  <data name="SelfCreate" xml:space="preserve">
+    <value>自作</value>
+  </data>
+  <data name="TotalExclGST" xml:space="preserve">
+    <value>合計金額(税抜)</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="CampaignImagesProcessing" xml:space="preserve">
+    <value>キャンペーン画像の処理</value>
+  </data>
+  <data name="CampaignImagesQueue" xml:space="preserve">
+    <value>キャンペーン画像のキュー</value>
+  </data>
+  <data name="CompletedWork" xml:space="preserve">
+    <value>完成したタスク</value>
+  </data>
+  <data name="CompletedWork1" xml:space="preserve">
+    <value>完成したタスク</value>
+  </data>
+  <data name="CurrentWork" xml:space="preserve">
+    <value>現在のタスク</value>
+  </data>
+  <data name="CurrentWork1" xml:space="preserve">
+    <value>現在のタスク</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>配送</value>
+  </data>
+  <data name="DeliveryDetails" xml:space="preserve">
+    <value>配送と設置の詳細</value>
+  </data>
+  <data name="DeliveryNote" xml:space="preserve">
+    <value>配達受領書</value>
+  </data>
+  <data name="FailedMessage" xml:space="preserve">
+    <value>失敗したメッセージ</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="OrderConfirmation" xml:space="preserve">
+    <value>注文確認</value>
+  </data>
+  <data name="Processed" xml:space="preserve">
+    <value>処理されました</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>処理中</value>
+  </data>
+  <data name="PropertyImageId" xml:space="preserve">
+    <value>画像Id</value>
+  </data>
+  <data name="RefreshPage" xml:space="preserve">
+    <value>ページを更新</value>
+  </data>
+  <data name="SearchOptions" xml:space="preserve">
+    <value>検索条件</value>
+  </data>
+  <data name="SignboardInstallationDate" xml:space="preserve">
+    <value>看板の設置日</value>
+  </data>
+  <data name="SignboardInstallationNote" xml:space="preserve">
+    <value>看板の設置ノート</value>
+  </data>
+  <data name="SureCopyCampaign" xml:space="preserve">
+    <value>キャンペーンをコピーしてもよろしいですか？</value>
+  </data>
+  <data name="SureDeleteCampaign" xml:space="preserve">
+    <value>キャンペーンを削除してもよろしいですか？</value>
+  </data>
+  <data name="UnProcessed" xml:space="preserve">
+    <value>未処理</value>
+  </data>
+  <data name="BANKINGDETAILS" xml:space="preserve">
+    <value>銀行口座の情報</value>
+  </data>
+  <data name="ChequeCanBeMadeTo" xml:space="preserve">
+    <value>小切手の宛先</value>
+  </data>
+  <data name="EFTPayments" xml:space="preserve">
+    <value>EFT支払いの宛先</value>
+  </data>
+  <data name="Ref" xml:space="preserve">
+    <value>基準</value>
+  </data>
+  <data name="RemittanceAdvice" xml:space="preserve">
+    <value>送金通知書</value>
+  </data>
+  <data name="TearOffReturnPayment" xml:space="preserve">
+    <value>切り取って支払いとともにご返却してください。</value>
+  </data>
+  <data name="OrderContactDetails" xml:space="preserve">
+    <value>注文連絡先の詳細</value>
+  </data>
+  <data name="PAID" xml:space="preserve">
+    <value>支払済</value>
+  </data>
+  <data name="ClickToViewPositionalDiagram" xml:space="preserve">
+    <value>Click here to view positional diagram</value>
+  </data>
+  <data name="CommentsInstructions" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="InspectionDate" xml:space="preserve">
+    <value>検査日</value>
+  </data>
+  <data name="InstallationDetails" xml:space="preserve">
+    <value>設置の詳細</value>
+  </data>
+  <data name="JobDetails" xml:space="preserve">
+    <value>ジョブの詳細</value>
+  </data>
+  <data name="PaymentDetails" xml:space="preserve">
+    <value>支払いの詳細</value>
+  </data>
+  <data name="PositionalDiagram" xml:space="preserve">
+    <value>Positional Diagram</value>
+  </data>
+  <data name="ProductionDetails" xml:space="preserve">
+    <value>商品の詳細</value>
+  </data>
+  <data name="PropertyAddress" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="QualityAndSatisfaction" xml:space="preserve">
+    <value>印刷物の品質に関しては責任を負いかねます。アートワークと印刷物の相違が発生する可能性があるため、色校を行なってから印刷会社に発注することをお勧めします。</value>
+  </data>
+  <data name="ReloadFromCRM" xml:space="preserve">
+    <value>CRMからリロード</value>
+  </data>
+  <data name="AddAgent" xml:space="preserve">
+    <value>エージェントを追加</value>
+  </data>
+  <data name="AddInspection" xml:space="preserve">
+    <value>検査を追加</value>
+  </data>
+  <data name="AdditionalFields" xml:space="preserve">
+    <value>追加項目</value>
+  </data>
+  <data name="AddPoint" xml:space="preserve">
+    <value>ポイントを追加</value>
+  </data>
+  <data name="AuctionDate" xml:space="preserve">
+    <value>入札日</value>
+  </data>
+  <data name="AuctionLocation" xml:space="preserve">
+    <value>入札場所</value>
+  </data>
+  <data name="AuctionTime" xml:space="preserve">
+    <value>入札時間</value>
+  </data>
+  <data name="BulletPoints" xml:space="preserve">
+    <value>箇条書き</value>
+  </data>
+  <data name="DisplayImages" xml:space="preserve">
+    <value>画像を表示</value>
+  </data>
+  <data name="ExceedMaximumUploadLimit" xml:space="preserve">
+    <value>バッチアップロードの最大容量の50MBを超えました。容量を減らし、もう一度試してください。</value>
+  </data>
+  <data name="ImageName" xml:space="preserve">
+    <value>画像名</value>
+  </data>
+  <data name="ImagesBeingProcessed" xml:space="preserve">
+    <value>画像処理中です。もう暫くお待ちください。「キャンペーンをリロード」ボタンをクリックして画像をリロードする、または「画像を表示」でキューを閲覧することができます。</value>
+  </data>
+  <data name="ListingDetails" xml:space="preserve">
+    <value>物件詳細</value>
+  </data>
+  <data name="ListingType" xml:space="preserve">
+    <value>物件種類</value>
+  </data>
+  <data name="PriceGuide" xml:space="preserve">
+    <value>価格</value>
+  </data>
+  <data name="PropertyDescription" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="PropertySummary" xml:space="preserve">
+    <value>概要</value>
+  </data>
+  <data name="ReloadCampaign" xml:space="preserve">
+    <value>キャンペーンをリロード</value>
+  </data>
+  <data name="SavePropertyDetailsAndMarketing" xml:space="preserve">
+    <value>詳細とマーケティングを保存</value>
+  </data>
+  <data name="SignboardDescription" xml:space="preserve">
+    <value>看板の説明</value>
+  </data>
+  <data name="SignboardSummary" xml:space="preserve">
+    <value>看板の概要</value>
+  </data>
+  <data name="UploadImages" xml:space="preserve">
+    <value>画像をアップロード</value>
+  </data>
+  <data name="UploadLimit" xml:space="preserve">
+    <value>一度に50MBまでしかアップロードできませんのでご注意ください。</value>
+  </data>
+  <data name="AddMoreItemsToCampaign" xml:space="preserve">
+    <value>キャンペーンにアセットを追加</value>
+  </data>
+  <data name="AddNewNote" xml:space="preserve">
+    <value>新規ノーとを追加</value>
+  </data>
+  <data name="AddNotes" xml:space="preserve">
+    <value>ノートを追加</value>
+  </data>
+  <data name="CreateYourArtwork" xml:space="preserve">
+    <value>アートワークを作成</value>
+  </data>
+  <data name="DeliveryInstallation" xml:space="preserve">
+    <value>配送・設置</value>
+  </data>
+  <data name="EditExistingTask" xml:space="preserve">
+    <value>既存のタスクを編集</value>
+  </data>
+  <data name="GrandTotalExclGST" xml:space="preserve">
+    <value>総額(税抜)</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>ノート名</value>
+  </data>
+  <data name="PrintOptionsAndDelivery" xml:space="preserve">
+    <value>印刷オプションと配送</value>
+  </data>
+  <data name="ProcessingRequest" xml:space="preserve">
+    <value>処理中です。もう暫くお待ちください...</value>
+  </data>
+  <data name="ReadyToDownload" xml:space="preserve">
+    <value>ダウンロードの準備ができました</value>
+  </data>
+  <data name="ReadyToSendToPublication" xml:space="preserve">
+    <value>出版の準備ができました</value>
+  </data>
+  <data name="SendForApproval" xml:space="preserve">
+    <value>承認リクエストを送信</value>
+  </data>
+  <data name="SendToVendorForApproval" xml:space="preserve">
+    <value>ベンダーに承認リクエストを送信</value>
+  </data>
+  <data name="SentToPrintOn" xml:space="preserve">
+    <value>印刷リクエストを送信</value>
+  </data>
+  <data name="SentToPublicationOn" xml:space="preserve">
+    <value>出版リクエストを送信</value>
+  </data>
+  <data name="TaskName" xml:space="preserve">
+    <value>タスク名</value>
+  </data>
+  <data name="TotalInclGST" xml:space="preserve">
+    <value>合計(税込)</value>
+  </data>
+  <data name="ViewCancelApproval" xml:space="preserve">
+    <value>承認を表示・中止</value>
+  </data>
+  <data name="RejectedWork" xml:space="preserve">
+    <value>却下されたタスク</value>
+  </data>
+  <data name="CompleteArtworkFor" xml:space="preserve">
+    <value>アートワークを完成 </value>
+  </data>
+  <data name="ReminderFor" xml:space="preserve">
+    <value>リマインダ</value>
+  </data>
+  <data name="CreateAs" xml:space="preserve">
+    <value>別名として作成</value>
+  </data>
+  <data name="SelectUser" xml:space="preserve">
+    <value>ユーザを選択</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>再試行</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>リジェクト</value>
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value>メールを送ります</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>確認します</value>
+  </data>
+</root>

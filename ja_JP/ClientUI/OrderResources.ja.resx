@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArtworkIsCompleted" xml:space="preserve">
+    <value>アートワークが完成しました</value>
+  </data>
+  <data name="ArtworkReadyToOrder" xml:space="preserve">
+    <value>アートワーク注文の準備ができました。</value>
+  </data>
+  <data name="ArtworkReadyToSend" xml:space="preserve">
+    <value>アートワーク送信の準備ができました。</value>
+  </data>
+  <data name="AvailableBookings" xml:space="preserve">
+    <value>利用可能な広告スペース</value>
+  </data>
+  <data name="AvailableSuppliers" xml:space="preserve">
+    <value>利用可能なサプライヤー</value>
+  </data>
+  <data name="BackToQuoteRequest" xml:space="preserve">
+    <value>見積り依頼へ戻る</value>
+  </data>
+  <data name="BookingNumber" xml:space="preserve">
+    <value>予約番号</value>
+  </data>
+  <data name="CompletedJobsInPackage" xml:space="preserve">
+    <value>パッケージ内の{1}点のジョブのうち、{0}点が完了しました。</value>
+  </data>
+  <data name="EnterMediaBookingNumber" xml:space="preserve">
+    <value>広告スペースの予約番号を入力してください</value>
+  </data>
+  <data name="EnterQuoteIncGST" xml:space="preserve">
+    <value>見積りを税込価格で入力してください。</value>
+  </data>
+  <data name="FillInDeliveryDetails" xml:space="preserve">
+    <value>配送の詳細を入力してください。</value>
+  </data>
+  <data name="FillInPublicationEmail" xml:space="preserve">
+    <value>メール入力してください。</value>
+  </data>
+  <data name="GoToRequestResult" xml:space="preserve">
+    <value>依頼画面に移動</value>
+  </data>
+  <data name="HasRequestedQuote" xml:space="preserve">
+    <value>から見積り依頼が届きました</value>
+  </data>
+  <data name="HasResponsedQuoteRequest" xml:space="preserve">
+    <value>から見積り依頼の返答が届きました</value>
+  </data>
+  <data name="HasSentArtwork" xml:space="preserve">
+    <value>からアートワークが送信されました</value>
+  </data>
+  <data name="HasSentInvoice" xml:space="preserve">
+    <value>から請求書が送信されました</value>
+  </data>
+  <data name="HasSentPurchaseOrder" xml:space="preserve">
+    <value>から注文書が送信されました</value>
+  </data>
+  <data name="HasSentQuoteRequest" xml:space="preserve">
+    <value>{0}から{1}の見積り依頼が届きました</value>
+  </data>
+  <data name="MediaBookingNumber" xml:space="preserve">
+    <value>広告スペースの予約番号</value>
+  </data>
+  <data name="NoAvailableSuppliersSelected" xml:space="preserve">
+    <value>利用可能なサプライヤーが選択されていません</value>
+  </data>
+  <data name="NumberOnly" xml:space="preserve">
+    <value>数字のみ</value>
+  </data>
+  <data name="OrderReady" xml:space="preserve">
+    <value>注文待ち</value>
+  </data>
+  <data name="PackageIsNullPleaseCheck" xml:space="preserve">
+    <value>パッケージが空です。テンプレートまたはパッケージの設定を確認してください。</value>
+  </data>
+  <data name="PleaseWaitHiResArtwork" xml:space="preserve">
+    <value>高解像度アートワークはサプライヤーに送信します。もうしばらくお待ちください...</value>
+  </data>
+  <data name="PleaseWaitOrderBeingProcessed" xml:space="preserve">
+    <value>ご注文が処理されている間お待ちください...</value>
+  </data>
+  <data name="PositionalDiagram" xml:space="preserve">
+    <value>Positional Diagram</value>
+  </data>
+  <data name="QuoteQuantity" xml:space="preserve">
+    <value>見積りの量</value>
+  </data>
+  <data name="QuoteRequestResult" xml:space="preserve">
+    <value>見積り結果</value>
+  </data>
+  <data name="ReadyToOrder" xml:space="preserve">
+    <value>注文可能</value>
+  </data>
+  <data name="ReadyToSend" xml:space="preserve">
+    <value>送信可能</value>
+  </data>
+  <data name="RequestedDate" xml:space="preserve">
+    <value>希望日</value>
+  </data>
+  <data name="RequestedQuantity" xml:space="preserve">
+    <value>希望量</value>
+  </data>
+  <data name="RequestHasBeenAcceptedBy" xml:space="preserve">
+    <value>{0}が見積りを受け取りました。</value>
+  </data>
+  <data name="RequestHasBeenCancelledBy" xml:space="preserve">
+    <value>{0}が申請を取り消しました。</value>
+  </data>
+  <data name="RequestQuotes" xml:space="preserve">
+    <value>見積りを依頼</value>
+  </data>
+  <data name="RequestsSent" xml:space="preserve">
+    <value>送信済みリクエスト</value>
+  </data>
+  <data name="ResponsedDate" xml:space="preserve">
+    <value>返答日</value>
+  </data>
+  <data name="SelectQuantityGetFinalPrice" xml:space="preserve">
+    <value>最終価格を計算ために数量を選択してください</value>
+  </data>
+  <data name="SelectSuppliersToSendQuoteRequest" xml:space="preserve">
+    <value>見積依頼の宛先サプライヤーを選択してください。</value>
+  </data>
+  <data name="SendToPublication" xml:space="preserve">
+    <value>印刷会社に送信</value>
+  </data>
+  <data name="SendToSendlite" xml:space="preserve">
+    <value>Sendliteに送信</value>
+  </data>
+  <data name="SubmitQuote" xml:space="preserve">
+    <value>見積りを提出</value>
+  </data>
+  <data name="SuccessfullyResponsedWithPrice" xml:space="preserve">
+    <value>見積りが正常に送信されました。</value>
+  </data>
+  <data name="SupplierQuoteRequest" xml:space="preserve">
+    <value>サプライヤーへの見積り依頼</value>
+  </data>
+  <data name="SureOrderWithThisSupplier" xml:space="preserve">
+    <value>選択したサプライヤーに注文してもよろしいですか？</value>
+  </data>
+  <data name="SureSendRequestToSelectedSupplier" xml:space="preserve">
+    <value>あなたが選択した取引先に要求を送信してもよろしいですか？</value>
+  </data>
+  <data name="UploadingError" xml:space="preserve">
+    <value>アップロードが失敗しました。もう一度お試しください。</value>
+  </data>
+  <data name="ViewAndDownloadArtwork" xml:space="preserve">
+    <value>アートワークを確認してダウンロード</value>
+  </data>
+  <data name="ViewAndRespond" xml:space="preserve">
+    <value>表示して返答</value>
+  </data>
+  <data name="ViewOrderConfirmationOnline" xml:space="preserve">
+    <value>注文確認をオンラインで表示</value>
+  </data>
+  <data name="ViewTheRequest" xml:space="preserve">
+    <value>依頼を表示</value>
+  </data>
+  <data name="YouHaveResponsedWithPrice" xml:space="preserve">
+    <value>見積りを送信しました。</value>
+  </data>
+  <data name="SendQuoteRequest" xml:space="preserve">
+    <value>見積り依頼を送信</value>
+  </data>
+  <data name="EnterEmailForOtherSupplier" xml:space="preserve">
+    <value>別のサプライヤーを選択する場合、メールアドレスを入力してください。</value>
+  </data>
+</root>

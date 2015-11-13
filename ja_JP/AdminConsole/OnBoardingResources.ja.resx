@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCompany" xml:space="preserve">
+    <value>会社を追加</value>
+  </data>
+  <data name="AddCompanyInfo" xml:space="preserve">
+    <value>会社情報を追加</value>
+  </data>
+  <data name="AddEditRateCard" xml:space="preserve">
+    <value>価格表を追加・編集</value>
+  </data>
+  <data name="AddRateCard" xml:space="preserve">
+    <value>価格表を追加</value>
+  </data>
+  <data name="ChooseArtworkSupplier" xml:space="preserve">
+    <value>アートワークのサプライヤーを選択するか、オリジナルファイルをアップロードしてください。</value>
+  </data>
+  <data name="ClientCompanyName" xml:space="preserve">
+    <value>顧客の会社名</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>会社名</value>
+  </data>
+  <data name="CompletionDate" xml:space="preserve">
+    <value>完了日</value>
+  </data>
+  <data name="CustomerOnBoarding" xml:space="preserve">
+    <value>オンボーディングのユーザ</value>
+  </data>
+  <data name="DonotSelect" xml:space="preserve">
+    <value>選択しないでください</value>
+  </data>
+  <data name="EmailRegistered" xml:space="preserve">
+    <value>記入したメールアドレスは既に登録されています。別のメールアドレスを入力してください。</value>
+  </data>
+  <data name="EnterCustomerName" xml:space="preserve">
+    <value>顧客名とセールスノートを入力してください。</value>
+  </data>
+  <data name="EnterRequiredFields" xml:space="preserve">
+    <value>必須項目を全て入力してください。</value>
+  </data>
+  <data name="FillInClientCompanyName" xml:space="preserve">
+    <value>顧客の会社名を入力してください。</value>
+  </data>
+  <data name="FillInConfirmPassword" xml:space="preserve">
+    <value>確認パスワードを入力してください。</value>
+  </data>
+  <data name="FillInPassword" xml:space="preserve">
+    <value>パスワードを入力してください。</value>
+  </data>
+  <data name="FillInRejectionReason" xml:space="preserve">
+    <value>却下理由を入力してください。</value>
+  </data>
+  <data name="FontNameMustFilled" xml:space="preserve">
+    <value>フォント名は必須項目です。</value>
+  </data>
+  <data name="FontStyleMustFilled" xml:space="preserve">
+    <value>フォントスタイルは必須項目です。</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>無効なメール。メールアドレスは既に存在します。</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="NoOnBoardingInformation" xml:space="preserve">
+    <value>このサブサイトについてのオンボーディング情報がありません。</value>
+  </data>
+  <data name="NoPermissionToAccess" xml:space="preserve">
+    <value>この顧客にアクセスする権限がありません。</value>
+  </data>
+  <data name="NoSubsiteFound" xml:space="preserve">
+    <value>ユーザに登録されたサブサイトがありません。</value>
+  </data>
+  <data name="OnBoardingRequestSent" xml:space="preserve">
+    <value>{0}様からのオンボーディング依頼が送信されました</value>
+  </data>
+  <data name="OnBoardingSalesStartPage" xml:space="preserve">
+    <value>OnBoardingSalesStartPage</value>
+  </data>
+  <data name="ParameterCannotNull" xml:space="preserve">
+    <value>パラメータは空にしないでください。</value>
+  </data>
+  <data name="PasswordMinimumCharacters" xml:space="preserve">
+    <value>パスワードは6文字以上に設定してください。</value>
+  </data>
+  <data name="PasswordSameWithConfirmPassword" xml:space="preserve">
+    <value>パスワードと確認パスワードが一致することを確認してください。</value>
+  </data>
+  <data name="PleaseSelectTemplateSubType" xml:space="preserve">
+    <value>テンプレートのサブタイプを選択してください。</value>
+  </data>
+  <data name="RequireAssitance" xml:space="preserve">
+    <value>サイトの設定について不明点やその他の質問があれば&lt;br /&gt;サイトの管理者にご連絡ください。&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="SalesNotes" xml:space="preserve">
+    <value>セールスノート</value>
+  </data>
+  <data name="SaveStartSiteSetup" xml:space="preserve">
+    <value>サイトのセットアップを保存して起動</value>
+  </data>
+  <data name="SelectCompanyToProceed" xml:space="preserve">
+    <value>続行するには会社を選択してください。</value>
+  </data>
+  <data name="SelectOneSubsite" xml:space="preserve">
+    <value>少なくとも1つのサブサイトを選択してください。</value>
+  </data>
+  <data name="SelectTemplateItemSize" xml:space="preserve">
+    <value>テンプレートのアセットサイズを選択</value>
+  </data>
+  <data name="SelectTemplateItemType" xml:space="preserve">
+    <value>テンプレートのアセットタイプを選択</value>
+  </data>
+  <data name="SelectTemplateSubType" xml:space="preserve">
+    <value>テンプレートのサブタイプを選択</value>
+  </data>
+  <data name="SelectTemplateType" xml:space="preserve">
+    <value>テンプレートのタイプを選択</value>
+  </data>
+  <data name="SiteRegistration" xml:space="preserve">
+    <value>サイト登録</value>
+  </data>
+  <data name="SiteRegistrationCompleted" xml:space="preserve">
+    <value>サイトの登録が完了しました。次にサイトのセットアップを行なってください。</value>
+  </data>
+  <data name="SiteRegistrationSent" xml:space="preserve">
+    <value>サイト登録のメールが送信されました [ {0} ]</value>
+  </data>
+  <data name="SubsiteIdIncorrect" xml:space="preserve">
+    <value>サブサイトIDが正しくありません。</value>
+  </data>
+  <data name="TemporaryUserNamePassword" xml:space="preserve">
+    <value>ログインするための一時アカウントとパスワードを発行しました。ログインしたら、パスワードを変更してください。 &lt;br /&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>総額</value>
+  </data>
+  <data name="UpdateRateCard" xml:space="preserve">
+    <value>価格表を更新</value>
+  </data>
+  <data name="UploadFontFile" xml:space="preserve">
+    <value>フォントファイルをアップロードしてください。</value>
+  </data>
+  <data name="UploadOriginalAsset" xml:space="preserve">
+    <value>オリジナルアセットをアップロードしてください。</value>
+  </data>
+  <data name="UploadProposal" xml:space="preserve">
+    <value>提案書をアップロード</value>
+  </data>
+  <data name="UserCreated" xml:space="preserve">
+    <value>ユーザが作成しました。</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>ユーザ名</value>
+  </data>
+  <data name="UserNameTaken" xml:space="preserve">
+    <value>このユーザ名が既に存在します。別のユーザ名にしてください。</value>
+  </data>
+  <data name="ViewRegistration" xml:space="preserve">
+    <value>登録を確認するにはこちらをクリックしてください。</value>
+  </data>
+  <data name="ABN" xml:space="preserve">
+    <value>ABN</value>
+  </data>
+  <data name="AddFile" xml:space="preserve">
+    <value>ファイルを追加</value>
+  </data>
+  <data name="AddToStructure" xml:space="preserve">
+    <value>構造に追加</value>
+  </data>
+  <data name="ApprovalProcess" xml:space="preserve">
+    <value>承認</value>
+  </data>
+  <data name="ApprovalProcessRequired" xml:space="preserve">
+    <value>承認が必要ですか？</value>
+  </data>
+  <data name="BankMerchantOtherPaymentFacility" xml:space="preserve">
+    <value>銀行やその他の支払機関</value>
+  </data>
+  <data name="BillingEmail" xml:space="preserve">
+    <value>メール</value>
+  </data>
+  <data name="BillingMobile" xml:space="preserve">
+    <value>モバイル</value>
+  </data>
+  <data name="BillingName" xml:space="preserve">
+    <value>課金名</value>
+  </data>
+  <data name="BillingPhone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="ChangeHierarchy" xml:space="preserve">
+    <value>階層を変更するには、項目をクリックしてドラッグアンドドロップしてください。</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>メール</value>
+  </data>
+  <data name="ContactMobile" xml:space="preserve">
+    <value>携帯番号</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="ContactPhone" xml:space="preserve">
+    <value>電話番号</value>
+  </data>
+  <data name="CreateSubsite" xml:space="preserve">
+    <value>サブサイトを作成</value>
+  </data>
+  <data name="CreateSubsites" xml:space="preserve">
+    <value>サブサイトを作成</value>
+  </data>
+  <data name="CreateYourSites" xml:space="preserve">
+    <value>サイトを作成</value>
+  </data>
+  <data name="CustomerWebsiteURL" xml:space="preserve">
+    <value>顧客のウェブサイトURLは</value>
+  </data>
+  <data name="DescForApprovalAll" xml:space="preserve">
+    <value>次の工程に進むには、承認者全員がアートワークを承認する必要があります。</value>
+  </data>
+  <data name="DescForApprovalAny" xml:space="preserve">
+    <value>１人でもアートワークやキャンペーン、カートを承認したら、次の工程に進むことができます。</value>
+  </data>
+  <data name="DescForApprovalHierarchy" xml:space="preserve">
+    <value>多段階承認が設定されたら、一番最初の承認レベルから徐々に進めます。</value>
+  </data>
+  <data name="DescOfApprovalProcess" xml:space="preserve">
+    <value>ビジネスに最適なアートワークやキャンペーンの承認過程を選択してください。後ほど変更することも可能です。</value>
+  </data>
+  <data name="DescOfDetails" xml:space="preserve">
+    <value>ご希望の銀行や決済サービスの詳細を入力してください。&lt;br /&gt;
+ 要件とインテグに関してはシステムの管理者からご連絡させて頂きます。&lt;br /&gt;
+ 注意：別途の開発費用になります。</value>
+  </data>
+  <data name="DetailsForSiteSetup" xml:space="preserve">
+    <value>顧客の詳細を確認して、問題がなければ、保存をクリックしてください。顧客にメール通知が送信され、自分でサイトを設定することができます。また、顧客の代わりにサイトを設定することもできます。</value>
+  </data>
+  <data name="DoNotHaveCredentials" xml:space="preserve">
+    <value>PrintUIのログイン情報をお持ちでない場合は、システム管理者にご連絡ください。</value>
+  </data>
+  <data name="EmailForSiteSetup" xml:space="preserve">
+    <value>登録した連絡先メールにサイトのセットアップ通知が送信されます。事前に顧客にメールが送信されることをお知らせしてください。</value>
+  </data>
+  <data name="EnterPrintUISettings" xml:space="preserve">
+    <value>PrintUIの設定を入力してください。</value>
+  </data>
+  <data name="LeftMenuUnlocked" xml:space="preserve">
+    <value>左側のメニューのロックが解除されました。任意のセクションにテンプレートを追加、更新、管理することができます。</value>
+  </data>
+  <data name="NeedHelp" xml:space="preserve">
+    <value>不明な点がございましたら、各画面のヘルプ、または左側のメニューにある「クイックヘルプ」を参照してください。</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>注釈</value>
+  </data>
+  <data name="OfficeAddress" xml:space="preserve">
+    <value>会社住所</value>
+  </data>
+  <data name="OnBoardingCompleted" xml:space="preserve">
+    <value>オンボーディング完了</value>
+  </data>
+  <data name="OnBoardingEntryEdit" xml:space="preserve">
+    <value>オンボーディングの入力を編集</value>
+  </data>
+  <data name="PasswordIs" xml:space="preserve">
+    <value>パスワードは</value>
+  </data>
+  <data name="PaymentGateway" xml:space="preserve">
+    <value>決済サービス</value>
+  </data>
+  <data name="PaymentGatewayRequired" xml:space="preserve">
+    <value>決済サービスは必要ですか？</value>
+  </data>
+  <data name="PayPalMerchantAccountId" xml:space="preserve">
+    <value>PayPalのマーチャントアカウントID</value>
+  </data>
+  <data name="PayPalMerchantEmail" xml:space="preserve">
+    <value>PayPalのマーチャントメール</value>
+  </data>
+  <data name="PleaseUploadProposal" xml:space="preserve">
+    <value>承認済みの提案書をお持ちの場合、アップロードしてください。</value>
+  </data>
+  <data name="PleaseUploadProposal1" xml:space="preserve">
+    <value>提案書をアップロードしてください。</value>
+  </data>
+  <data name="PostalAddress" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="PrintUIAuthorizationCode" xml:space="preserve">
+    <value>PrintUIの認証コード</value>
+  </data>
+  <data name="PrintUIClientId" xml:space="preserve">
+    <value>PrintUIのクライアントID</value>
+  </data>
+  <data name="PrintUiSettings" xml:space="preserve">
+    <value>PrintUIの設定</value>
+  </data>
+  <data name="ProposalURL" xml:space="preserve">
+    <value>提案書のURL</value>
+  </data>
+  <data name="SaveContinue" xml:space="preserve">
+    <value>保存して続行</value>
+  </data>
+  <data name="SaveSendToCustomer" xml:space="preserve">
+    <value>保存して顧客に送信</value>
+  </data>
+  <data name="SaveStartSiteSetup1" xml:space="preserve">
+    <value>サイトのセットアップを保存して起動</value>
+  </data>
+  <data name="SelectingAll" xml:space="preserve">
+    <value>全てを選択</value>
+  </data>
+  <data name="SelectingHierarchy" xml:space="preserve">
+    <value>階層を選択</value>
+  </data>
+  <data name="SetupPaymentGateway" xml:space="preserve">
+    <value>決済サービスを設定</value>
+  </data>
+  <data name="SetupWizard" xml:space="preserve">
+    <value>セットアップウィザード</value>
+  </data>
+  <data name="StartSearching" xml:space="preserve">
+    <value>検索しています...</value>
+  </data>
+  <data name="ThankYouForSettingUpSite" xml:space="preserve">
+    <value>サイトのご登録ありがとうございます。</value>
+  </data>
+  <data name="TradingName" xml:space="preserve">
+    <value>取引名</value>
+  </data>
+  <data name="UserNameIs" xml:space="preserve">
+    <value>ユーザ名は</value>
+  </data>
+</root>

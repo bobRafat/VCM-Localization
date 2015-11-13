@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddOptionalQuestion" xml:space="preserve">
+    <value>任意の質問を追加</value>
+  </data>
+  <data name="AddQuestion" xml:space="preserve">
+    <value>質問を追加</value>
+  </data>
+  <data name="AnswerOption" xml:space="preserve">
+    <value>回答の選択肢</value>
+  </data>
+  <data name="AnswerType" xml:space="preserve">
+    <value>回答の種類</value>
+  </data>
+  <data name="AssetCustomForm" xml:space="preserve">
+    <value>カスタムフォーム</value>
+  </data>
+  <data name="CreateCustomForm" xml:space="preserve">
+    <value>カスタムフォームの作成</value>
+  </data>
+  <data name="CreateForm" xml:space="preserve">
+    <value>フォームの作成</value>
+  </data>
+  <data name="CreateFormStep2" xml:space="preserve">
+    <value>ステップ2：属するサブサイトを選択します。</value>
+  </data>
+  <data name="CreateFormStep3" xml:space="preserve">
+    <value>ステップ3：カスタムフォームの番号を選択します。一つのサブサイトに対してカスタムフォームは最大二つまで選択可能です。</value>
+  </data>
+  <data name="CreateFormStep4" xml:space="preserve">
+    <value>ステップ4：カスタムフォームのタイトルを入力します。タイトルは公開サイトの左側のメニューに表示されます。</value>
+  </data>
+  <data name="CreateFormStep5" xml:space="preserve">
+    <value>ステップ5：カスタムフォームの名前と説明を入力します。</value>
+  </data>
+  <data name="CreateFormStep6" xml:space="preserve">
+    <value>ステップ6：カスタムフォームの通知を受信する方のメールアドレス（複数可）を入力します。</value>
+  </data>
+  <data name="CreateFormStep7" xml:space="preserve">
+    <value>ステップ7：質問を回答を追加して設定を保存します。</value>
+  </data>
+  <data name="CustomForm1" xml:space="preserve">
+    <value>カスタムフォーム1</value>
+  </data>
+  <data name="CustomForm2" xml:space="preserve">
+    <value>カスタムフォーム2</value>
+  </data>
+  <data name="CustomFormDescription" xml:space="preserve">
+    <value>カスタムフォームの説明</value>
+  </data>
+  <data name="CustomFormName" xml:space="preserve">
+    <value>カスタムフォーム名</value>
+  </data>
+  <data name="CustomFormNumber" xml:space="preserve">
+    <value>カスタムフォームの番号</value>
+  </data>
+  <data name="CustomFormNumberIncorrect" xml:space="preserve">
+    <value>カスタムフォームの番号が正しくありません。</value>
+  </data>
+  <data name="CustomForms" xml:space="preserve">
+    <value>カスタムフォーム</value>
+  </data>
+  <data name="CustomFormTitle" xml:space="preserve">
+    <value>カスタムフォームのタイトル</value>
+  </data>
+  <data name="DefaultAnswer" xml:space="preserve">
+    <value>デフォルト回答</value>
+  </data>
+  <data name="DeleteForm" xml:space="preserve">
+    <value>このカスタムフォームを削除してもよろしいですか？</value>
+  </data>
+  <data name="DeleteForms" xml:space="preserve">
+    <value>選択したカスタムフォームを削除</value>
+  </data>
+  <data name="DelimeterExample" xml:space="preserve">
+    <value>区切り文字 - 例えば 1;2;3</value>
+  </data>
+  <data name="DescOfCreateForm" xml:space="preserve">
+    <value>カスタムアートワークオーダー、マーケティング資料のお問い合わせフォーム、商品の注文などを自由にお問い合わせ用のフォームを追加できます。</value>
+  </data>
+  <data name="EditCustomForm" xml:space="preserve">
+    <value>カスタムフォームを編集</value>
+  </data>
+  <data name="ForAnonymous" xml:space="preserve">
+    <value>匿名</value>
+  </data>
+  <data name="FormIdInvalid" xml:space="preserve">
+    <value>無効なカスタムフォームID</value>
+  </data>
+  <data name="HowToCreateForm" xml:space="preserve">
+    <value>カスタムフォームの作成方法</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ImportantNote" xml:space="preserve">
+    <value>注意事項：</value>
+  </data>
+  <data name="Mandatory" xml:space="preserve">
+    <value>必須</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="Minimum" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="NoFormCreated" xml:space="preserve">
+    <value>カスタムフォームが作成されませんでしてた！</value>
+  </data>
+  <data name="NoQuestionsCreated" xml:space="preserve">
+    <value>質問が作成されていません！質問を入力して、再度をお試しください。</value>
+  </data>
+  <data name="NoteDesc" xml:space="preserve">
+    <value>第三者のデジタル資産管理システムとのインテグ方法については、システム管理者にご連絡ください。</value>
+  </data>
+  <data name="NotifyTo" xml:space="preserve">
+    <value>メール通知</value>
+  </data>
+  <data name="NumberOnly" xml:space="preserve">
+    <value>数字だけ入力してください。</value>
+  </data>
+  <data name="Numeric" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="OptionalFor" xml:space="preserve">
+    <value>任意項目</value>
+  </data>
+  <data name="OptionalForAnswer" xml:space="preserve">
+    <value>任意の回答</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>質問</value>
+  </data>
+  <data name="SelectCustomFormNumber" xml:space="preserve">
+    <value>カスタムフォームの番号を選択してください。</value>
+  </data>
+  <data name="SelectCustomFormNumber1" xml:space="preserve">
+    <value>カスタムフォームの番号を選択</value>
+  </data>
+  <data name="SelectSubsite" xml:space="preserve">
+    <value>サブサイトを選択してください。</value>
+  </data>
+  <data name="Sequence" xml:space="preserve">
+    <value>登録方法</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>ステップ1：「作成」ボタンをクリックします。</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>ステップ2：カスタムフォームの名前と説明を入力します。</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>ステップ3：カスタムフォームの通知を受信する方のメールアドレス（複数可）を入力します。</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>ステップ4：質問と回答を追加して設定を保存します。</value>
+  </data>
+</root>

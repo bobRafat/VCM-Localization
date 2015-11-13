@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddEditRateCard" xml:space="preserve">
+    <value>価格表を追加・編集</value>
+  </data>
+  <data name="AddRateCard" xml:space="preserve">
+    <value>価格表を追加</value>
+  </data>
+  <data name="AddSupplier" xml:space="preserve">
+    <value>サプライヤーを追加</value>
+  </data>
+  <data name="AvailableDays" xml:space="preserve">
+    <value>利用可能日時</value>
+  </data>
+  <data name="BulkDownloadRatecardsSuccessfully" xml:space="preserve">
+    <value>価格表のCSVダウンロードが正常に完了しました。</value>
+  </data>
+  <data name="BulkUploadFailed" xml:space="preserve">
+    <value>バッチアップロードが失敗しました。CSVファイルの形式を確認してください。</value>
+  </data>
+  <data name="BulkUploadRatecard" xml:space="preserve">
+    <value>価格表のCSVアップロード</value>
+  </data>
+  <data name="BulkUploadRatecardsSuccessfully" xml:space="preserve">
+    <value>価格表のCSVアップロードが正常に完了しました。</value>
+  </data>
+  <data name="DeliveryCost" xml:space="preserve">
+    <value>配送費用</value>
+  </data>
+  <data name="DownloadSuppliersToCSVFile" xml:space="preserve">
+    <value>サプライヤーをCSVファイルにダウンロード</value>
+  </data>
+  <data name="DownloadToCSVFile" xml:space="preserve">
+    <value>CSVファイルにダウンロード</value>
+  </data>
+  <data name="EmailCCList" xml:space="preserve">
+    <value>CCリストにメールを送信</value>
+  </data>
+  <data name="EmailExist" xml:space="preserve">
+    <value>メールアドレスは既に存在します。別のメールアドレスを入力してください。</value>
+  </data>
+  <data name="EnableFTP" xml:space="preserve">
+    <value>FTPを有効にする</value>
+  </data>
+  <data name="ExtraCost" xml:space="preserve">
+    <value>追加費用</value>
+  </data>
+  <data name="FillInSupplierName" xml:space="preserve">
+    <value>サプライヤー名を入力してください。</value>
+  </data>
+  <data name="FTPHost" xml:space="preserve">
+    <value>FTPホスト</value>
+  </data>
+  <data name="FTPPassword" xml:space="preserve">
+    <value>FTPパスワード</value>
+  </data>
+  <data name="FTPUsername" xml:space="preserve">
+    <value>FTPユーザ名</value>
+  </data>
+  <data name="LinageSettingAndDetails" xml:space="preserve">
+    <value>系統の設定と詳細</value>
+  </data>
+  <data name="LineageAvailability" xml:space="preserve">
+    <value>利用可能曜日</value>
+  </data>
+  <data name="LineageSection" xml:space="preserve">
+    <value>セクション</value>
+  </data>
+  <data name="MediaBooking" xml:space="preserve">
+    <value>広告スペース予約</value>
+  </data>
+  <data name="MediaBookingSection" xml:space="preserve">
+    <value>セクション</value>
+  </data>
+  <data name="MediaBookingSize" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
+  <data name="MediaContactSetting" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="MISType" xml:space="preserve">
+    <value>MIS型</value>
+  </data>
+  <data name="NameEmailContains" xml:space="preserve">
+    <value>名前またはメールに含まれます</value>
+  </data>
+  <data name="RateCardId" xml:space="preserve">
+    <value>価格表のID</value>
+  </data>
+  <data name="RateCardName" xml:space="preserve">
+    <value>価格表の名前</value>
+  </data>
+  <data name="SelectMediaContactType" xml:space="preserve">
+    <value>メディアコンタクトの種類を選択</value>
+  </data>
+  <data name="SelectSupplierRole" xml:space="preserve">
+    <value>サプライヤーの役割を選択してください。</value>
+  </data>
+  <data name="SendliteEnabled" xml:space="preserve">
+    <value>Sendliteが有効になりました</value>
+  </data>
+  <data name="SendliteOrderUrl" xml:space="preserve">
+    <value>Sendlite注文のURL</value>
+  </data>
+  <data name="SendliteSettingUrl" xml:space="preserve">
+    <value>Sendlite設定及びURL</value>
+  </data>
+  <data name="SendliteStatusUrl" xml:space="preserve">
+    <value>SendliteステータスのURL</value>
+  </data>
+  <data name="SendliteSubscriberNumber" xml:space="preserve">
+    <value>Sendlite登録番号</value>
+  </data>
+  <data name="SetupCost" xml:space="preserve">
+    <value>設置費用</value>
+  </data>
+  <data name="SupplierAddPage" xml:space="preserve">
+    <value>SupplierAddPage</value>
+  </data>
+  <data name="SupplierFTPSetting" xml:space="preserve">
+    <value>サプライヤーのFTP設定</value>
+  </data>
+  <data name="SupplierList" xml:space="preserve">
+    <value>サプライヤーの一覧</value>
+  </data>
+  <data name="SupplierListPage" xml:space="preserve">
+    <value>SupplierListPage</value>
+  </data>
+  <data name="SupplierName" xml:space="preserve">
+    <value>サプライヤ名</value>
+  </data>
+  <data name="UpdateRateCard" xml:space="preserve">
+    <value>価格表を更新</value>
+  </data>
+  <data name="UploadCSVFile" xml:space="preserve">
+    <value>CSVファイルをアップロードしてください。</value>
+  </data>
+  <data name="AddNewRateCard" xml:space="preserve">
+    <value>新規価格表を追加</value>
+  </data>
+  <data name="Bleed" xml:space="preserve">
+    <value>ブリード</value>
+  </data>
+  <data name="BulkUploadRatecard1" xml:space="preserve">
+    <value>価格表のCSVアップロード</value>
+  </data>
+  <data name="EditRateCard" xml:space="preserve">
+    <value>価格表を編集</value>
+  </data>
+  <data name="ExistingSupplierFound" xml:space="preserve">
+    <value>サプライヤーは既に存在します。</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>価格</value>
+  </data>
+  <data name="RateCardBulkUpload" xml:space="preserve">
+    <value>価格表のCSVアップロード</value>
+  </data>
+  <data name="RateCards" xml:space="preserve">
+    <value>価格表</value>
+  </data>
+  <data name="SelectMediaType" xml:space="preserve">
+    <value>メディアタイプを選択</value>
+  </data>
+  <data name="SupplierEditPage" xml:space="preserve">
+    <value>SupplierEditPage</value>
+  </data>
+  <data name="SupplierEmail" xml:space="preserve">
+    <value>サプライヤーのメール</value>
+  </data>
+  <data name="SupplierPhone" xml:space="preserve">
+    <value>サプライヤーの電話</value>
+  </data>
+  <data name="SupplierRateCard" xml:space="preserve">
+    <value>サプライヤーの価格表</value>
+  </data>
+  <data name="SupplierRateCardPage" xml:space="preserve">
+    <value>SupplierRateCardPage</value>
+  </data>
+  <data name="SupplierRoles" xml:space="preserve">
+    <value>サプライヤーの役割</value>
+  </data>
+  <data name="SureDelete" xml:space="preserve">
+    <value>削除してもよろしいですか？</value>
+  </data>
+  <data name="UpdateSupplier" xml:space="preserve">
+    <value>サプライヤーを更新</value>
+  </data>
+  <data name="CSVFile" xml:space="preserve">
+    <value>CSVファイル</value>
+  </data>
+  <data name="SupplierSelectSiteErrorPage" xml:space="preserve">
+    <value>SupplierSelectSiteErrorPage</value>
+  </data>
+  <data name="HOWTOAddSuppliers" xml:space="preserve">
+    <value>サプライヤーの追加方法</value>
+  </data>
+  <data name="HowToSetUpSupplier" xml:space="preserve">
+    <value>サプライヤーの設定方法</value>
+  </data>
+  <data name="MediaContact" xml:space="preserve">
+    <value>メディアコンタクト：出版物</value>
+  </data>
+  <data name="PrintContact" xml:space="preserve">
+    <value>プリントコンタクト：価格表の登録や注文書の送信などの権限を持つサプライヤー</value>
+  </data>
+  <data name="RegisteringAccreditedSuppliers" xml:space="preserve">
+    <value>許可したサプライヤーを事前にサイトに登録すると、直接注文することができます。</value>
+  </data>
+  <data name="Sendlite" xml:space="preserve">
+    <value>Sendlite：第三者のメディアサプライヤー</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>ステップ1：サプライヤーの連絡先を入力します。</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>ステップ2：サプライヤーの役割を設定します。</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>ステップ3：該当する場合は、FTPを設定します。</value>
+  </data>
+  <data name="DaysBefore" xml:space="preserve">
+    <value>Day(s) Before</value>
+  </data>
+  <data name="MaterialDate" xml:space="preserve">
+    <value>Material Date</value>
+  </data>
+</root>
