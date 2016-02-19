@@ -18,6 +18,7 @@ ImageUrl=Image URL
 ImportantNote=IMPORTANT NOTE:
 ManageImages=Upload and Manage your images
 MaximumUpload=You have exceeded the maximum upload limit of 50MB per batch upload. Please reduce and try again.
+NoDAMAuth=Unable to find authentication for this DAM
 NoteDesc=If there is a third party Digital Asset Management System involved, please contact your Site Administrator to discuss integration. Development will be quoted.
 OriginalImageFile=Original Image File
 Remove=Remove

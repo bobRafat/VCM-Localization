@@ -69,3 +69,5 @@ PleaseSelectYourThemeColour=Please select your theme colour
 PleaseUploadYourHeroImage=Please upload your hero image(need size)
 PleaseUploadYourLogo=Please upload your logo(need size)
 SiteEmailsHeaderImaege=Site Emails header image
+RemoveSubsite=Remove Subsite
+SureRemoveSubsite=Are you sure you wish to remove this subsite ?

@@ -1,0 +1,11 @@
+﻿ContactLists=Contact lists
+Encoding=Encoding
+FromAddress=From address
+FromName=From name
+MailingName=Mailing name
+ReplyTo=Reply to
+ScheduleDate=Schedule date
+ScheduleTime=Schedule time
+Subject=Subject
+TrackingLevel=Tracking level
+Visibility=Visibility

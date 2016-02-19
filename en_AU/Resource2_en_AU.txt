@@ -117,3 +117,4 @@ ArtworkUpdates=Artwork updates
 Deleted=Deleted
 MOTD=Message of the day
 SysNotification=System notifications
+SubsiteWelcome=Welcome to BrandingUI. Please select a Subsite to begin.

@@ -2,3 +2,4 @@
 DashedShortDate=MM-dd-yyyy
 ddMMMyyyy=dd MMM yyyy
 ShortYear=MM/dd/yy
+ReverseShortDate=yyyy-MM-dd

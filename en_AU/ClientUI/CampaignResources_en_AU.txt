@@ -118,3 +118,6 @@ DownloadedOn=Downloaded on
 VendorStatus=Vendor Status
 AddNote=Add Note
 ErrorDueDateBeforeStartDate=Campaign finish date can't be set before the start date.
+EditNote=Edit Note
+Frame=Frame
+FramePrepopulation=Frame Prepopulation
