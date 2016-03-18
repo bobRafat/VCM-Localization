@@ -10,4 +10,4 @@ ProductCost=Product Cost
 ProductOptions=Product Options
 RatecardName=Ratecard Name
 SelectProductOptions=Select Product Options
-TotalPriceInclGST=Total Price incl. GST
+TotalPriceInclGST=Total Price
