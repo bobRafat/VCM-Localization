@@ -4,4 +4,4 @@ InvalidFormId=Invalid Form Id
 MandatoryField=Mandatory Field
 NumberOnly=Number Only
 SuccessfullySubmitted=Successfully Submitted
-VCMForm=VCM Form
+VCMForm=BrandingUI Form
