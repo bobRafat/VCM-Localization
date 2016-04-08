@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Announcements" xml:space="preserve">
+    <value>Announcements</value>
+  </data>
+  <data name="Approval_Type" xml:space="preserve">
+    <value>Only applicable if approval is required</value>
+  </data>
+  <data name="Artwork_Quality_For_Download" xml:space="preserve">
+    <value>Only applicable to old editor, not to indesign plugin editor</value>
+  </data>
+  <data name="Branchcode" xml:space="preserve">
+    <value>Branch Code</value>
+  </data>
+  <data name="Budget" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="Budget_Enabled" xml:space="preserve">
+    <value>Enabled Budget</value>
+  </data>
+  <data name="Buz_Customer_Code" xml:space="preserve">
+    <value>Buz Customer Code</value>
+  </data>
+  <data name="Click_Charge_Paid_By" xml:space="preserve">
+    <value>Click Charge will be paid by whom</value>
+  </data>
+  <data name="Contact_Company_Address" xml:space="preserve">
+    <value>Contact Company Address</value>
+  </data>
+  <data name="Contact_Company_Email" xml:space="preserve">
+    <value>Contact Company Email</value>
+  </data>
+  <data name="Contact_Company_Fax" xml:space="preserve">
+    <value>Contact Company Fax</value>
+  </data>
+  <data name="Contact_Company_Name" xml:space="preserve">
+    <value>Contact Company Name</value>
+  </data>
+  <data name="Contact_Company_Phone" xml:space="preserve">
+    <value>Contact Company Phone</value>
+  </data>
+  <data name="Contact_Company_Website" xml:space="preserve">
+    <value>Contact Company Website</value>
+  </data>
+  <data name="Course_Name" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="CustomFormId" xml:space="preserve">
+    <value>Custom Form Id</value>
+  </data>
+  <data name="CustomFormId2" xml:space="preserve">
+    <value>Custom Form Id 2</value>
+  </data>
+  <data name="CustomFormTitle" xml:space="preserve">
+    <value>Custom Form Title</value>
+  </data>
+  <data name="CustomFormTitle2" xml:space="preserve">
+    <value>Custom Form Title 2</value>
+  </data>
+  <data name="Disclaimer_Text" xml:space="preserve">
+    <value>Disclaimer Text</value>
+  </data>
+  <data name="Download_Hires_When_Job_Completed" xml:space="preserve">
+    <value>By selecting yes you are allowing the customer to download the high resolution PDF when job is completed</value>
+  </data>
+  <data name="Editor_Locale" xml:space="preserve">
+    <value>Editor Locale</value>
+  </data>
+  <data name="Enable_Automated_Purchase_To_Suppliers" xml:space="preserve">
+    <value>Enable Automated Purchase to Suppliers</value>
+  </data>
+  <data name="Enable_Finish_Date" xml:space="preserve">
+    <value>Enable Finish Date</value>
+  </data>
+  <data name="Enable_Media_Booking_Request" xml:space="preserve">
+    <value>Enable Media Booking Request</value>
+  </data>
+  <data name="Enable_MIS_Integration" xml:space="preserve">
+    <value>Enable MIS Integration</value>
+  </data>
+  <data name="Enable_PBS_Cart_View" xml:space="preserve">
+    <value>Enable PBS Cart View</value>
+  </data>
+  <data name="Enable_PDF_Disclaimer" xml:space="preserve">
+    <value>Enable PDF Disclaimer</value>
+  </data>
+  <data name="Enable_Property_Details" xml:space="preserve">
+    <value>Only applicable when Real Estate is selected</value>
+  </data>
+  <data name="Enable_Property_Images" xml:space="preserve">
+    <value>Only applicable when Real Estate is selected</value>
+  </data>
+  <data name="Enable_SilverPop" xml:space="preserve">
+    <value>Enable Silverpop</value>
+  </data>
+  <data name="Generate_Invoice" xml:space="preserve">
+    <value>Enable Automated Invoices</value>
+  </data>
+  <data name="Invoice_ABN" xml:space="preserve">
+    <value>Invoice ABN</value>
+  </data>
+  <data name="Invoice_Address" xml:space="preserve">
+    <value>Invoice Address</value>
+  </data>
+  <data name="Invoice_CC_List" xml:space="preserve">
+    <value>Invoice Email CC List (separated with comma or semicolon)</value>
+  </data>
+  <data name="Invoice_Cheque_Details" xml:space="preserve">
+    <value>Invoice Cheque Details</value>
+  </data>
+  <data name="Invoice_Cheque_Name" xml:space="preserve">
+    <value>Invoice Cheque Name</value>
+  </data>
+  <data name="Invoice_Company_Name" xml:space="preserve">
+    <value>Invoice Company Name</value>
+  </data>
+  <data name="Invoice_EFT_Details" xml:space="preserve">
+    <value>Invoice EFT Details</value>
+  </data>
+  <data name="Invoice_EFT_Name" xml:space="preserve">
+    <value>Invoice EFT Name</value>
+  </data>
+  <data name="Invoice_Email" xml:space="preserve">
+    <value>Invoice Email</value>
+  </data>
+  <data name="Invoice_Fax" xml:space="preserve">
+    <value>Invoice Fax</value>
+  </data>
+  <data name="Invoice_Phone" xml:space="preserve">
+    <value>Invoice Phone</value>
+  </data>
+  <data name="Invoice_Sent_From" xml:space="preserve">
+    <value>Invoice sent from</value>
+  </data>
+  <data name="Invoice_Terms" xml:space="preserve">
+    <value>Invoice Terms</value>
+  </data>
+  <data name="Invoice_Trading_Name" xml:space="preserve">
+    <value>Invoice Trading Name</value>
+  </data>
+  <data name="Invoice_Website" xml:space="preserve">
+    <value>Invoice Website</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Lineage_Availability" xml:space="preserve">
+    <value>Lineage Availability</value>
+  </data>
+  <data name="NAB_Action_URL" xml:space="preserve">
+    <value>Only applicable if NAB selected</value>
+  </data>
+  <data name="NAB_Payment_Alert_Email" xml:space="preserve">
+    <value>NAB Payment Alert Email</value>
+  </data>
+  <data name="NAB_Privacy_Policy_URL" xml:space="preserve">
+    <value>NAB Privacy Policy URL</value>
+  </data>
+  <data name="NAB_Refund_Policy_URL" xml:space="preserve">
+    <value>NAB Refund Policy URL</value>
+  </data>
+  <data name="NAB_Vendor_Name" xml:space="preserve">
+    <value>NAB Vendor Name</value>
+  </data>
+  <data name="Need_Approval" xml:space="preserve">
+    <value>Approval Required</value>
+  </data>
+  <data name="News_Enabled" xml:space="preserve">
+    <value>Enable Blog</value>
+  </data>
+  <data name="Ordering_View" xml:space="preserve">
+    <value>Ordering View</value>
+  </data>
+  <data name="Payment_Gateway" xml:space="preserve">
+    <value>Type of Payment Gateway</value>
+  </data>
+  <data name="Payment_Type" xml:space="preserve">
+    <value>Type of Payment</value>
+  </data>
+  <data name="PayPal_Integration_Type" xml:space="preserve">
+    <value>PayPal Integration Type</value>
+  </data>
+  <data name="PayPal_Merchant_Account_Id" xml:space="preserve">
+    <value>PayPal Merchant Account Id</value>
+  </data>
+  <data name="PayPal_Merchant_Email" xml:space="preserve">
+    <value>PayPal Merchant Email</value>
+  </data>
+  <data name="PO_CC_List" xml:space="preserve">
+    <value>PO Email CC List (separated with comma or semicolon)</value>
+  </data>
+  <data name="PO_Email_Enabled" xml:space="preserve">
+    <value>PO Email Enabled</value>
+  </data>
+  <data name="PO_Sent_From" xml:space="preserve">
+    <value>Purchase Order sent from</value>
+  </data>
+  <data name="Preview_non_print_layers" xml:space="preserve">
+    <value>preview non print layers</value>
+  </data>
+  <data name="PrintUI_Authorization_Code" xml:space="preserve">
+    <value>PrintUI Authorization Code</value>
+  </data>
+  <data name="PrintUI_Client_Id" xml:space="preserve">
+    <value>PrintUI Client Id</value>
+  </data>
+  <data name="Print_Management" xml:space="preserve">
+    <value>Print Management</value>
+  </data>
+  <data name="Resolution_for_JPEG_downloads" xml:space="preserve">
+    <value>resolution for JPEG downloads</value>
+  </data>
+  <data name="Salesforce_Enabled" xml:space="preserve">
+    <value>Salesforce Enabled</value>
+  </data>
+  <data name="Salesforce_Workspace_Id" xml:space="preserve">
+    <value>Salesforce Workspace Id</value>
+  </data>
+  <data name="Sendlite_Enabled" xml:space="preserve">
+    <value>Sendlite Enabled</value>
+  </data>
+  <data name="Sendlite_Subscriber_Number" xml:space="preserve">
+    <value>Sendlite Subscriber Number</value>
+  </data>
+  <data name="Show_Add_Image_Button" xml:space="preserve">
+    <value>Show the "Add Image" button</value>
+  </data>
+  <data name="Show_Add_Text_Button" xml:space="preserve">
+    <value>Show the "Add Text" button</value>
+  </data>
+  <data name="Show_All_Edit_Fields" xml:space="preserve">
+    <value>Initially show all edit fields</value>
+  </data>
+  <data name="Show_Current_Page_Colors" xml:space="preserve">
+    <value>Color picker document colors</value>
+  </data>
+  <data name="Show_Full_Screen_Button" xml:space="preserve">
+    <value>Show the "Full Screen" button</value>
+  </data>
+  <data name="Show_Generic_Colors" xml:space="preserve">
+    <value>Colors to show in color picker</value>
+  </data>
+  <data name="Show_in_text_pallete" xml:space="preserve">
+    <value>Show styles or fonts in text pallete</value>
+  </data>
+  <data name="Show_non_print_layers" xml:space="preserve">
+    <value>show non print layers</value>
+  </data>
+  <data name="Show_Preview_Button" xml:space="preserve">
+    <value>Show the "Preview" button</value>
+  </data>
+  <data name="Show_Start_Over_Button" xml:space="preserve">
+    <value>Show the "Start Over" button</value>
+  </data>
+  <data name="Show_the_text_pallete" xml:space="preserve">
+    <value>Show the text palette when editing text</value>
+  </data>
+  <data name="SilverPop_Client_Id" xml:space="preserve">
+    <value>Silverpop Client Id</value>
+  </data>
+  <data name="SilverPop_Client_Secret" xml:space="preserve">
+    <value>Silverpop Client Secret</value>
+  </data>
+  <data name="SilverPop_Database_Id" xml:space="preserve">
+    <value>Silverpop Database Id</value>
+  </data>
+  <data name="Silverpop_Folder_Id" xml:space="preserve">
+    <value>Silverpop Folder Id</value>
+  </data>
+  <data name="SilverPop_Pod_Number" xml:space="preserve">
+    <value>Silverpop Pod Number</value>
+  </data>
+  <data name="SilverPop_Refresh_Token" xml:space="preserve">
+    <value>Silverpop Refresh Token</value>
+  </data>
+  <data name="Silverpop_Send_Email" xml:space="preserve">
+    <value>Silverpop sender email</value>
+  </data>
+  <data name="Site_Type" xml:space="preserve">
+    <value>Site Type</value>
+  </data>
+  <data name="Support_Email_Address" xml:space="preserve">
+    <value>Support Email Address</value>
+  </data>
+  <data name="Template_Creation_Price" xml:space="preserve">
+    <value>Only applicable if you are charging on template costs. Ability to set up invoices for template cost in invoice settings</value>
+  </data>
+  <data name="ThemeColor" xml:space="preserve">
+    <value>Theme Colour</value>
+  </data>
+  <data name="Time_Zones" xml:space="preserve">
+    <value>Time Zones</value>
+  </data>
+  <data name="Video_Approver_Email" xml:space="preserve">
+    <value>Video Approver Email</value>
+  </data>
+  <data name="Video_Enabled" xml:space="preserve">
+    <value>Enabled Video Feature</value>
+  </data>
+  <data name="Video_Integration_Type" xml:space="preserve">
+    <value>Video Integration Type</value>
+  </data>
+  <data name="Video_Payment_Type" xml:space="preserve">
+    <value>Video Payment Type</value>
+  </data>
+  <data name="Video_PayPal_Integration_Type" xml:space="preserve">
+    <value>Video PayPal Integration Type</value>
+  </data>
+  <data name="Video_PayPal_Merchant_Account_Id" xml:space="preserve">
+    <value>Video PayPal Merchant Account Id</value>
+  </data>
+  <data name="Video_PayPal_Merchant_Email" xml:space="preserve">
+    <value>Video PayPal Merchant Email</value>
+  </data>
+  <data name="Video_PO_Price" xml:space="preserve">
+    <value>Video PO Price</value>
+  </data>
+  <data name="Widen_Access_Token" xml:space="preserve">
+    <value>Access token for Widen API</value>
+  </data>
+  <data name="Zoom_to_Fill_Screen" xml:space="preserve">
+    <value>Zoom to fill screen</value>
+  </data>
+</root>

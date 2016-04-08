@@ -1,4 +1,4 @@
-AddBudget=Add Budget
+﻿AddBudget=Add Budget
 Admin=Admin
 AfterHours=After Hours
 Announcements=Announcements

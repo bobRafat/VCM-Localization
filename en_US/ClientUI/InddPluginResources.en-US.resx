@@ -136,10 +136,10 @@
     <value>There are image(s) that failed in the prepopulation process. Do you want to ignore the failed image(s) and continue to Editor?</value>
   </data>
   <data name="ImageTransfer" xml:space="preserve">
-    <value>ImageTransfer</value>
+    <value>Image Transfer</value>
   </data>
   <data name="ImageTransferWaiting" xml:space="preserve">
-    <value>ImageTransferWaiting</value>
+    <value>Image Transfer Waiting</value>
   </data>
   <data name="NoJobIDFound" xml:space="preserve">
     <value>No Job ID Found</value>

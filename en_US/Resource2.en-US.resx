@@ -277,7 +277,7 @@
     <value>If you believe a mistake has been made on your video, please submit a complaint.</value>
   </data>
   <data name="SummaryDescription" xml:space="preserve">
-    <value>SummaryDescription</value>
+    <value>Summary Description</value>
   </data>
   <data name="SupportRequest" xml:space="preserve">
     <value>Support Request</value>
@@ -295,7 +295,7 @@
     <value>Tone / Theme of the property</value>
   </data>
   <data name="TotalPriceInclGST" xml:space="preserve">
-    <value>Total Price incl. GST</value>
+    <value>Total Price</value>
   </data>
   <data name="UniqueSellingPoints" xml:space="preserve">
     <value>Unique selling points / Wow factor</value>
@@ -313,7 +313,7 @@
     <value>Upload Outro Image</value>
   </data>
   <data name="VCMSupport" xml:space="preserve">
-    <value>VCM Support</value>
+    <value>BrandingUI Support</value>
   </data>
   <data name="VideoFinish" xml:space="preserve">
     <value>Video Finish</value>
@@ -385,7 +385,7 @@
     <value>Add/Edit RateCard</value>
   </data>
   <data name="BackLogin" xml:space="preserve">
-    <value>BackLogin</value>
+    <value>Back To Login</value>
   </data>
   <data name="CancelledByRequestor" xml:space="preserve">
     <value>Canceled by requestor</value>
@@ -436,7 +436,7 @@
     <value>Edit Artwork</value>
   </data>
   <data name="Finalise" xml:space="preserve">
-    <value>Finalise</value>
+    <value>Finalize</value>
   </data>
   <data name="GetQuote" xml:space="preserve">
     <value>Get Quote</value>

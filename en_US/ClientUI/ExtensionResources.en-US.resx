@@ -214,7 +214,7 @@
     <value>Please fill in property address.</value>
   </data>
   <data name="FillInPropertyCityOrSuburb" xml:space="preserve">
-    <value>Please fill in property city or suburb.</value>
+    <value>Please fill in property city.</value>
   </data>
   <data name="FillInPropertyPostcode" xml:space="preserve">
     <value>Please fill in property postal code or zip code.</value>
@@ -229,7 +229,7 @@
     <value>Guest</value>
   </data>
   <data name="InfoSetting" xml:space="preserve">
-    <value>InfoSetting</value>
+    <value>Info Setting</value>
   </data>
   <data name="IntroImage" xml:space="preserve">
     <value>Intro Image</value>
@@ -382,7 +382,7 @@
     <value>User Details</value>
   </data>
   <data name="VideoFinish" xml:space="preserve">
-    <value>VideoFinish</value>
+    <value>Video Finish</value>
   </data>
   <data name="VideoIsBeingProduced" xml:space="preserve">
     <value>Your Video is being produced. We will email it to you as soon as it is ready.</value>
@@ -445,6 +445,6 @@
     <value>Upload your company logo, and property images. Then supply the details on the property, in the form provided.</value>
   </data>
   <data name="VideoForm" xml:space="preserve">
-    <value>VideoForm</value>
+    <value>Video Form</value>
   </data>
 </root>

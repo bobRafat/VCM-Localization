@@ -1,4 +1,4 @@
-AdditionalField=Additional Field
+﻿AdditionalField=Additional Field
 AddOrUpdate=Add or Update
 CannotBeSaved=Cannot be saved
 ChooseLoginType=Please choose login Type.

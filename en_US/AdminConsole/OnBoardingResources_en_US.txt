@@ -1,4 +1,4 @@
-AddCompany=Add a Company
+﻿AddCompany=Add a Company
 AddCompanyInfo=Add Company Info
 AddEditRateCard=Add/Edit RateCard
 AddRateCard=Add RateCard
@@ -38,7 +38,7 @@ SelectTemplateItemSize=Select Template Item Size
 SelectTemplateItemType=Select Template Item Type
 SelectTemplateSubType=Select Template Sub Type
 SelectTemplateType=Please select Template Type.
-SiteRegistration=Site Creation
+SiteRegistration=Site Registration
 SiteRegistrationCompleted=Your site registration is complete. Please proceed to set up your site.
 SiteRegistrationSent=A site registration has been sent to you [ {0} ]
 SubsiteIdIncorrect=Subsite id is not correct

@@ -1,4 +1,4 @@
-CannotConnectBuzServer=Cannot connect Buz server
+﻿CannotConnectBuzServer=Cannot connect Buz server
 CanNotCopyIndesignPluginJob=Can not copy InDesign Plugin Job
 ConstructBuzControlsTest=Construct Buz Controls Test
 JobInfo=Job Info

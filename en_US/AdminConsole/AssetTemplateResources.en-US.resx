@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AbilityUploadPdf" xml:space="preserve">
-    <value>Ability to upload PDF and convert into Ebook</value>
+    <value>“X” deletes a template from this section. It will still appear &lt;br&gt;under “Template Mapping” and can be remapped somewhere else.</value>
   </data>
   <data name="Activate" xml:space="preserve">
     <value>Activate</value>
@@ -178,7 +178,7 @@
     <value>Click Charge</value>
   </data>
   <data name="ConvertPrintUIPDF" xml:space="preserve">
-    <value>Converting your Print UI Indesign PDF file into an Ebook</value>
+    <value>To Edit any preferences select “Edit” next to the template you &lt;br&gt;wish to edit. There is also the option to “Activate or &lt;br&gt;DeActivate” a template. DeActivating a template does not &lt;br&gt;delete it, only hides it from the client site.</value>
   </data>
   <data name="CopyOf" xml:space="preserve">
     <value>Copy of</value>
@@ -193,7 +193,7 @@
     <value>Create Artwork</value>
   </data>
   <data name="CreateEBook" xml:space="preserve">
-    <value>Create E-Book Functionality</value>
+    <value>HOW TO: Managing Templates</value>
   </data>
   <data name="CustomizedItemType" xml:space="preserve">
     <value>Customized Item Type</value>
@@ -250,7 +250,7 @@
     <value>This email was sent from</value>
   </data>
   <data name="EnableCreatePDF" xml:space="preserve">
-    <value>Enables you to create a PDF in two ways.</value>
+    <value>Templates that have been mapped to categories under the &lt;br&gt;“Template Mapping” tab will appear here. You can use the &lt;br&gt;“Search” box to find specific work.</value>
   </data>
   <data name="EnableManageEmailArtwork" xml:space="preserve">
     <value>Enables you manage email artwork.</value>
@@ -269,42 +269,6 @@
   </data>
   <data name="GenerateInvoice" xml:space="preserve">
     <value>Generate Invoice</value>
-  </data>
-  <data name="HowToCreatEbook" xml:space="preserve">
-    <value>1- How to Create a E-book from Print UI</value>
-  </data>
-  <data name="HowToCreatEbook2" xml:space="preserve">
-    <value>2- How to Create a E-book by uploading a PDF</value>
-  </data>
-  <data name="HowToCreatEbook2Step1" xml:space="preserve">
-    <value>Step 1:  Click on Add Template</value>
-  </data>
-  <data name="HowToCreatEbook2Step10" xml:space="preserve">
-    <value>Step 10: Click Back + Click On Activate to make template live</value>
-  </data>
-  <data name="HowToCreatEbook2Step2" xml:space="preserve">
-    <value>Step 2:  Select Editor Version V5 Editor</value>
-  </data>
-  <data name="HowToCreatEbook2Step3" xml:space="preserve">
-    <value>Step 3: Select Type E-Suite</value>
-  </data>
-  <data name="HowToCreatEbook2Step4" xml:space="preserve">
-    <value>Step 4: Select Sub-Type E-Book</value>
-  </data>
-  <data name="HowToCreatEbook2Step5" xml:space="preserve">
-    <value>Step 5: Enter in Template Name</value>
-  </data>
-  <data name="HowToCreatEbook2Step6" xml:space="preserve">
-    <value>Step 6: Select Template Behavior “Upload”</value>
-  </data>
-  <data name="HowToCreatEbook2Step7" xml:space="preserve">
-    <value>Step 7: Select Approval Type if applicable</value>
-  </data>
-  <data name="HowToCreatEbook2Step8" xml:space="preserve">
-    <value>Step 8: Map to category on right hand menu, where this item should be saved</value>
-  </data>
-  <data name="HowToCreatEbook2Step9" xml:space="preserve">
-    <value>Step 9: Click on Add</value>
   </data>
   <data name="HowToManageEmailArtwork" xml:space="preserve">
     <value>HOW TO: Manage Email artwork</value>
@@ -640,7 +604,7 @@
     <value>Last Updated By</value>
   </data>
   <data name="LastUpdatedDate" xml:space="preserve">
-    <value>Last Updated Date</value>
+    <value>Date Last Updated</value>
   </data>
   <data name="MappedRatecards" xml:space="preserve">
     <value>Mapped Ratecards</value>
@@ -685,7 +649,7 @@
     <value>Template Creation Price</value>
   </data>
   <data name="TemplateCreationPriceExclGst" xml:space="preserve">
-    <value>Template Creation Price excl GST</value>
+    <value>Template Creation Price</value>
   </data>
   <data name="TemplateId" xml:space="preserve">
     <value>Template Id</value>

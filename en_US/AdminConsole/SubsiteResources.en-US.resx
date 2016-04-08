@@ -292,22 +292,19 @@
     <value>HOW TO: Create SubSite</value>
   </data>
   <data name="HowToSetUpSites" xml:space="preserve">
-    <value>How to Set Up Sites</value>
+    <value>How to Set Up SubSites</value>
   </data>
   <data name="HowToSetUpYourSite" xml:space="preserve">
-    <value>How to Set Up Your Site</value>
+    <value>A single BrandingUI account can only have one main site. This &lt;br&gt; top level site will be created by the Super Admin at &lt;br&gt;PrintUI, Inc. Each site can have multiple levels of subsites, &lt;br&gt;which can be created and managed by Subsite Admins. From the &lt;br&gt;Users page, a Subsite Admin can set which Subsite(s) a user &lt;br&gt;has access to.</value>
   </data>
   <data name="Step1" xml:space="preserve">
-    <value>Indicate below your main brand name.</value>
+    <value>Select “Create Subsite” next to either a top level site, a &lt;br&gt;subsite, or a child site to create a site underneath it. </value>
   </data>
   <data name="Step2" xml:space="preserve">
-    <value>Indicate any sub brands, if applicable.</value>
+    <value>The settings for the new site will automatically default to the &lt;br&gt;parent site’s setting. To change these settings for &lt;br&gt;individual sites, select “Themes” or “Settings”.</value>
   </data>
   <data name="Step3" xml:space="preserve">
-    <value>Indicate regions applicable for each sub brand.</value>
-  </data>
-  <data name="Step4" xml:space="preserve">
-    <value>Drag and drop applicable regions to suit each brands and create your hierarchy.</value>
+    <value>Selecting “Themes” will allow you to change logos, background &lt;br&gt;images, etc., while selecting “Settings” will allow you to &lt;br&gt;change things such as payment options, external integration, &lt;br&gt;etc.</value>
   </data>
   <data name="Inherited" xml:space="preserve">
     <value>Inherited</value>

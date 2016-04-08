@@ -145,7 +145,7 @@
     <value>Enter Media Booking Number</value>
   </data>
   <data name="EnterQuoteIncGST" xml:space="preserve">
-    <value>Enter Quote inc. GST</value>
+    <value>Enter Quote</value>
   </data>
   <data name="FillInDeliveryDetails" xml:space="preserve">
     <value>Please fill in delivery details.</value>
@@ -184,7 +184,7 @@
     <value>Number Only</value>
   </data>
   <data name="OrderReady" xml:space="preserve">
-    <value>OrderReady</value>
+    <value>Order Ready</value>
   </data>
   <data name="PackageIsNullPleaseCheck" xml:space="preserve">
     <value>The package is null; please check the setting of template or package.</value>

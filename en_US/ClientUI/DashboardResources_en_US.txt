@@ -1,4 +1,4 @@
-Approved=Approved
+﻿Approved=Approved
 ArtworkCreated=Artwork Created
 ArtworkNotCreated=Artwork not Created
 CampaignDates=Campaign Dates
@@ -9,6 +9,7 @@ DashboardDate=MM/dd/yy
 DateRange=Date range:
 Deleted=Deleted
 InProgress=In Progress
+JobStatus=Job Status
 MediaBookingStart=Media Booking Start
 NewJob=New Job
 PendingQuote=Pending Quote

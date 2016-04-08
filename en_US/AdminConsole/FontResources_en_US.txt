@@ -1,4 +1,4 @@
-CreateNewFamily=Create New Family
+﻿CreateNewFamily=Create New Family
 Ebook=Ebook
 EDM=EDM
 EnterFontName=Please Enter Font Name

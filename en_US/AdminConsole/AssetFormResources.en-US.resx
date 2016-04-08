@@ -193,7 +193,7 @@
     <value>delimeter - e.g. 1;2;3</value>
   </data>
   <data name="DescOfCreateForm" xml:space="preserve">
-    <value>Enables you to set custom forms for creative briefs, custom artwork orders, marketing requests, item orders etc.</value>
+    <value>Fill in general information about this form. Then select “Add &lt;br&gt;Question” to begin assembling your form.</value>
   </data>
   <data name="EditCustomForm" xml:space="preserve">
     <value>Edit Custom Form</value>

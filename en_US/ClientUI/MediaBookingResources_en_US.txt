@@ -1,4 +1,4 @@
-AgentName=Agent Name
+﻿AgentName=Agent Name
 AppearanceDate=Appearance Date
 AppearanceDateBiggerThan=- This only displays items that the appearance date is bigger than {0}
 BookingNumber=Booking Number

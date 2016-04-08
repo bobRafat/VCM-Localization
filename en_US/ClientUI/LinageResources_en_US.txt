@@ -1,4 +1,4 @@
-AvailableDates=Available Dates
+﻿AvailableDates=Available Dates
 Border=Border
 CheckItemsToSubmit=Please check item(s) to submit.
 EnterEmailSubject=Please enter Email Subject.
@@ -24,8 +24,8 @@ LineageList=Lineage List
 LineageListAdmin=Lineage List - Admin
 LineageListAdminHistory=Lineage List - Admin (History)
 LineageListSupplier=Lineage List - Supplier
-ListAdmin=ListAdmin
-ListSupplier=ListSupplier
+ListAdmin=List Admin
+ListSupplier=List Supplier
 Logo1=Logo x 1
 Logo2=Logo x 2
 LogoLC9790=Logo LC9790

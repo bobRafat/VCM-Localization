@@ -166,7 +166,7 @@
     <value>Invalid Headline</value>
   </data>
   <data name="InvalidSuburbSelected" xml:space="preserve">
-    <value>Invalid Suburb selected</value>
+    <value>Invalid City selected</value>
   </data>
   <data name="LinageEdit" xml:space="preserve">
     <value>Linage - Edit</value>
@@ -196,10 +196,10 @@
     <value>Lineage List - Supplier</value>
   </data>
   <data name="ListAdmin" xml:space="preserve">
-    <value>ListAdmin</value>
+    <value>List Admin</value>
   </data>
   <data name="ListSupplier" xml:space="preserve">
-    <value>ListSupplier</value>
+    <value>List Supplier</value>
   </data>
   <data name="Logo1" xml:space="preserve">
     <value>Logo x 1</value>
@@ -235,7 +235,7 @@
     <value>Property Search</value>
   </data>
   <data name="PropertySuburb" xml:space="preserve">
-    <value>Property Suburb</value>
+    <value>Property City</value>
   </data>
   <data name="RejectedLineage" xml:space="preserve">
     <value>rejected your lineage</value>

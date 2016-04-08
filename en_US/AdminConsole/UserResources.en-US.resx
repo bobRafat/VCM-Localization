@@ -271,7 +271,7 @@
     <value>State is a mandatory field.</value>
   </data>
   <data name="SuburbIsMandatory" xml:space="preserve">
-    <value>Suburb is a mandatory field.</value>
+    <value>City is a mandatory field.</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Profile</value>
@@ -307,10 +307,10 @@
     <value>go to your account.</value>
   </data>
   <data name="InviteUserEmailMessage" xml:space="preserve">
-    <value>You are invited to VCM.
+    <value>You are invited to BrandingUI.
 These are your credentials.</value>
   </data>
   <data name="InviteUserEmailSubject" xml:space="preserve">
-    <value>Invite to VCM</value>
+    <value>Invite to BrandingUI</value>
   </data>
 </root>

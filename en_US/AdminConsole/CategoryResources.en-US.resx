@@ -193,10 +193,13 @@
     <value>Please select Parent category.</value>
   </data>
   <data name="SettingUpLeftHandMenu" xml:space="preserve">
-    <value>This will set up the left hand menu items for your site.</value>
+    <value>Categories are used in front-end for selecting assets (templates, images etc.) when&lt;br&gt;
+     creating a campaign. They show up on the left-hand side of sites as menu items, and are used&lt;br&gt;
+      to organize Templates, Images, Documents, Elements, and Packages. Multiple levels of &lt;br&gt;
+      categories are supported. </value>
   </data>
   <data name="SetUpCategory" xml:space="preserve">
-    <value>Set Up Category</value>
+    <value>Setting Up a Category</value>
   </data>
   <data name="ShowInClientSite" xml:space="preserve">
     <value>Show in Client Site</value>
@@ -205,16 +208,15 @@
     <value>Stationary</value>
   </data>
   <data name="Step11" xml:space="preserve">
-    <value>Step 1:  Click on Create Category</value>
+    <value>Step 1:  To create a new Category or SubCategory Select “Create Under This Category” &lt;br&gt;
+    next to the Site or Category you’d like it to appear in.</value>
   </data>
   <data name="Step12" xml:space="preserve">
-    <value>Step 2:  Add Category Name + Select Category Type</value>
+    <value>Step 2:  Use the “Edit” button to change Category Settings. Clicking  “X” will delete a &lt;br&gt;
+    category.</value>
   </data>
   <data name="Step21" xml:space="preserve">
-    <value>Step 1: Click on Create Category from your Main Category</value>
-  </data>
-  <data name="Step22" xml:space="preserve">
-    <value>Step 2: Add Sub Category Name + Select Category Type</value>
+    <value>Step 1: Click on "Create Under This Category" from your Main Category</value>
   </data>
   <data name="SubCategoryBrochures" xml:space="preserve">
     <value>Sub Category = Brochures</value>
@@ -233,5 +235,14 @@
   </data>
   <data name="CategoryThumbnail" xml:space="preserve">
     <value>Category thumbnail</value>
+  </data>
+  <data name="CheckFormatAndUpload" xml:space="preserve">
+    <value>Please download a sample XML file to review the necessary format and upload your XML File.</value>
+  </data>
+  <data name="CheckXMLFormat" xml:space="preserve">
+    <value>The file should be a XML file; you may download a sample XML file to review the file format.</value>
+  </data>
+  <data name="ImportCategories" xml:space="preserve">
+    <value>Import Categories</value>
   </data>
 </root>

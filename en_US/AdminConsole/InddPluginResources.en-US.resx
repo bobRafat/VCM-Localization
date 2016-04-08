@@ -181,24 +181,22 @@
     <value>Uploaded</value>
   </data>
   <data name="EnableToTagAndMapToPrintUITemplate" xml:space="preserve">
-    <value>Enables you to tag your templates and map them to the PrintUI template</value>
+    <value>Template mapping enables you to sort your templates into &lt;br&gt;specific categories and subsites, activating them for display &lt;br&gt;and use on the live site.</value>
   </data>
   <data name="HOWTOSetupIndesignPluginTemplate" xml:space="preserve">
     <value>HOW TO: Setup Your InDesign Plugin Template</value>
   </data>
   <data name="HowToSetUpPrintUI" xml:space="preserve">
-    <value>How to Set Up PrintUI</value>
-  </data>
-  <data name="NoteOfSetUpTemplate" xml:space="preserve">
-    <value>Activating template makes the template live for use in your site. Deactivating template does not delete the template; it simply hides the template from your site.</value>
+    <value>How to Begin Mapping Templates</value>
   </data>
   <data name="Step1" xml:space="preserve">
-    <value>Step 1: Select a template and click on EDIT</value>
+    <value>Step 1: Selecting “Refresh” will upload any recent templates to &lt;br&gt;display the current library.</value>
   </data>
   <data name="Step2" xml:space="preserve">
-    <value>Step 2: Add Tag to the template to link it to your site</value>
+    <value>Step 2: Begin by searching for a desired template, then select &lt;br&gt;“Edit”
+</value>
   </data>
-  <data name="Step3" xml:space="preserve">
-    <value>Step 3: Click Save &amp; continue to map Template + add RateCards or Click Back to view and edit template list</value>
+  <data name="ImportTemplateMapping" xml:space="preserve">
+    <value>Import Template Mapping</value>
   </data>
 </root>

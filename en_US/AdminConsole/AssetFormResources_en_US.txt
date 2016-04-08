@@ -1,4 +1,4 @@
-AddOptionalQuestion=Add an Optional Question
+﻿AddOptionalQuestion=Add an Optional Question
 AddQuestion=Add Question
 AnswerOption=Answer Option
 AnswerType=Answer Type
@@ -23,7 +23,7 @@ DefaultAnswer=Default Answer
 DeleteForm=Are you sure you want to delete this Custom form?
 DeleteForms=Delete Selected Form(s)
 DelimeterExample=delimeter - e.g. 1;2;3
-DescOfCreateForm=Enables you to set custom forms for creative briefs, custom artwork orders, marketing requests, item orders etc.
+DescOfCreateForm=Fill in general information about this form. Then select “Add <br>Question” to begin assembling your form.
 EditCustomForm=Edit Custom Form
 ForAnonymous=For Anonymous
 FormIdInvalid=Invalid Form Id

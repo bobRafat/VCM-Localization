@@ -154,6 +154,6 @@
     <value>Select Product Options</value>
   </data>
   <data name="TotalPriceInclGST" xml:space="preserve">
-    <value>Total Price incl. GST</value>
+    <value>Total Price</value>
   </data>
 </root>

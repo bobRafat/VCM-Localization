@@ -151,22 +151,22 @@
     <value>No report data found</value>
   </data>
   <data name="OnlyDisplayLastestCampaigns" xml:space="preserve">
-    <value>This only displays 20 latest campaigns. Please export to get full campaigns.</value>
+    <value>We can display up to 20 campaigns on this page. For reports on all campaigns please Export to CSV File.</value>
   </data>
   <data name="OnlyDisplayLastestOrders" xml:space="preserve">
-    <value>This only displays 100 latest order records. Please export to get full order records.</value>
+    <value>We can display up to 100 order records on this page. For reports on all campaigns please Export to CSV File.</value>
   </data>
   <data name="OnlyDisplayLatestRecords" xml:space="preserve">
-    <value>This only displays 100 latest transaction records. Please export to get full transaction records.</value>
+    <value>We can display up to 100 transaction records. For reports on all campaigns please Export to CSV File.</value>
   </data>
   <data name="OnlyDisplaysLatestJobs" xml:space="preserve">
-    <value>This only displays 100 latest job records. Please export to get full job records.</value>
+    <value>We can display up to 100 job records. For reports on all templates, please Export to CSV File.</value>
   </data>
   <data name="OrderDate" xml:space="preserve">
-    <value>OrderDate</value>
+    <value>Order Date</value>
   </data>
   <data name="OrderId" xml:space="preserve">
-    <value>OrderId</value>
+    <value>Order Id</value>
   </data>
   <data name="OrderReport" xml:space="preserve">
     <value>Order Report</value>
@@ -175,13 +175,13 @@
     <value>Salesforce Download Images</value>
   </data>
   <data name="SubsiteName" xml:space="preserve">
-    <value>SubsiteName</value>
+    <value>Subsite Name</value>
   </data>
   <data name="TemplateId" xml:space="preserve">
-    <value>TemplateId</value>
+    <value>Template Id</value>
   </data>
   <data name="TemplateName" xml:space="preserve">
-    <value>TemplateName</value>
+    <value>Template Name</value>
   </data>
   <data name="TemplateReport" xml:space="preserve">
     <value>Template Report</value>

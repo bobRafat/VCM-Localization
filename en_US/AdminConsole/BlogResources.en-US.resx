@@ -124,7 +124,9 @@
     <value>Edit News</value>
   </data>
   <data name="EnableManageNews" xml:space="preserve">
-    <value>Enables you manage and enable News Functionality on your site for announcements, updates and other information for all users to see when they login to the site.</value>
+    <value>Allows you manage and enable News Functionality on your site for announcements, updates and other information for all users to see when they login to the site. &lt;br&gt;
+    Select “Add News” to input a new announcement to the News section of &lt;br&gt;
+    the client site. Only one News item will be displayed at a time.</value>
   </data>
   <data name="EnalbedAndVisible" xml:space="preserve">
     <value>This will now be enabled and visible on your site</value>
@@ -163,16 +165,16 @@
     <value>News Updated</value>
   </data>
   <data name="NoteOfManageNews" xml:space="preserve">
-    <value>Should third party News be involved, please contact your site administrator to discuss integration.</value>
+    <value> Should third party News be involved, please contact your site administrator to discuss integration.</value>
   </data>
   <data name="Step1" xml:space="preserve">
-    <value>Step 1: Select Site Settings</value>
+    <value>Step 1: Select Settings within the Subsites tab</value>
   </data>
   <data name="Step2" xml:space="preserve">
-    <value>Step 2: Select Custom Settings</value>
+    <value>Step 2: Select General Settings</value>
   </data>
   <data name="Step3" xml:space="preserve">
-    <value>Step 3: News Enable Select “True” and update</value>
+    <value>Step 3: News Enabled Select “True” and update</value>
   </data>
   <data name="Step4" xml:space="preserve">
     <value>Step 4: Click on News on left menu of Admin Console</value>

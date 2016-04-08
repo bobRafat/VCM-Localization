@@ -1,4 +1,4 @@
-EnquiryHasBeenSubmitted=Inquiry has been submitted. We will contact you as soon as possible.
+﻿EnquiryHasBeenSubmitted=Inquiry has been submitted. We will contact you as soon as possible.
 FormHasBeenSubmitted=Form '{0}' has been submitted
 InvalidFormId=Invalid Form Id
 MandatoryField=Mandatory Field

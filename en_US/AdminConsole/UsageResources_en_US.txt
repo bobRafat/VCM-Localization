@@ -1,4 +1,4 @@
-AdditionalPlan=Additional Plan
+﻿AdditionalPlan=Additional Plan
 BasePlan=Base Plan
 CreateNewPlan=Create New Plan
 CurrentNumberOfSites=Current Number of Sites

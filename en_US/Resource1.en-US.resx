@@ -235,7 +235,7 @@
     <value>Completed</value>
   </data>
   <data name="CostInclGST" xml:space="preserve">
-    <value>Cost Incl GST</value>
+    <value>Cost</value>
   </data>
   <data name="Delivery" xml:space="preserve">
     <value>Delivery</value>
@@ -460,7 +460,7 @@
     <value>End Date</value>
   </data>
   <data name="Export" xml:space="preserve">
-    <value>Export</value>
+    <value>Export to CSV file</value>
   </data>
   <data name="FixingItComebackInAWhile" xml:space="preserve">
     <value>We are fixing the issue.  Please come back in a few minutes.</value>

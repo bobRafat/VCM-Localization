@@ -1,4 +1,4 @@
-ChangePassword=Change Password
+﻿ChangePassword=Change Password
 ChangePasswordForm=Change Password Form
 ConfirmNewPassword=Confirm New Password
 CreateAccount=Create an account

@@ -1,4 +1,4 @@
-Address=Address
+﻿Address=Address
 Agent=Agent
 Attention=Attention
 Bathrooms=Bathrooms
@@ -112,7 +112,7 @@ CartWaitingForApproval=Cart Waiting For Your Approval
 Copyright=Copyright
 DownloadImagesSuccessfully=Download {0} image(s) successfully
 EndDate=End Date
-Export=Export
+Export=Export to CSV file
 FixingItComebackInAWhile=We are fixing the issue.  Please come back in a few minutes.
 FollowTheseSteps=Please follow these six easy steps
 JobsWaitingForApproval=Jobs Waiting For Your Approval

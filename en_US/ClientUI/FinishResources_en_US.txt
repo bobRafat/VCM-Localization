@@ -1,4 +1,4 @@
-AcceptSoleResponsibility=I accept sole responsibility for managing both production and delivery of this artwork, either via in-house production or via an external supplier.
+﻿AcceptSoleResponsibility=I accept sole responsibility for managing both production and delivery of this artwork, either via in-house production or via an external supplier.
 ArtworkHasBeenSentToPublication=Artwork has been sent to publication.
 Brochure=Brochure
 CollectionOrderStatus=Collection Order Status

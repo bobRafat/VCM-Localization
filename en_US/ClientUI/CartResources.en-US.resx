@@ -121,7 +121,7 @@
     <value>BANKING DETAILS</value>
   </data>
   <data name="CartDashboard" xml:space="preserve">
-    <value>CartDashboard</value>
+    <value>Cart Dashboard</value>
   </data>
   <data name="ChangeQuantity" xml:space="preserve">
     <value>Change Quantity</value>
@@ -178,7 +178,7 @@
     <value>Please tear off &amp; return with payment</value>
   </data>
   <data name="TotalCostInclGST" xml:space="preserve">
-    <value>Total Cost Incl GST</value>
+    <value>Total Cost</value>
   </data>
   <data name="YourCartWaitingForApproval" xml:space="preserve">
     <value>Your Cart is waiting for approval</value>

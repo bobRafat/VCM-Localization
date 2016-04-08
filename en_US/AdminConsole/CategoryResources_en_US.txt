@@ -1,4 +1,4 @@
-CategoryCreatePage=Category Create Page
+﻿CategoryCreatePage=Category Create Page
 CategoryEditPage=Category Edit Page
 CategoryList=Category List
 CategoryListPage=Category List Page
@@ -23,17 +23,19 @@ OrderNumber=OrderNumber
 ParentCategory=Parent Category
 SelectCategoryType=Please select Category Type.
 SelectParentCategory=Please select Parent category.
-SettingUpLeftHandMenu=This will set up the left hand menu items for your site.
-SetUpCategory=Set Up Category
+SettingUpLeftHandMenu=Categories are used in front-end for selecting assets (templates, images etc.) when<br>\r\n     creating a campaign. They show up on the left-hand side of sites as menu items, and are used<br>\r\n      to organize Templates, Images, Documents, Elements, and Packages. Multiple levels of <br>\r\n      categories are supported. 
+SetUpCategory=Setting Up a Category
 ShowInClientSite=Show in Client Site
 Stationary=Stationary
-Step11=Step 1:  Click on Create Category
-Step12=Step 2:  Add Category Name + Select Category Type
-Step21=Step 1: Click on Create Category from your Main Category
-Step22=Step 2: Add Sub Category Name + Select Category Type
+Step11=Step 1:  To create a new Category or SubCategory Select “Create Under This Category” <br>\r\n    next to the Site or Category you’d like it to appear in.
+Step12=Step 2:  Use the “Edit” button to change Category Settings. Clicking  “X” will delete a <br>\r\n    category.
+Step21=Step 1: Click on "Create Under This Category" from your Main Category
 SubCategoryBrochures=Sub Category = Brochures
 SubCategorySummerSale=Sub Category =Summer Sale
-UploadImage=Upload Image (45pix X 45pix)
+UploadImage=Upload Image (45 X 45)
 WinterSale=Winter Sale
 SureDeleteCategory=Are you sure you want to delete this category?
 CategoryThumbnail=Category thumbnail
+CheckFormatAndUpload=Please download a sample XML file to review the necessary format and upload your XML File.
+CheckXMLFormat=The file should be a XML file; you may download a sample XML file to review the file format.
+ImportCategories=Import Categories

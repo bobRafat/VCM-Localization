@@ -136,10 +136,10 @@
     <value>Cart Approved or Rejected</value>
   </data>
   <data name="CartApprovedRejectedList" xml:space="preserve">
-    <value>CartApprovedRejectedList</value>
+    <value>Cart Approved Rejected List</value>
   </data>
   <data name="CartDetailsWaitingForYourApprovalList" xml:space="preserve">
-    <value>CartDetailsWaitingForYourApprovalList</value>
+    <value>Cart Details Waiting For Your Approval List</value>
   </data>
   <data name="CartItems" xml:space="preserve">
     <value>Cart Item(s)</value>
@@ -151,13 +151,13 @@
     <value>Cart Waiting for Your Approval</value>
   </data>
   <data name="CartWaitingForYourApprovalList" xml:space="preserve">
-    <value>CartWaitingForYourApprovalList</value>
+    <value>Cart Waiting For Your Approval List</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Information!</value>
   </data>
   <data name="JobApprovedRejectedList" xml:space="preserve">
-    <value>JobApprovedRejectedList</value>
+    <value>Job Approved Rejected List</value>
   </data>
   <data name="JobsApprovedOrRejected" xml:space="preserve">
     <value>Jobs Approved or Rejected</value>
@@ -187,10 +187,10 @@
     <value>Jobs Waiting for Your Approval.</value>
   </data>
   <data name="JobWaitingForYourApprovalList" xml:space="preserve">
-    <value>JobWaitingForYourApprovalList</value>
+    <value>Job Waiting For Your Approval List</value>
   </data>
   <data name="WaitingForApproval" xml:space="preserve">
-    <value>WaitingForApproval</value>
+    <value>Waiting For Approval</value>
   </data>
   <data name="WaitingForApproval1" xml:space="preserve">
     <value>Waiting for Approval</value>

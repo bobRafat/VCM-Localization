@@ -1,11 +1,11 @@
-CampaignImages=Campaign Image(s)
+﻿CampaignImages=Campaign Image(s)
 CanNotInitIndesignPluginJobID=Can not init InDesign Plugin Job ID
 CartImages=Cart Image(s)
 Editor=Editor
 images=image(s)
 ImagesFailedInPrepopulation=There are image(s) that failed in the prepopulation process. Do you want to ignore the failed image(s) and continue to Editor?
-ImageTransfer=ImageTransfer
-ImageTransferWaiting=ImageTransferWaiting
+ImageTransfer=Image Transfer
+ImageTransferWaiting=Image Transfer Waiting
 NoJobIDFound=No Job ID Found
 NoteForImagePrepopulate=Please note, due to the large size of image(s), it could take up to 30 seconds for each image to prepopulate.
 Prepopulate=Prepopulate

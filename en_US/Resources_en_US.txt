@@ -1,4 +1,4 @@
-AddSupplier=Add Supplier
+﻿AddSupplier=Add Supplier
 AddUsers=Add Users
 AdminConsole=Admin Console
 Assets=Assets

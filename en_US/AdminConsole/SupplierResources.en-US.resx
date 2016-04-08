@@ -232,7 +232,7 @@
     <value>Setup Cost</value>
   </data>
   <data name="SupplierAddPage" xml:space="preserve">
-    <value>SupplierAddPage</value>
+    <value>Supplier Add Page</value>
   </data>
   <data name="SupplierFTPSetting" xml:space="preserve">
     <value>Supplier FTP setting</value>
@@ -241,7 +241,7 @@
     <value>Supplier List</value>
   </data>
   <data name="SupplierListPage" xml:space="preserve">
-    <value>SupplierListPage</value>
+    <value>Supplier List Page</value>
   </data>
   <data name="SupplierName" xml:space="preserve">
     <value>Supplier Name</value>
@@ -280,19 +280,19 @@
     <value>Select Media Type</value>
   </data>
   <data name="SupplierEditPage" xml:space="preserve">
-    <value>SupplierEditPage</value>
+    <value>Supplier Edit Page</value>
   </data>
   <data name="SupplierEmail" xml:space="preserve">
     <value>Supplier Email</value>
   </data>
   <data name="SupplierPhone" xml:space="preserve">
-    <value>SupplierPhone</value>
+    <value>Supplier Phone</value>
   </data>
   <data name="SupplierRateCard" xml:space="preserve">
     <value>Supplier RateCard</value>
   </data>
   <data name="SupplierRateCardPage" xml:space="preserve">
-    <value>SupplierRateCardPage</value>
+    <value>Supplier RateCard Page</value>
   </data>
   <data name="SupplierRoles" xml:space="preserve">
     <value>Supplier Roles</value>
@@ -307,7 +307,7 @@
     <value>CSV File</value>
   </data>
   <data name="SupplierSelectSiteErrorPage" xml:space="preserve">
-    <value>SupplierSelectSiteErrorPage</value>
+    <value>Supplier Select Site Error Page</value>
   </data>
   <data name="HOWTOAddSuppliers" xml:space="preserve">
     <value>HOW TO: Add Suppliers</value>
@@ -325,7 +325,7 @@
     <value>Registering accredited suppliers into your site will enable order requests and purchases.</value>
   </data>
   <data name="Sendlite" xml:space="preserve">
-    <value>Sendlite: Third party media supplier</value>
+    <value>Media Broker: Third party media supplier</value>
   </data>
   <data name="Step1" xml:space="preserve">
     <value>Step 1:  Enter in Supplier contact details</value>

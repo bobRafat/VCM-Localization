@@ -1,4 +1,4 @@
-Admin=Admin
+﻿Admin=Admin
 Apply=Apply
 AssetDocument=Asset Document
 Categories=Categories

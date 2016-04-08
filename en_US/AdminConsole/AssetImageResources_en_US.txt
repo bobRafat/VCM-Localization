@@ -1,4 +1,4 @@
-AddFile=Add file
+﻿AddFile=Add file
 AssetCategoryMap=Please map this asset and select at least one Category. Your asset has not been saved.
 AssetImage=Asset Image
 Change=Change

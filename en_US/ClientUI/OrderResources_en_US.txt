@@ -1,4 +1,4 @@
-ArtworkIsCompleted=Your Artwork is completed.
+﻿ArtworkIsCompleted=Your Artwork is completed.
 ArtworkReadyToOrder=Your Artwork is ready to order.
 ArtworkReadyToSend=Your Artwork is ready to send.
 AvailableBookings=Available Bookings
@@ -20,7 +20,7 @@ HasSentQuoteRequest={0} has sent you a quote request for {1}
 MediaBookingNumber=Media Booking Number
 NoAvailableSuppliersSelected=No available suppliers selected.
 NumberOnly=Number Only
-OrderReady=OrderReady
+OrderReady=Order Ready
 PackageIsNullPleaseCheck=The package is null; please check the setting of template or package.
 PleaseWaitHiResArtwork=Please wait while your Hi-Res artwork is being sent to your supplier...
 PleaseWaitOrderBeingProcessed=Please wait while your order is being processed...
