@@ -234,4 +234,10 @@
   <data name="CategoryThumbnail" xml:space="preserve">
     <value>Category thumbnail</value>
   </data>
+  <data name="CheckFormatAndUpload" xml:space="preserve">
+    <value>Please download a sample CSV file to review the necessary format and upload your CSV File.</value>
+  </data>
+  <data name="ImportCategories" xml:space="preserve">
+    <value>Import Categories</value>
+  </data>
 </root>

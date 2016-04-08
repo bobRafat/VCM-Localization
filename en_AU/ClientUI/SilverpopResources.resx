@@ -117,19 +117,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BootstrapShortDate" xml:space="preserve">
-    <value>mm-dd-yyyy</value>
+  <data name="ContactLists" xml:space="preserve">
+    <value>Contact lists</value>
   </data>
-  <data name="DashedShortDate" xml:space="preserve">
-    <value>MM-dd-yyyy</value>
+  <data name="Encoding" xml:space="preserve">
+    <value>Encoding</value>
   </data>
-  <data name="ddMMMyyyy" xml:space="preserve">
-    <value>dd MMM yyyy</value>
+  <data name="FromAddress" xml:space="preserve">
+    <value>From address</value>
   </data>
-  <data name="ShortYear" xml:space="preserve">
-    <value>MM/dd/yy</value>
+  <data name="FromName" xml:space="preserve">
+    <value>From name</value>
   </data>
-  <data name="ReverseShortDate" xml:space="preserve">
-    <value>yyyy-MM-dd</value>
+  <data name="MailingName" xml:space="preserve">
+    <value>Mailing name</value>
+  </data>
+  <data name="QueryLists" xml:space="preserve">
+    <value>Query lists</value>
+  </data>
+  <data name="ReplyTo" xml:space="preserve">
+    <value>Reply to</value>
+  </data>
+  <data name="ScheduleDate" xml:space="preserve">
+    <value>Schedule date</value>
+  </data>
+  <data name="ScheduleTime" xml:space="preserve">
+    <value>Schedule time</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="TrackingLevel" xml:space="preserve">
+    <value>Tracking level</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Visibility</value>
   </data>
 </root>

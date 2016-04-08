@@ -474,4 +474,10 @@
   <data name="SysNotification" xml:space="preserve">
     <value>System notifications</value>
   </data>
+  <data name="SubsiteWelcome" xml:space="preserve">
+    <value>Welcome to BrandingUI. Please select a Subsite to begin.</value>
+  </data>
+  <data name="DueTime" xml:space="preserve">
+    <value>Due Time</value>
+  </data>
 </root>

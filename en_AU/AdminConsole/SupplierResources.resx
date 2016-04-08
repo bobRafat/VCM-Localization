@@ -342,4 +342,10 @@
   <data name="MaterialDate" xml:space="preserve">
     <value>Material Date</value>
   </data>
+  <data name="DeleteSupplier" xml:space="preserve">
+    <value>Delete Supplier</value>
+  </data>
+  <data name="SupplierRemoved" xml:space="preserve">
+    <value>Supplier Removed</value>
+  </data>
 </root>

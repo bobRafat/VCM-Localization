@@ -148,7 +148,7 @@
     <value>Delete Selected User(s)</value>
   </data>
   <data name="DownloadSampleCSVFile" xml:space="preserve">
-    <value>Download Sample CSV File</value>
+    <value>Download Sample CSV</value>
   </data>
   <data name="DownloadUsersToCSVFile" xml:space="preserve">
     <value>Download users to CSV file</value>
@@ -312,5 +312,29 @@ These are your credentials.</value>
   </data>
   <data name="InviteUserEmailSubject" xml:space="preserve">
     <value>Invite to VCM</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>Address line 1</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>Address line 2</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>Zip Code</value>
+  </data>
+  <data name="DownloadSampleXMLFile" xml:space="preserve">
+    <value>Download sample XML</value>
+  </data>
+  <data name="DownloadasCSV" xml:space="preserve">
+    <value>Download  As CSV</value>
+  </data>
+  <data name="DownloadasXML" xml:space="preserve">
+    <value>Download  As XML</value>
+  </data>
+  <data name="CheckXMLFormat" xml:space="preserve">
+    <value>The file should be a XML file; you may download a sample XML file to review the file format.</value>
   </data>
 </root>

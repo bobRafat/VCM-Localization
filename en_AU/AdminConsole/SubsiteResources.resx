@@ -330,4 +330,10 @@
   <data name="SiteEmailsHeaderImaege" xml:space="preserve">
     <value>Site Emails header image</value>
   </data>
+  <data name="RemoveSubsite" xml:space="preserve">
+    <value>Remove Subsite</value>
+  </data>
+  <data name="SureRemoveSubsite" xml:space="preserve">
+    <value>Are you sure you wish to remove this subsite ?</value>
+  </data>
 </root>

@@ -150,6 +150,9 @@
   <data name="InProgress" xml:space="preserve">
     <value>In Progress</value>
   </data>
+  <data name="JobStatus" xml:space="preserve">
+    <value>Job Status</value>
+  </data>
   <data name="MediaBookingStart" xml:space="preserve">
     <value>Media Booking Start</value>
   </data>

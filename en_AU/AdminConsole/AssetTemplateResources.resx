@@ -762,4 +762,7 @@
   <data name="TaxRate" xml:space="preserve">
     <value>Tax Rate</value>
   </data>
+  <data name="OutputRequired" xml:space="preserve">
+    <value>Please select at least one output</value>
+  </data>
 </root>

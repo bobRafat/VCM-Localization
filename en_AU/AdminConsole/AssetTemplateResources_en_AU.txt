@@ -213,3 +213,4 @@ TemplatePreset=Template Preset
 SelectPreset=Select Preset
 PrintUITemplateSetting=PrintUI Template Setting
 TaxRate=Tax Rate
+OutputRequired=Please select at least one output

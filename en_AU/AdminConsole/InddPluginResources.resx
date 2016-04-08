@@ -201,4 +201,7 @@
   <data name="Step3" xml:space="preserve">
     <value>Step 3: Click Save &amp; continue to map Template + add rate cards or Click Back to view and edit template list</value>
   </data>
+  <data name="ImportTemplateMapping" xml:space="preserve">
+    <value>Import Template Mapping</value>
+  </data>
 </root>

@@ -460,7 +460,7 @@
     <value>End Date</value>
   </data>
   <data name="Export" xml:space="preserve">
-    <value>Export</value>
+    <value>Export to CSV file</value>
   </data>
   <data name="FixingItComebackInAWhile" xml:space="preserve">
     <value>Don't panic, we are fixing it! Please come back in a while</value>

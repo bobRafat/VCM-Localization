@@ -177,6 +177,9 @@
   <data name="MaximumUpload" xml:space="preserve">
     <value>You have exceeded the maximum upload limit of 50MB per batch upload. Please reduce and try again.</value>
   </data>
+  <data name="NoDAMAuth" xml:space="preserve">
+    <value>Unable to find authentication for this DAM</value>
+  </data>
   <data name="NoteDesc" xml:space="preserve">
     <value>If there is a third party Digital Asset Management System involved, please contact your Site Administrator to discuss integration. Development will be quoted.</value>
   </data>

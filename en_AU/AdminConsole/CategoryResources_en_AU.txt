@@ -37,3 +37,5 @@ UploadImage=Upload Image (45 X 45)
 WinterSale=Winter Sale
 SureDeleteCategory=Are you sure to delete this category?
 CategoryThumbnail=Category thumbnail
+CheckFormatAndUpload=Please download a sample CSV file to review the necessary format and upload your CSV File.
+ImportCategories=Import Categories

@@ -182,3 +182,5 @@ GrandTotal=Grand Total
 Price=Cost
 Address=Address
 Surname=Surname
+Uploadcsv=Upload CSV
+Uploadxml=Upload XML

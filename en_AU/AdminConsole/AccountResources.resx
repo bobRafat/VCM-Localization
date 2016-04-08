@@ -169,7 +169,7 @@
     <value>Sign in to your account</value>
   </data>
   <data name="TitleOfLogin" xml:space="preserve">
-    <value>VCM {YODA} Login - Beta</value>
+    <value>BrandingUI {YODA} Login - Beta</value>
   </data>
   <data name="UserNamePasswordIncorrect" xml:space="preserve">
     <value>The user name or password provided is incorrect.</value>
@@ -226,7 +226,7 @@
     <value>The user name provided is invalid. Please check the value and try again.</value>
   </data>
   <data name="ChameleonVCMLogin" xml:space="preserve">
-    <value>PrintUI VCM Login</value>
+    <value>BrandingUI</value>
   </data>
   <data name="CurrentOrNewPasswordInvalid" xml:space="preserve">
     <value>The current password is incorrect or the new password is invalid.</value>

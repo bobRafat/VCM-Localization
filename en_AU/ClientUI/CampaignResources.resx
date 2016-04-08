@@ -477,4 +477,13 @@
   <data name="ErrorDueDateBeforeStartDate" xml:space="preserve">
     <value>Campaign finish date can't be set before the start date.</value>
   </data>
+  <data name="EditNote" xml:space="preserve">
+    <value>Edit Note</value>
+  </data>
+  <data name="Frame" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="FramePrepopulation" xml:space="preserve">
+    <value>Frame Prepopulation</value>
+  </data>
 </root>

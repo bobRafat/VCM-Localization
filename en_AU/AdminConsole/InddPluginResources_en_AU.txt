@@ -26,3 +26,4 @@ NoteOfSetUpTemplate=Activating template makes the template live  for usage in yo
 Step1=Step 1: Select a template and click on EDIT
 Step2=Step 2: Add Tag to the template to link it to your site
 Step3=Step 3: Click Save & continue to map Template + add rate cards or Click Back to view and edit template list
+ImportTemplateMapping=Import Template Mapping
