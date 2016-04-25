@@ -14,7 +14,7 @@ FillInCategoryName=Please fill in Category Name.
 Flyers=Flyers
 ForExample=For example
 HOWTOAddCategories=HOW TO: Add Categories
-HowToSetUPMainCategories=How to Set Up Main Categories
+HowToSetUPMainCategories=How to Set Up Categories
 HowToSetUpSubCategories=How to Set Up Sub Categories
 MainCategoryCampaigns=Main Category 2 => Campaigns
 MainCategoryPrint=Main Category 1 => Print
